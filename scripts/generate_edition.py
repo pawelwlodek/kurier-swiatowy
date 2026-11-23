@@ -29,13 +29,10 @@ CONTINENTS = [
     "Australia i Oceania",
 ]
 
-# Modele z najwyższymi darmowymi limitami w Google AI Studio (bez płatnego Grounding API)
-CANDIDATE_MODELS = [
-    "gemini-3.8-flash-lite",
+PRIMARY_MODELS = [
     "gemini-3.8-flash",
 ]
 
-# Darmowe, publiczne kanały RSS pogrupowane tematycznie i geograficznie
 RSS_FEEDS = {
     "Świat (przegląd główny)": [
         ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml"),
@@ -228,6 +225,24 @@ def build_grounding_links(edition: dict) -> list[dict]:
     return links[:27]
 
 
+def discover_candidate_models(client) -> list[str]:
+    """Buduje listę modeli zaczynając od gemini-3.8-flash oraz wykrytych modeli zapasowych."""
+    models = list(PRIMARY_MODELS)
+    excluded_tokens = ("embedding", "imagen", "veo", "aqa", "tts", "audio", "robotics", "computer-use")
+    try:
+        for m in client.models.list():
+            name = getattr(m, "name", "") or ""
+            if name.startswith("models/"):
+                name = name[len("models/"):]
+            lower = name.lower()
+            if "gemini" in lower and ("flash" in lower or "pro" in lower):
+                if not any(tok in lower for tok in excluded_tokens) and name not in models:
+                    models.append(name)
+    except Exception as exc:
+        print(f"[WARN] Nie udało się pobrać listy modeli zapasowych: {exc}")
+    return models[:4]
+
+
 def generate_newspaper_content(today_str: str, rss_digest: str) -> dict:
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if not api_key:
@@ -304,13 +319,17 @@ Zwróć WYŁĄCZNIE poprawny obiekt JSON o dokładnie takiej strukturze:
 }}
 """
 
+    candidate_models = discover_candidate_models(client)
+    print(f"Wykryta kolejność modeli: {candidate_models}")
+
     last_error = None
     response = None
+    retry_delays = [25, 45, 60]
 
-    for model_name in CANDIDATE_MODELS:
-        for attempt in range(1, 3):
+    for model_name in candidate_models:
+        for attempt in range(1, 5):
             try:
-                print(f"Próba generowania wydania modelem {model_name} (próba {attempt})...")
+                print(f"Próba generowania wydania modelem {model_name} (próba {attempt}/4)...")
                 response = client.models.generate_content(
                     model=model_name,
                     contents=prompt,
@@ -327,9 +346,11 @@ Zwróć WYŁĄCZNIE poprawny obiekt JSON o dokładnie takiej strukturze:
                 last_error = exc
                 err_str = str(exc)
                 print(f"[WARN] Model {model_name} (próba {attempt}) zgłosił: {err_str}")
-                if "429" in err_str and attempt == 1:
-                    print("Oczekiwanie 20 sekund przed ponowieniem próby...")
-                    time.sleep(20)
+                is_transient = any(code in err_str for code in ("503", "UNAVAILABLE", "429", "overloaded"))
+                if is_transient and attempt <= len(retry_delays):
+                    wait_sec = retry_delays[attempt - 1]
+                    print(f"Serwer chwilowo obciążony — odczekuję {wait_sec} s przed ponowieniem...")
+                    time.sleep(wait_sec)
                 else:
                     break
         if response and getattr(response, "text", None):
