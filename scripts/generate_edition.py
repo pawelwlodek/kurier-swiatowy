@@ -1,7 +1,9 @@
+import html
 import json
 import os
 import re
 import time
+import xml.etree.ElementTree as ET
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import requests
@@ -27,9 +29,53 @@ CONTINENTS = [
     "Australia i Oceania",
 ]
 
+# Modele z najwyższymi darmowymi limitami w Google AI Studio (bez płatnego Grounding API)
 CANDIDATE_MODELS = [
+    "gemini-3.8-flash-lite",
     "gemini-3.8-flash",
 ]
+
+# Darmowe, publiczne kanały RSS pogrupowane tematycznie i geograficznie
+RSS_FEEDS = {
+    "Świat (przegląd główny)": [
+        ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml"),
+        ("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml"),
+    ],
+    "Europa (bez polskiej polityki)": [
+        ("BBC Europe", "https://feeds.bbci.co.uk/news/world/europe/rss.xml"),
+        ("France 24 Europe", "https://www.france24.com/en/europe/rss"),
+        ("Deutsche Welle Europe", "https://rss.dw.com/xml/rss-en-eu"),
+    ],
+    "Ameryka Północna": [
+        ("BBC US & Canada", "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"),
+        ("NPR News", "https://feeds.npr.org/1001/rss.xml"),
+    ],
+    "Ameryka Południowa": [
+        ("BBC Latin America", "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"),
+        ("MercoPress", "https://en.mercopress.com/rss/"),
+    ],
+    "Azja": [
+        ("BBC Asia", "https://feeds.bbci.co.uk/news/world/asia/rss.xml"),
+        ("Deutsche Welle Asia", "https://rss.dw.com/xml/rss-en-asia"),
+    ],
+    "Afryka": [
+        ("BBC Africa", "https://feeds.bbci.co.uk/news/world/africa/rss.xml"),
+        ("Africanews", "https://www.africanews.com/feed/"),
+    ],
+    "Australia i Oceania": [
+        ("ABC News Australia", "https://www.abc.net.au/news/feed/51120/rss.xml"),
+        ("Radio New Zealand", "https://www.rnz.co.nz/rss/national.xml"),
+    ],
+    "Zegarmistrzostwo i design": [
+        ("Monochrome Watches", "https://monochrome-watches.com/feed/"),
+        ("Dezeen Design & Architecture", "https://www.dezeen.com/feed/"),
+    ],
+    "Nauka, technologia i kolej": [
+        ("ScienceDaily Top Science", "https://www.sciencedaily.com/rss/top/science.xml"),
+        ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/index"),
+        ("International Railway Journal", "https://www.railjournal.com/feed/"),
+    ],
+}
 
 DATA_DIR = "data"
 INDEX_FILE = os.path.join(DATA_DIR, "index.json")
@@ -37,6 +83,72 @@ INDEX_FILE = os.path.join(DATA_DIR, "index.json")
 
 def get_warsaw_date() -> str:
     return datetime.now(ZoneInfo("Europe/Warsaw")).strftime("%Y-%m-%d")
+
+
+def clean_html_text(raw: str, max_len: int = 340) -> str:
+    if not raw:
+        return ""
+    text = html.unescape(raw)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) > max_len:
+        text = text[:max_len].rsplit(" ", 1)[0] + "..."
+    return text
+
+
+def fetch_rss_digest() -> str:
+    """Pobiera najnowsze nagłówki i streszczenia z kanałów RSS."""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; KurierSwiatowyBot/1.0; +https://github.com)"
+    }
+    sections_output = []
+    total_items = 0
+
+    for group_name, feeds in RSS_FEEDS.items():
+        group_lines = [f"### SEKCJA ŹRÓDŁOWA: {group_name}"]
+        for source_name, feed_url in feeds:
+            try:
+                resp = requests.get(feed_url, headers=headers, timeout=8)
+                if resp.status_code != 200:
+                    continue
+                root = ET.fromstring(resp.content)
+                entries = [
+                    el for el in root.iter()
+                    if el.tag.endswith("item") or el.tag.endswith("entry")
+                ]
+                count = 0
+                for entry in entries:
+                    if count >= 5:
+                        break
+                    title = ""
+                    link = ""
+                    summary = ""
+                    for child in entry:
+                        tag = child.tag.split("}")[-1].lower()
+                        if tag == "title" and child.text:
+                            title = clean_html_text(child.text, 180)
+                        elif tag == "link":
+                            if child.text and child.text.strip().startswith("http"):
+                                link = child.text.strip()
+                            elif child.attrib.get("href"):
+                                link = child.attrib["href"].strip()
+                        elif tag in ("description", "summary", "content") and child.text and not summary:
+                            summary = clean_html_text(child.text, 320)
+                    if title and link:
+                        group_lines.append(
+                            f"- [{source_name}] {title} | Opis: {summary} | URL: {link}"
+                        )
+                        count += 1
+                        total_items += 1
+            except Exception as exc:
+                print(f"[WARN] Pominięto kanał {source_name}: {exc}")
+        if len(group_lines) > 1:
+            sections_output.append("\n".join(group_lines))
+
+    print(f"Pobrano łącznie {total_items} aktualnych depesz z kanałów RSS.")
+    if total_items < 15:
+        raise RuntimeError("Zbyt mało depesz pobranych z kanałów RSS — sprawdź połączenie sieciowe.")
+    return "\n\n".join(sections_output)
 
 
 def fetch_wikimedia_image(query: str) -> str:
@@ -83,7 +195,7 @@ def fetch_wikimedia_image(query: str) -> str:
 
 
 def extract_json_payload(raw_text: str) -> dict:
-    """Wyciąga i naprawia strukturę JSON z odpowiedzi modelu."""
+    """Wyciąga i parsuje strukturę JSON z odpowiedzi modelu."""
     if not raw_text:
         raise ValueError("Model zwrócił pustą odpowiedź (brak tekstu).")
     cleaned = raw_text.strip()
@@ -91,45 +203,32 @@ def extract_json_payload(raw_text: str) -> dict:
     cleaned = re.sub(r"\s*```$", "", cleaned)
     match = re.search(r"\{.*\}", cleaned, re.DOTALL)
     if not match:
-        print("=== SUROWA ODPOWIEDŹ MODELU (POCZĄTEK) ===")
-        print(cleaned[:1000])
         raise ValueError("Nie znaleziono obiektu JSON w odpowiedzi modelu.")
-    json_str = match.group(0)
-    try:
-        return json.loads(json_str, strict=False)
-    except json.JSONDecodeError as exc:
-        print(f"=== BŁĄD PARSOWANIA JSON: {exc} ===")
-        start = max(0, exc.pos - 250)
-        end = min(len(json_str), exc.pos + 250)
-        print(json_str[start:end])
-        raise
+    return json.loads(match.group(0), strict=False)
 
 
-def extract_grounding_sources(response) -> list[dict]:
-    """Pobiera prawdziwe linki źródłowe zwrócone przez Google Search Grounding."""
-    sources = []
+def build_grounding_links(edition: dict) -> list[dict]:
+    """Tworzy listę klikalnych źródeł na dole wydania na podstawie artykułów."""
+    links = []
     seen = set()
-    try:
-        candidates = getattr(response, "candidates", []) or []
-        for cand in candidates:
-            meta = getattr(cand, "grounding_metadata", None)
-            if not meta:
-                continue
-            chunks = getattr(meta, "grounding_chunks", []) or []
-            for ch in chunks:
-                web = getattr(ch, "web", None)
-                if web and getattr(web, "uri", None):
-                    uri = web.uri
-                    title = getattr(web, "title", None) or uri
-                    if uri not in seen:
-                        seen.add(uri)
-                        sources.append({"title": title, "url": uri})
-    except Exception:
-        pass
-    return sources[:25]
+    all_articles = []
+    all_articles.extend(edition.get("top5", []))
+    all_articles.extend(edition.get("interests", []))
+    for cont in CONTINENTS:
+        all_articles.extend(edition.get("continents", {}).get(cont, []))
+
+    for art in all_articles:
+        url = (art.get("source_url") or "").strip()
+        src_names = art.get("sources") or []
+        label = src_names[0] if src_names else "Źródło"
+        title = f"{label}: {art.get('title', '')[:65]}"
+        if url.startswith("http") and url not in seen:
+            seen.add(url)
+            links.append({"title": title, "url": url})
+    return links[:27]
 
 
-def generate_newspaper_content(today_str: str) -> dict:
+def generate_newspaper_content(today_str: str, rss_digest: str) -> dict:
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if not api_key:
         raise RuntimeError(
@@ -143,26 +242,30 @@ def generate_newspaper_content(today_str: str) -> dict:
     prompt = f"""
 Dzisiejsza data: {today_str}.
 Wciel się w rolę redaktora naczelnego prestiżowego, pogłębionego dziennika opiniotwórczego „Kurier Światowy”.
-Użyj wyszukiwarki Google, aby zebrać najświeższe, zweryfikowane wydarzenia z ostatnich 24–48 godzin (do dnia {today_str}).
+Poniżej znajduje się zestaw aktualnych depesz pobranych dzisiaj z międzynarodowych i branżowych redakcji. Na ich podstawie przygotuj kompletne wydanie gazety po polsku.
 
 BEZWZGLĘDNE ZASADY REDAKCYJNE:
-1. ZERO POLSKIEJ POLITYKI: Całkowicie pomiń bieżącą politykę krajową w Polsce (partie, sejm, rząd, wybory w Polsce). W sekcji Europa opisuj inne państwa europejskie lub zjawiska ogólnoeuropejskie (naukowe, gospodarcze, kulturalne, społeczne, geopolityczne poza polską sceną polityczną).
+1. ZERO POLSKIEJ POLITYKI: Całkowicie pomiń bieżącą politykę krajową w Polsce (partie, sejm, rząd, wybory w Polsce). W sekcji Europa opisuj inne państwa europejskie lub zjawiska ogólnoeuropejskie.
 2. ZERO POWIELANIA TEMATÓW: Żadne wydarzenie z sekcji „top5” nie może powtórzyć się w sekcji „interests” ani w żadnym z 6 kontynentów. Każdy z 27 artykułów w wydaniu musi dotyczyć innego, odrębnego tematu.
-3. POGŁĘBIONY STYL (ZERO PAPKI): Każdy artykuł ma mieć:
-   - konkretny, dziennikarski tytuł (`title`),
+3. OPARCIE NA FAKTACH Z DEPESZ: Opieraj się wyłącznie na faktach zawartych w poniższych depeszach oraz swojej zweryfikowanej wiedzy kontekstowej — nie zmyślaj nieistniejących wydarzeń. Do każdego artykułu przypisz dokładny adres `source_url` z odpowiadającej mu depeszy.
+4. POGŁĘBIONY STYL (ZERO PAPKI): Każdy artykuł ma mieć:
+   - konkretny, dziennikarski tytuł po polsku (`title`),
    - kategorię (`category`, np. Geopolityka, Gospodarka, Nauka, Zegarmistrzostwo, Technologia, Kultura, Klimat, Infrastruktura),
    - 2-zdaniowy lead (`summary`) widoczny przed rozwinięciem,
-   - 3 merytoryczne akapity rozwinięcia (`body`, oddzielone podwójnym znakiem nowej linii `\\n\\n`), wyjaśniające kontekst, przyczyny i konsekwencje (w tekstach wewnątrz JSON unikaj niepoprzedzonych ukośnikiem znaków cudzysłowu `"` — zamiast nich stosuj polskie cudzysłowy `„` i `”`),
-   - krótkie angielskie zapytanie do wyszukiwarki zdjęć (`image_query`, 2–4 proste słowa po angielsku opisujące główny obiekt/miejsce, np. "mechanical watch movement", "tokyo bullet train", "solar farm desert"),
-   - listę 1–2 konkretnych nazw mediów/instytucji źródłowych (`sources`, np. ["Reuters", "Financial Times"]).
+   - 3 merytoryczne akapity rozwinięcia (`body`, oddzielone podwójnym znakiem nowej linii `\\n\\n`), wyjaśniające kontekst, przyczyny i konsekwencje,
+   - krótkie angielskie zapytanie do wyszukiwarki zdjęć (`image_query`, 2–4 proste słowa po angielsku opisujące główny obiekt/miejsce, np. "mechanical watch movement", "tokyo bullet train", "european parliament brussels"),
+   - nazwę redakcji źródłowej w liście `sources` (np. `["BBC World"]`) oraz dokładny link `source_url` z listy depesz.
 
 STRUKTURA WYDANIA (łącznie 27 unikalnych artykułów):
-- `top5`: dokładnie 5 najważniejszych i najistotniejszych wydarzeń ze świata (pierwszy z nich będzie artykułem głównym na pierwszej stronie).
+- `top5`: dokładnie 5 najważniejszych i najistotniejszych wydarzeń ze świata (pierwszy będzie artykułem głównym na pierwszej stronie).
 - `interests`: dokładnie 4 pogłębione materiały dopasowane do poniższych zainteresowań czytelnika:
 {interests_bullet}
 - `continents`: obiekt zawierający dokładnie 6 kluczy: "Europa", "Ameryka Północna", "Ameryka Południowa", "Azja", "Afryka", "Australia i Oceania". Pod każdym kontynentem umieść listę dokładnie 3 artykułów (nie skupiaj się wyłącznie na polityce — uwzględnij też gospodarkę, naukę, technologię, społeczeństwo i kulturę).
 
-Zwróć WYŁĄCZNIE czysty obiekt JSON bez komentarzy przed ani po nim:
+AKTUALNE DEPESZE ŹRÓDŁOWE:
+{rss_digest}
+
+Zwróć WYŁĄCZNIE poprawny obiekt JSON o dokładnie takiej strukturze:
 {{
   "date": "{today_str}",
   "editorial_lead": "Krótkie, 2-zdaniowe wprowadzenie redakcyjne podsumowujące główny motyw dzisiejszego wydania.",
@@ -174,7 +277,8 @@ Zwróć WYŁĄCZNIE czysty obiekt JSON bez komentarzy przed ani po nim:
       "summary": "...",
       "body": "Akapit 1...\\n\\nAkapit 2...\\n\\nAkapit 3...",
       "image_query": "...",
-      "sources": ["Źródło 1", "Źródło 2"]
+      "sources": ["Nazwa źródła"],
+      "source_url": "https://..."
     }}
   ],
   "interests": [
@@ -185,7 +289,8 @@ Zwróć WYŁĄCZNIE czysty obiekt JSON bez komentarzy przed ani po nim:
       "summary": "...",
       "body": "Akapit 1...\\n\\nAkapit 2...\\n\\nAkapit 3...",
       "image_query": "...",
-      "sources": ["Źródło 1"]
+      "sources": ["Nazwa źródła"],
+      "source_url": "https://..."
     }}
   ],
   "continents": {{
@@ -201,31 +306,40 @@ Zwróć WYŁĄCZNIE czysty obiekt JSON bez komentarzy przed ani po nim:
 
     last_error = None
     response = None
+
     for model_name in CANDIDATE_MODELS:
-        try:
-            print(f"Próba generowania wydania przy użyciu modelu: {model_name}...")
-            response = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-                config={
-                    "tools": [{"google_search": {}}],
-                    "max_output_tokens": 32768,
-                    "temperature": 0.3,
-                },
-            )
-            if response and response.text:
-                print(f"Otrzymano poprawną odpowiedź z modelu: {model_name}")
-                break
-        except Exception as exc:
-            last_error = exc
-            print(f"[WARN] Model {model_name} zwrócił błąd: {exc}")
+        for attempt in range(1, 3):
+            try:
+                print(f"Próba generowania wydania modelem {model_name} (próba {attempt})...")
+                response = client.models.generate_content(
+                    model=model_name,
+                    contents=prompt,
+                    config={
+                        "response_mime_type": "application/json",
+                        "max_output_tokens": 32768,
+                        "temperature": 0.3,
+                    },
+                )
+                if response and response.text:
+                    print(f"Sukces! Otrzymano pełne wydanie z modelu: {model_name}")
+                    break
+            except Exception as exc:
+                last_error = exc
+                err_str = str(exc)
+                print(f"[WARN] Model {model_name} (próba {attempt}) zgłosił: {err_str}")
+                if "429" in err_str and attempt == 1:
+                    print("Oczekiwanie 20 sekund przed ponowieniem próby...")
+                    time.sleep(20)
+                else:
+                    break
+        if response and getattr(response, "text", None):
+            break
 
     if response is None or not getattr(response, "text", None):
-        raise RuntimeError(f"Wszystkie modele zakończyły się błędem. Ostatni błąd: {last_error}")
+        raise RuntimeError(f"Nie udało się wygenerować treści. Ostatni błąd: {last_error}")
 
     edition = extract_json_payload(response.text)
-    grounding_links = extract_grounding_sources(response)
-    edition["grounding_links"] = grounding_links
+    edition["grounding_links"] = build_grounding_links(edition)
     return edition
 
 
@@ -242,7 +356,7 @@ def enrich_with_images(edition: dict) -> dict:
         img_url = fetch_wikimedia_image(query)
         art["image_url"] = img_url
         art["id"] = f"art-{idx + 1}"
-        time.sleep(0.25)
+        time.sleep(0.2)
 
     return edition
 
@@ -296,7 +410,8 @@ def main():
         return
 
     print(f"Generowanie wydania Kuriera Światowego na dzień {today_str}...")
-    edition = generate_newspaper_content(today_str)
+    rss_digest = fetch_rss_digest()
+    edition = generate_newspaper_content(today_str, rss_digest)
     edition = enrich_with_images(edition)
     update_archive_index(today_str, edition)
     print(f"Sukces! Zapisano wydanie {edition_path} oraz zaktualizowano {INDEX_FILE}.")
