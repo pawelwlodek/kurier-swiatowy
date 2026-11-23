@@ -1,4 +1,4 @@
-main()import json
+import json
 import os
 import re
 import time
@@ -25,6 +25,11 @@ CONTINENTS = [
     "Azja",
     "Afryka",
     "Australia i Oceania",
+]
+
+CANDIDATE_MODELS = [
+    "gemini-2.5-flash",
+    "gemini-2.0-flash",
 ]
 
 DATA_DIR = "data"
@@ -69,7 +74,6 @@ def fetch_wikimedia_image(query: str) -> str:
             width = info.get("width", 0)
             height = info.get("height", 0)
             lower = thumb_url.lower()
-            # Odrzucamy pliki wektorowe, dokumenty i bardzo wąskie paski
             if any(lower.endswith(ext) for ext in (".svg", ".pdf", ".tif", ".tiff", ".ogg", ".webm")):
                 continue
             if width >= 600 and height >= 350:
@@ -80,14 +84,26 @@ def fetch_wikimedia_image(query: str) -> str:
 
 
 def extract_json_payload(raw_text: str) -> dict:
-    """Wyciąga czysty obiekt JSON z odpowiedzi modelu."""
+    """Wyciąga i naprawia strukturę JSON z odpowiedzi modelu."""
+    if not raw_text:
+        raise ValueError("Model zwrócił pustą odpowiedź (brak tekstu).")
     cleaned = raw_text.strip()
     cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned)
     cleaned = re.sub(r"\s*```$", "", cleaned)
     match = re.search(r"\{.*\}", cleaned, re.DOTALL)
     if not match:
-        raise ValueError("Nie znaleziono struktury JSON w odpowiedzi modelu.")
-    return json.loads(match.group(0))
+        print("=== SUROWA ODPOWIEDŹ MODELU (POCZĄTEK) ===")
+        print(cleaned[:1000])
+        raise ValueError("Nie znaleziono obiektu JSON w odpowiedzi modelu.")
+    json_str = match.group(0)
+    try:
+        return json.loads(json_str, strict=False)
+    except json.JSONDecodeError as exc:
+        print(f"=== BŁĄD PARSOWANIA JSON: {exc} ===")
+        start = max(0, exc.pos - 250)
+        end = min(len(json_str), exc.pos + 250)
+        print(json_str[start:end])
+        raise
 
 
 def extract_grounding_sources(response) -> list[dict]:
@@ -115,7 +131,14 @@ def extract_grounding_sources(response) -> list[dict]:
 
 
 def generate_newspaper_content(today_str: str) -> dict:
-    client = genai.Client()
+    api_key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if not api_key:
+        raise RuntimeError(
+            "BRAK KLUCZA API: Zmienna GEMINI_API_KEY jest pusta. "
+            "Dodaj ją w Settings -> Secrets and variables -> Actions -> Repository secrets."
+        )
+
+    client = genai.Client(api_key=api_key)
     interests_bullet = "\n".join(f"- {item}" for item in USER_INTERESTS)
 
     prompt = f"""
@@ -130,17 +153,17 @@ BEZWZGLĘDNE ZASADY REDAKCYJNE:
    - konkretny, dziennikarski tytuł (`title`),
    - kategorię (`category`, np. Geopolityka, Gospodarka, Nauka, Zegarmistrzostwo, Technologia, Kultura, Klimat, Infrastruktura),
    - 2-zdaniowy lead (`summary`) widoczny przed rozwinięciem,
-   - 3 merytoryczne akapity rozwinięcia (`body`, oddzielone podwójnym znakiem nowej linii `\\n\\n`), wyjaśniające kontekst, przyczyny i konsekwencje,
+   - 3 merytoryczne akapity rozwinięcia (`body`, oddzielone podwójnym znakiem nowej linii `\\n\\n`), wyjaśniające kontekst, przyczyny i konsekwencje (w tekstach wewnątrz JSON unikaj niepoprzedzonych ukośnikiem znaków cudzysłowu `"` — zamiast nich stosuj polskie cudzysłowy `„` i `”`),
    - krótkie angielskie zapytanie do wyszukiwarki zdjęć (`image_query`, 2–4 proste słowa po angielsku opisujące główny obiekt/miejsce, np. "mechanical watch movement", "tokyo bullet train", "solar farm desert"),
    - listę 1–2 konkretnych nazw mediów/instytucji źródłowych (`sources`, np. ["Reuters", "Financial Times"]).
 
 STRUKTURA WYDANIA (łącznie 27 unikalnych artykułów):
 - `top5`: dokładnie 5 najważniejszych i najistotniejszych wydarzeń ze świata (pierwszy z nich będzie artykułem głównym na pierwszej stronie).
-- `interests`: dokładnie 4 pogłębione materiały dopasowane do poniższych zainteresowań czytelnika (wybierz najciekawsze aktualności z tych dziedzin):
+- `interests`: dokładnie 4 pogłębione materiały dopasowane do poniższych zainteresowań czytelnika:
 {interests_bullet}
 - `continents`: obiekt zawierający dokładnie 6 kluczy: "Europa", "Ameryka Północna", "Ameryka Południowa", "Azja", "Afryka", "Australia i Oceania". Pod każdym kontynentem umieść listę dokładnie 3 artykułów (nie skupiaj się wyłącznie na polityce — uwzględnij też gospodarkę, naukę, technologię, społeczeństwo i kulturę).
 
-Zwróć WYŁĄCZNIE poprawny obiekt JSON o dokładnie takiej strukturze:
+Zwróć WYŁĄCZNIE czysty obiekt JSON bez komentarzy przed ani po nim:
 {{
   "date": "{today_str}",
   "editorial_lead": "Krótkie, 2-zdaniowe wprowadzenie redakcyjne podsumowujące główny motyw dzisiejszego wydania.",
@@ -167,21 +190,39 @@ Zwróć WYŁĄCZNIE poprawny obiekt JSON o dokładnie takiej strukturze:
     }}
   ],
   "continents": {{
-    "Europa": [ ... 3 artykuły ... ],
-    "Ameryka Północna": [ ... 3 artykuły ... ],
-    "Ameryka Południowa": [ ... 3 artykuły ... ],
-    "Azja": [ ... 3 artykuły ... ],
-    "Afryka": [ ... 3 artykuły ... ],
-    "Australia i Oceania": [ ... 3 artykuły ... ]
+    "Europa": [],
+    "Ameryka Północna": [],
+    "Ameryka Południowa": [],
+    "Azja": [],
+    "Afryka": [],
+    "Australia i Oceania": []
   }}
 }}
 """
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt,
-        config={"tools": [{"google_search": {}}]},
-    )
+    last_error = None
+    response = None
+    for model_name in CANDIDATE_MODELS:
+        try:
+            print(f"Próba generowania wydania przy użyciu modelu: {model_name}...")
+            response = client.models.generate_content(
+                model=model_name,
+                contents=prompt,
+                config={
+                    "tools": [{"google_search": {}}],
+                    "max_output_tokens": 32768,
+                    "temperature": 0.3,
+                },
+            )
+            if response and response.text:
+                print(f"Otrzymano poprawną odpowiedź z modelu: {model_name}")
+                break
+        except Exception as exc:
+            last_error = exc
+            print(f"[WARN] Model {model_name} zwrócił błąd: {exc}")
+
+    if response is None or not getattr(response, "text", None):
+        raise RuntimeError(f"Wszystkie modele zakończyły się błędem. Ostatni błąd: {last_error}")
 
     edition = extract_json_payload(response.text)
     grounding_links = extract_grounding_sources(response)
@@ -202,7 +243,6 @@ def enrich_with_images(edition: dict) -> dict:
         img_url = fetch_wikimedia_image(query)
         art["image_url"] = img_url
         art["id"] = f"art-{idx + 1}"
-        # Delikatny odstęp, aby nie przeciążać API Wikimedia
         time.sleep(0.25)
 
     return edition
