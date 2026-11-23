@@ -29,9 +29,8 @@ CONTINENTS = [
     "Australia i Oceania",
 ]
 
-PRIMARY_MODELS = [
-    "gemini-3.8-flash",
-]
+GROQ_MODEL = "llama-3.3-70b-versatile"
+GEMINI_MODELS = ["gemini-3.8-flash-lite", "gemini-3.8-flash"]
 
 RSS_FEEDS = {
     "Świat (przegląd główny)": [
@@ -82,7 +81,7 @@ def get_warsaw_date() -> str:
     return datetime.now(ZoneInfo("Europe/Warsaw")).strftime("%Y-%m-%d")
 
 
-def clean_html_text(raw: str, max_len: int = 340) -> str:
+def clean_html_text(raw: str, max_len: int = 260) -> str:
     if not raw:
         return ""
     text = html.unescape(raw)
@@ -93,7 +92,7 @@ def clean_html_text(raw: str, max_len: int = 340) -> str:
     return text
 
 
-def fetch_rss_digest() -> str:
+def fetch_rss_digest(max_per_feed: int = 3) -> str:
     """Pobiera najnowsze nagłówki i streszczenia z kanałów RSS."""
     headers = {
         "User-Agent": "Mozilla/5.0 (compatible; KurierSwiatowyBot/1.0; +https://github.com)"
@@ -102,7 +101,7 @@ def fetch_rss_digest() -> str:
     total_items = 0
 
     for group_name, feeds in RSS_FEEDS.items():
-        group_lines = [f"### SEKCJA ŹRÓDŁOWA: {group_name}"]
+        group_lines = [f"### SEKCJA: {group_name}"]
         for source_name, feed_url in feeds:
             try:
                 resp = requests.get(feed_url, headers=headers, timeout=8)
@@ -115,7 +114,7 @@ def fetch_rss_digest() -> str:
                 ]
                 count = 0
                 for entry in entries:
-                    if count >= 5:
+                    if count >= max_per_feed:
                         break
                     title = ""
                     link = ""
@@ -123,17 +122,17 @@ def fetch_rss_digest() -> str:
                     for child in entry:
                         tag = child.tag.split("}")[-1].lower()
                         if tag == "title" and child.text:
-                            title = clean_html_text(child.text, 180)
+                            title = clean_html_text(child.text, 160)
                         elif tag == "link":
                             if child.text and child.text.strip().startswith("http"):
                                 link = child.text.strip()
                             elif child.attrib.get("href"):
                                 link = child.attrib["href"].strip()
                         elif tag in ("description", "summary", "content") and child.text and not summary:
-                            summary = clean_html_text(child.text, 320)
+                            summary = clean_html_text(child.text, 240)
                     if title and link:
                         group_lines.append(
-                            f"- [{source_name}] {title} | Opis: {summary} | URL: {link}"
+                            f"- [{source_name}] {title} | {summary} | URL: {link}"
                         )
                         count += 1
                         total_items += 1
@@ -144,7 +143,7 @@ def fetch_rss_digest() -> str:
 
     print(f"Pobrano łącznie {total_items} aktualnych depesz z kanałów RSS.")
     if total_items < 15:
-        raise RuntimeError("Zbyt mało depesz pobranych z kanałów RSS — sprawdź połączenie sieciowe.")
+        raise RuntimeError("Zbyt mało depesz pobranych z kanałów RSS.")
     return "\n\n".join(sections_output)
 
 
@@ -192,9 +191,8 @@ def fetch_wikimedia_image(query: str) -> str:
 
 
 def extract_json_payload(raw_text: str) -> dict:
-    """Wyciąga i parsuje strukturę JSON z odpowiedzi modelu."""
     if not raw_text:
-        raise ValueError("Model zwrócił pustą odpowiedź (brak tekstu).")
+        raise ValueError("Model zwrócił pustą odpowiedź.")
     cleaned = raw_text.strip()
     cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned)
     cleaned = re.sub(r"\s*```$", "", cleaned)
@@ -204,8 +202,143 @@ def extract_json_payload(raw_text: str) -> dict:
     return json.loads(match.group(0), strict=False)
 
 
+def call_groq_json(api_key: str, prompt: str) -> dict:
+    url = "https://api.groq.com/openai/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "model": GROQ_MODEL,
+        "messages": [
+            {
+                "role": "system",
+                "content": "Jesteś redaktorem naczelnym polskiego dziennika opiniotwórczego. Zwracasz wyłącznie poprawny obiekt JSON.",
+            },
+            {"role": "user", "content": prompt},
+        ],
+        "response_format": {"type": "json_object"},
+        "temperature": 0.3,
+        "max_tokens": 8000,
+    }
+    resp = requests.post(url, headers=headers, json=payload, timeout=90)
+    if resp.status_code != 200:
+        raise RuntimeError(f"Groq API błąd {resp.status_code}: {resp.text[:500]}")
+    content = resp.json()["choices"][0]["message"]["content"]
+    return extract_json_payload(content)
+
+
+def generate_via_groq(today_str: str, rss_digest: str, groq_key: str) -> dict:
+    interests_bullet = "\n".join(f"- {item}" for item in USER_INTERESTS)
+
+    prompt_part1 = f"""
+Dzisiejsza data: {today_str}.
+Na podstawie poniższych aktualnych depesz RSS przygotuj po polsku PIERWSZĄ CZĘŚĆ wydania gazety „Kurier Światowy”.
+
+ZASADY:
+- ZERO polskiej polityki krajowej.
+- ZERO powielania tematów (każdy z 9 artykułów poniżej ma dotyczyć innego wydarzenia).
+- Każdy artykuł musi zawierać: `title` (po polsku), `category`, `region`, `summary` (2 zdania), `body` (3 pogłębione akapity oddzielone `\\n\\n`), `image_query` (2-4 słowa po angielsku do wyszukiwarki zdjęć), `sources` (lista z nazwą źródła) oraz `source_url` (dokładny link URL z depeszy).
+
+WYMAGANE SEKCJE W TYM KROKU:
+1. `editorial_lead`: 2-zdaniowe wprowadzenie redakcyjne podsumowujące dzisiejszy dzień na świecie.
+2. `top5`: dokładnie 5 najważniejszych wydarzeń ze świata.
+3. `interests`: dokładnie 4 pogłębione artykuły dopasowane do zainteresowań czytelnika:
+{interests_bullet}
+
+DEPESZE RSS:
+{rss_digest}
+
+Zwróć wyłącznie obiekt JSON o kluczach: `editorial_lead`, `top5`, `interests`.
+"""
+    print("Groq (1/2): Generowanie sekcji Najważniejsze 5 oraz Wybrane tematy...")
+    part1 = call_groq_json(groq_key, prompt_part1)
+
+    used_titles = [
+        art.get("title", "")
+        for art in (part1.get("top5", []) + part1.get("interests", []))
+        if art.get("title")
+    ]
+    used_list_str = "\n".join(f"- {t}" for t in used_titles)
+
+    print("Oczekiwanie 15 sekund (ochrona darmowego limitu tokenów na minutę)...")
+    time.sleep(15)
+
+    prompt_part2 = f"""
+Dzisiejsza data: {today_str}.
+Na podstawie poniższych depesz RSS przygotuj po polsku DRUGĄ CZĘŚĆ wydania gazety „Kurier Światowy”: przegląd 6 kontynentów.
+
+ZASADY:
+- ZERO polskiej polityki krajowej (w Europie opisuj inne państwa lub zjawiska ogólnoeuropejskie).
+- NIE POWTARZAJ ŻADNEGO Z PONIŻSZYCH TEMATÓW UŻYTYCH JUŻ NA PIERWSZEJ STRONIE:
+{used_list_str}
+- Dla każdego z 6 kontynentów przygotuj dokładnie 3 odrębne artykuły (nie tylko polityka — uwzględnij też gospodarkę, naukę, technologię, infrastrukturę, społeczeństwo i kulturę).
+- Każdy artykuł musi zawierać: `title` (po polsku), `category`, `region` (nazwa kontynentu), `summary` (2 zdania), `body` (3 pogłębione akapity oddzielone `\\n\\n`), `image_query` (2-4 słowa po angielsku do wyszukiwarki zdjęć), `sources` (lista z nazwą źródła) oraz `source_url` (dokładny link URL z depeszy).
+
+DEPESZE RSS:
+{rss_digest}
+
+Zwróć wyłącznie obiekt JSON o strukturze:
+{{
+  "continents": {{
+    "Europa": [3 artykuły],
+    "Ameryka Północna": [3 artykuły],
+    "Ameryka Południowa": [3 artykuły],
+    "Azja": [3 artykuły],
+    "Afryka": [3 artykuły],
+    "Australia i Oceania": [3 artykuły]
+  }}
+}}
+"""
+    print("Groq (2/2): Generowanie przeglądu 6 kontynentów...")
+    part2 = call_groq_json(groq_key, prompt_part2)
+
+    return {
+        "date": today_str,
+        "editorial_lead": part1.get("editorial_lead", ""),
+        "top5": part1.get("top5", []),
+        "interests": part1.get("interests", []),
+        "continents": part2.get("continents", {}),
+    }
+
+
+def generate_via_gemini(today_str: str, rss_digest: str, gemini_key: str) -> dict:
+    client = genai.Client(api_key=gemini_key)
+    interests_bullet = "\n".join(f"- {item}" for item in USER_INTERESTS)
+    prompt = f"""
+Dzisiejsza data: {today_str}.
+Na podstawie poniższych depesz RSS przygotuj pełne wydanie dziennika „Kurier Światowy” po polsku (27 unikalnych artykułów: 5 w `top5`, 4 w `interests`, oraz po 3 w każdym z 6 kluczy obiektu `continents`: "Europa", "Ameryka Północna", "Ameryka Południowa", "Azja", "Afryka", "Australia i Oceania").
+Zasady: zero polskiej polityki, zero duplikatów między sekcjami, 3 pogłębione akapity w `body` oddzielone `\\n\\n`, pola `title`, `category`, `region`, `summary`, `body`, `image_query` (po angielsku), `sources`, `source_url`.
+Zainteresowania czytelnika:
+{interests_bullet}
+
+DEPESZE RSS:
+{rss_digest}
+
+Zwróć wyłącznie JSON o kluczach: `date`, `editorial_lead`, `top5`, `interests`, `continents`.
+"""
+    last_err = None
+    for model_name in GEMINI_MODELS:
+        try:
+            print(f"Próba generowania modelem Gemini: {model_name}...")
+            resp = client.models.generate_content(
+                model=model_name,
+                contents=prompt,
+                config={
+                    "response_mime_type": "application/json",
+                    "max_output_tokens": 32768,
+                    "temperature": 0.3,
+                },
+            )
+            if resp and resp.text:
+                return extract_json_payload(resp.text)
+        except Exception as exc:
+            last_err = exc
+            print(f"[WARN] Gemini {model_name} błąd: {exc}")
+    raise RuntimeError(f"Brak działającego modelu. Ostatni błąd: {last_err}")
+
+
 def build_grounding_links(edition: dict) -> list[dict]:
-    """Tworzy listę klikalnych źródeł na dole wydania na podstawie artykułów."""
     links = []
     seen = set()
     all_articles = []
@@ -225,147 +358,7 @@ def build_grounding_links(edition: dict) -> list[dict]:
     return links[:27]
 
 
-def discover_candidate_models(client) -> list[str]:
-    """Buduje listę modeli zaczynając od gemini-3.8-flash oraz wykrytych modeli zapasowych."""
-    models = list(PRIMARY_MODELS)
-    excluded_tokens = ("embedding", "imagen", "veo", "aqa", "tts", "audio", "robotics", "computer-use")
-    try:
-        for m in client.models.list():
-            name = getattr(m, "name", "") or ""
-            if name.startswith("models/"):
-                name = name[len("models/"):]
-            lower = name.lower()
-            if "gemini" in lower and ("flash" in lower or "pro" in lower):
-                if not any(tok in lower for tok in excluded_tokens) and name not in models:
-                    models.append(name)
-    except Exception as exc:
-        print(f"[WARN] Nie udało się pobrać listy modeli zapasowych: {exc}")
-    return models[:4]
-
-
-def generate_newspaper_content(today_str: str, rss_digest: str) -> dict:
-    api_key = os.environ.get("GEMINI_API_KEY", "").strip()
-    if not api_key:
-        raise RuntimeError(
-            "BRAK KLUCZA API: Zmienna GEMINI_API_KEY jest pusta. "
-            "Dodaj ją w Settings -> Secrets and variables -> Actions -> Repository secrets."
-        )
-
-    client = genai.Client(api_key=api_key)
-    interests_bullet = "\n".join(f"- {item}" for item in USER_INTERESTS)
-
-    prompt = f"""
-Dzisiejsza data: {today_str}.
-Wciel się w rolę redaktora naczelnego prestiżowego, pogłębionego dziennika opiniotwórczego „Kurier Światowy”.
-Poniżej znajduje się zestaw aktualnych depesz pobranych dzisiaj z międzynarodowych i branżowych redakcji. Na ich podstawie przygotuj kompletne wydanie gazety po polsku.
-
-BEZWZGLĘDNE ZASADY REDAKCYJNE:
-1. ZERO POLSKIEJ POLITYKI: Całkowicie pomiń bieżącą politykę krajową w Polsce (partie, sejm, rząd, wybory w Polsce). W sekcji Europa opisuj inne państwa europejskie lub zjawiska ogólnoeuropejskie.
-2. ZERO POWIELANIA TEMATÓW: Żadne wydarzenie z sekcji „top5” nie może powtórzyć się w sekcji „interests” ani w żadnym z 6 kontynentów. Każdy z 27 artykułów w wydaniu musi dotyczyć innego, odrębnego tematu.
-3. OPARCIE NA FAKTACH Z DEPESZ: Opieraj się wyłącznie na faktach zawartych w poniższych depeszach oraz swojej zweryfikowanej wiedzy kontekstowej — nie zmyślaj nieistniejących wydarzeń. Do każdego artykułu przypisz dokładny adres `source_url` z odpowiadającej mu depeszy.
-4. POGŁĘBIONY STYL (ZERO PAPKI): Każdy artykuł ma mieć:
-   - konkretny, dziennikarski tytuł po polsku (`title`),
-   - kategorię (`category`, np. Geopolityka, Gospodarka, Nauka, Zegarmistrzostwo, Technologia, Kultura, Klimat, Infrastruktura),
-   - 2-zdaniowy lead (`summary`) widoczny przed rozwinięciem,
-   - 3 merytoryczne akapity rozwinięcia (`body`, oddzielone podwójnym znakiem nowej linii `\\n\\n`), wyjaśniające kontekst, przyczyny i konsekwencje,
-   - krótkie angielskie zapytanie do wyszukiwarki zdjęć (`image_query`, 2–4 proste słowa po angielsku opisujące główny obiekt/miejsce, np. "mechanical watch movement", "tokyo bullet train", "european parliament brussels"),
-   - nazwę redakcji źródłowej w liście `sources` (np. `["BBC World"]`) oraz dokładny link `source_url` z listy depesz.
-
-STRUKTURA WYDANIA (łącznie 27 unikalnych artykułów):
-- `top5`: dokładnie 5 najważniejszych i najistotniejszych wydarzeń ze świata (pierwszy będzie artykułem głównym na pierwszej stronie).
-- `interests`: dokładnie 4 pogłębione materiały dopasowane do poniższych zainteresowań czytelnika:
-{interests_bullet}
-- `continents`: obiekt zawierający dokładnie 6 kluczy: "Europa", "Ameryka Północna", "Ameryka Południowa", "Azja", "Afryka", "Australia i Oceania". Pod każdym kontynentem umieść listę dokładnie 3 artykułów (nie skupiaj się wyłącznie na polityce — uwzględnij też gospodarkę, naukę, technologię, społeczeństwo i kulturę).
-
-AKTUALNE DEPESZE ŹRÓDŁOWE:
-{rss_digest}
-
-Zwróć WYŁĄCZNIE poprawny obiekt JSON o dokładnie takiej strukturze:
-{{
-  "date": "{today_str}",
-  "editorial_lead": "Krótkie, 2-zdaniowe wprowadzenie redakcyjne podsumowujące główny motyw dzisiejszego wydania.",
-  "top5": [
-    {{
-      "title": "...",
-      "category": "...",
-      "region": "Świat",
-      "summary": "...",
-      "body": "Akapit 1...\\n\\nAkapit 2...\\n\\nAkapit 3...",
-      "image_query": "...",
-      "sources": ["Nazwa źródła"],
-      "source_url": "https://..."
-    }}
-  ],
-  "interests": [
-    {{
-      "title": "...",
-      "category": "...",
-      "region": "Wybrane tematy",
-      "summary": "...",
-      "body": "Akapit 1...\\n\\nAkapit 2...\\n\\nAkapit 3...",
-      "image_query": "...",
-      "sources": ["Nazwa źródła"],
-      "source_url": "https://..."
-    }}
-  ],
-  "continents": {{
-    "Europa": [],
-    "Ameryka Północna": [],
-    "Ameryka Południowa": [],
-    "Azja": [],
-    "Afryka": [],
-    "Australia i Oceania": []
-  }}
-}}
-"""
-
-    candidate_models = discover_candidate_models(client)
-    print(f"Wykryta kolejność modeli: {candidate_models}")
-
-    last_error = None
-    response = None
-    retry_delays = [25, 45, 60]
-
-    for model_name in candidate_models:
-        for attempt in range(1, 5):
-            try:
-                print(f"Próba generowania wydania modelem {model_name} (próba {attempt}/4)...")
-                response = client.models.generate_content(
-                    model=model_name,
-                    contents=prompt,
-                    config={
-                        "response_mime_type": "application/json",
-                        "max_output_tokens": 32768,
-                        "temperature": 0.3,
-                    },
-                )
-                if response and response.text:
-                    print(f"Sukces! Otrzymano pełne wydanie z modelu: {model_name}")
-                    break
-            except Exception as exc:
-                last_error = exc
-                err_str = str(exc)
-                print(f"[WARN] Model {model_name} (próba {attempt}) zgłosił: {err_str}")
-                is_transient = any(code in err_str for code in ("503", "UNAVAILABLE", "429", "overloaded"))
-                if is_transient and attempt <= len(retry_delays):
-                    wait_sec = retry_delays[attempt - 1]
-                    print(f"Serwer chwilowo obciążony — odczekuję {wait_sec} s przed ponowieniem...")
-                    time.sleep(wait_sec)
-                else:
-                    break
-        if response and getattr(response, "text", None):
-            break
-
-    if response is None or not getattr(response, "text", None):
-        raise RuntimeError(f"Nie udało się wygenerować treści. Ostatni błąd: {last_error}")
-
-    edition = extract_json_payload(response.text)
-    edition["grounding_links"] = build_grounding_links(edition)
-    return edition
-
-
 def enrich_with_images(edition: dict) -> dict:
-    """Dopisuje dopasowane zdjęcia z Wikimedia Commons do każdego artykułu."""
     all_articles = []
     all_articles.extend(edition.get("top5", []))
     all_articles.extend(edition.get("interests", []))
@@ -374,11 +367,9 @@ def enrich_with_images(edition: dict) -> dict:
 
     for idx, art in enumerate(all_articles):
         query = art.get("image_query", "")
-        img_url = fetch_wikimedia_image(query)
-        art["image_url"] = img_url
+        art["image_url"] = fetch_wikimedia_image(query)
         art["id"] = f"art-{idx + 1}"
         time.sleep(0.2)
-
     return edition
 
 
@@ -404,19 +395,14 @@ def update_archive_index(today_str: str, edition: dict) -> None:
     with open(edition_path, "w", encoding="utf-8") as f:
         json.dump(edition, f, ensure_ascii=False, indent=2)
 
-    top_title = ""
-    if edition.get("top5"):
-        top_title = edition["top5"][0].get("title", "")
-
+    top_title = edition["top5"][0].get("title", "") if edition.get("top5") else ""
     existing[today_str] = {
         "date": today_str,
         "issue_number": issue_num,
         "headline": top_title,
     }
 
-    sorted_editions = sorted(
-        existing.values(), key=lambda x: x["date"], reverse=True
-    )
+    sorted_editions = sorted(existing.values(), key=lambda x: x["date"], reverse=True)
     with open(INDEX_FILE, "w", encoding="utf-8") as f:
         json.dump({"editions": sorted_editions}, f, ensure_ascii=False, indent=2)
 
@@ -431,8 +417,19 @@ def main():
         return
 
     print(f"Generowanie wydania Kuriera Światowego na dzień {today_str}...")
-    rss_digest = fetch_rss_digest()
-    edition = generate_newspaper_content(today_str, rss_digest)
+    rss_digest = fetch_rss_digest(max_per_feed=3)
+
+    groq_key = os.environ.get("GROQ_API_KEY", "").strip()
+    gemini_key = os.environ.get("GEMINI_API_KEY", "").strip()
+
+    if groq_key:
+        edition = generate_via_groq(today_str, rss_digest, groq_key)
+    elif gemini_key:
+        edition = generate_via_gemini(today_str, rss_digest, gemini_key)
+    else:
+        raise RuntimeError("Brak klucza GROQ_API_KEY ani GEMINI_API_KEY w GitHub Secrets.")
+
+    edition["grounding_links"] = build_grounding_links(edition)
     edition = enrich_with_images(edition)
     update_archive_index(today_str, edition)
     print(f"Sukces! Zapisano wydanie {edition_path} oraz zaktualizowano {INDEX_FILE}.")
