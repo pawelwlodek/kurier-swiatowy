@@ -2,15 +2,11 @@ name: Codzienne wydanie Kuriera Światowego
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   schedule:
     - cron: '30 5 * * *'
   workflow_dispatch:
-    inputs:
-      force_regenerate:
-        description: 'Nadpisz dzisiejsze wydanie, jeśli już istnieje (true/false)'
-        required: false
-        default: 'false'
 
 permissions:
   contents: write
@@ -18,7 +14,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -43,7 +39,6 @@ jobs:
       - name: Generowanie dzisiejszego wydania gazety
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          FORCE_REGENERATE: ${{ github.event.inputs.force_regenerate || 'false' }}
         run: python scripts/generate_edition.py
 
       - name: Zapisanie wydania w archiwum GitHub
@@ -71,53 +66,4 @@ jobs:
 
       - name: Publikacja na GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4name: Codzienne wydanie Kuriera Światowego
-
-on:
-  schedule:
-    # Uruchamia się codziennie o 05:30 UTC (06:30 czasu zimowego / 07:30 letniego w Polsce)
-    - cron: '30 5 * * *'
-  # Pozwala uruchomić wydanie ręcznie jednym kliknięciem w zakładce Actions
-  workflow_dispatch:
-    inputs:
-      force_regenerate:
-        description: 'Nadpisz dzisiejsze wydanie, jeśli już istnieje (true/false)'
-        required: false
-        default: 'false'
-
-permissions:
-  contents: write
-
-jobs:
-  build-edition:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Pobranie repozytorium
-        uses: actions/checkout@v4
-
-      - name: Konfiguracja Pythona
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Instalacja bibliotek
-        run: pip install -r requirements.txt
-
-      - name: Generowanie dzisiejszego wydania gazety
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          FORCE_REGENERATE: ${{ github.event.inputs.force_regenerate || 'false' }}
-        run: python scripts/generate_edition.py
-
-      - name: Zapisanie wydania w archiwum GitHub
-        run: |
-          git config user.name "Kurier Bot"
-          git config user.email "bot@kurier-swiatowy.local"
-          git add data/
-          if ! git diff --staged --quiet; then
-            git commit -m "Wydanie z dnia $(date -u +'%Y-%m-%d')"
-            git push
-          else
-            echo "Brak nowych zmian do zapisania."
-          fi
+        uses: actions/deploy-pages@v4
