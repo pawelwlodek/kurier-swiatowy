@@ -1,6 +1,79 @@
 name: Codzienne wydanie Kuriera Światowego
 
 on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+    inputs:
+      force_regenerate:
+        description: 'Nadpisz dzisiejsze wydanie, jeśli już istnieje (true/false)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Pobranie repozytorium
+        uses: actions/checkout@v4
+
+      - name: Konfiguracja Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalacja bibliotek
+        run: pip install -r requirements.txt
+
+      - name: Generowanie dzisiejszego wydania gazety
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FORCE_REGENERATE: ${{ github.event.inputs.force_regenerate || 'false' }}
+        run: python scripts/generate_edition.py
+
+      - name: Zapisanie wydania w archiwum GitHub
+        run: |
+          git config user.name "Kurier Bot"
+          git config user.email "bot@kurier-swiatowy.local"
+          git add data/
+          if ! git diff --staged --quiet; then
+            git commit -m "Wydanie z dnia $(date -u +'%Y-%m-%d')"
+            git pull --rebase origin main
+            git push
+          else
+            echo "Brak nowych zmian do zapisania."
+          fi
+
+      - name: Konfiguracja GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Przygotowanie paczki strony
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Publikacja na GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4name: Codzienne wydanie Kuriera Światowego
+
+on:
   schedule:
     # Uruchamia się codziennie o 05:30 UTC (06:30 czasu zimowego / 07:30 letniego w Polsce)
     - cron: '30 5 * * *'
