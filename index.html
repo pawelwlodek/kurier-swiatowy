@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kurier Światowy — Przegląd Pogłębiony</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-paper: #F9F7F2;
+      --bg-card: #FFFDF9;
+      --bg-subtle: #F0ECE1;
+      --ink-primary: #1A1918;
+      --ink-secondary: #4A4742;
+      --ink-muted: #767168;
+      --accent: #8B2635;
+      --accent-hover: #6E1C28;
+      --border-strong: #262421;
+      --border-light: #DCD6C8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-paper);
+      color: var(--ink-primary);
+      font-family: 'Source Serif 4', Georgia, serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px 64px;
+    }
+
+    /* WINIETA GAZETY */
+    header.masthead {
+      border-bottom: 3px double var(--border-strong);
+      padding: 24px 0 18px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .masthead-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--ink-secondary);
+      border-top: 1px solid var(--border-light);
+      border-bottom: 1px solid var(--border-light);
+      padding: 8px 4px;
+      margin-bottom: 18px;
+    }
+
+    .masthead-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2.3rem, 5vw, 4rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.05;
+      color: var(--ink-primary);
+    }
+
+    .masthead-subtitle {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-style: italic;
+      color: var(--ink-secondary);
+      font-size: 1.05rem;
+      margin-top: 6px;
+    }
+
+    .editorial-banner {
+      background: var(--bg-subtle);
+      border-left: 4px solid var(--accent);
+      padding: 12px 18px;
+      margin-top: 18px;
+      text-align: left;
+      font-size: 0.96rem;
+      color: var(--ink-secondary);
+    }
+
+    /* UKŁAD GŁÓWNY Z PASKIEM KALENDARZA */
+    .layout-grid {
+      display: grid;
+      grid-template-columns: 1fr 310px;
+      gap: 36px;
+      align-items: start;
+    }
+
+    @media (max-width: 980px) {
+      .layout-grid {
+        grid-template-columns: 1fr;
+      }
+      aside.sidebar {
+        order: -1;
+      }
+    }
+
+    /* NAGŁÓWKI SEKCJI */
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-top: 2px solid var(--border-strong);
+      border-bottom: 1px solid var(--border-light);
+      padding: 10px 0;
+      margin: 34px 0 22px;
+    }
+
+    .section-header:first-child {
+      margin-top: 0;
+    }
+
+    .section-header h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.55rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .section-tag {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--accent);
+    }
+
+    /* KARTY ARTYKUŁÓW I OCHRONA UKŁADU ZDJĘĆ */
+    .hero-article {
+      background: var(--bg-card);
+      border: 1px solid var(--border-light);
+      padding: 24px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    @media (max-width: 760px) {
+      .hero-article {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .articles-grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .articles-grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    @media (max-width: 820px) {
+      .articles-grid-2,
+      .articles-grid-3 {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .article-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-light);
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    /* SZTYWNE PROPORCJE 16:9 - ZDJĘCIE NIGDY NIE ZABURZY TEKSTU */
+    .media-frame {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: #E6E0D2;
+      border: 1px solid var(--border-light);
+      margin-bottom: 14px;
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .hero-article .media-frame {
+      margin-bottom: 0;
+    }
+
+    .media-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.35s ease;
+    }
+
+    .article-card:hover .media-frame img,
+    .hero-article:hover .media-frame img {
+      transform: scale(1.02);
+    }
+
+    .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .article-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.22rem;
+      font-weight: 700;
+      line-height: 1.28;
+      margin-bottom: 10px;
+      color: var(--ink-primary);
+    }
+
+    .hero-article .article-title {
+      font-size: 1.75rem;
+      line-height: 1.2;
+    }
+
+    .article-summary {
+      font-size: 0.96rem;
+      color: var(--ink-secondary);
+      margin-bottom: 14px;
+    }
+
+    .article-body {
+      display: none;
+      border-top: 1px dashed var(--border-light);
+      padding-top: 14px;
+      margin-top: 4px;
+      font-size: 0.96rem;
+      color: var(--ink-primary);
+    }
+
+    .article-body.open {
+      display: block;
+      animation: fadeIn 0.22s ease;
+    }
+
+    .article-body p {
+      margin-bottom: 12px;
+    }
+
+    .sources-box {
+      margin-top: 10px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border-light);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.75rem;
+      color: var(--ink-muted);
+    }
+
+    .expand-btn {
+      margin-top: auto;
+      align-self: flex-start;
+      background: transparent;
+      border: 1px solid var(--border-strong);
+      color: var(--ink-primary);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.76rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 7px 13px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .expand-btn:hover {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    /* ZAKŁADKI KONTYNENTÓW */
+    .continent-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 22px;
+    }
+
+    .tab-btn {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 7px 14px;
+      border: 1px solid var(--border-light);
+      background: var(--bg-card);
+      color: var(--ink-secondary);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .tab-btn.active,
+    .tab-btn:hover {
+      background: var(--ink-primary);
+      color: var(--bg-paper);
+      border-color: var(--ink-primary);
+    }
+
+    .continent-block {
+      margin-bottom: 30px;
+    }
+
+    .continent-heading {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      padding-bottom: 6px;
+      margin-bottom: 14px;
+      border-bottom: 1px solid var(--border-strong);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* PASEK BOCZNY: KALENDARZ WYDAŃ */
+    aside.sidebar {
+      position: sticky;
+      top: 20px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-light);
+      padding: 20px;
+    }
+
+    .sidebar-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.18rem;
+      font-weight: 700;
+      border-bottom: 2px solid var(--border-strong);
+      padding-bottom: 8px;
+      margin-bottom: 14px;
+    }
+
+    .cal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .cal-nav {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-light);
+      padding: 3px 9px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .cal-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 4px;
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+    }
+
+    .cal-dow {
+      font-weight: 700;
+      color: var(--ink-muted);
+      padding-bottom: 4px;
+    }
+
+    .cal-day {
+      padding: 6px 0;
+      border-radius: 3px;
+      color: var(--ink-muted);
+    }
+
+    .cal-day.available {
+      background: var(--bg-subtle);
+      color: var(--ink-primary);
+      font-weight: 700;
+      cursor: pointer;
+      border: 1px solid var(--border-light);
+    }
+
+    .cal-day.available:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .cal-day.selected {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .archive-list {
+      margin-top: 18px;
+      border-top: 1px solid var(--border-light);
+      padding-top: 14px;
+    }
+
+    .archive-list h4 {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--ink-muted);
+      margin-bottom: 8px;
+    }
+
+    .archive-item {
+      display: block;
+      width: 100%;
+      text-align: left;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--border-light);
+      padding: 8px 4px;
+      cursor: pointer;
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 0.88rem;
+      color: var(--ink-primary);
+    }
+
+    .archive-item:hover,
+    .archive-item.active {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .grounding-footer {
+      margin-top: 44px;
+      padding-top: 18px;
+      border-top: 2px solid var(--border-strong);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      color: var(--ink-muted);
+    }
+
+    .grounding-footer a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 14px;
+      display: inline-block;
+      margin-top: 4px;
+    }
+
+    .grounding-footer a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-3px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="masthead">
+      <div class="masthead-meta">
+        <span id="issue-badge">Wydanie nr —</span>
+        <span id="formatted-date">Ładowanie daty...</span>
+        <span>Bez polskiej polityki • Analiza pogłębiona</span>
+      </div>
+      <h1 class="masthead-title">KURIER ŚWIATOWY</h1>
+      <p class="masthead-subtitle">Codzienny przegląd wydarzeń globalnych, kontynentalnych oraz tematów wybranych</p>
+      <div class="editorial-banner" id="editorial-lead">
+        Trwa wczytywanie najnowszego wydania z archiwum...
+      </div>
+    </header>
+
+    <div class="layout-grid">
+      <main id="newspaper-content">
+        <!-- Sekcja 1: Najważniejsze 5 -->
+        <section>
+          <div class="section-header">
+            <h2>Najważniejsze 5 ze świata</h2>
+            <span class="section-tag">Pierwsza strona • Selekcja globalna</span>
+          </div>
+          <div id="hero-container"></div>
+          <div class="articles-grid-2" id="top5-grid"></div>
+        </section>
+
+        <!-- Sekcja 2: Wybrane tematy czytelnika -->
+        <section>
+          <div class="section-header">
+            <h2>Dla Ciebie: Wybrane Tematy</h2>
+            <span class="section-tag">Zegarmistrzostwo • Nauka • Technologia • Kolej • Kultura</span>
+          </div>
+          <div class="articles-grid-2" id="interests-grid"></div>
+        </section>
+
+        <!-- Sekcja 3: Przegląd Kontynentów -->
+        <section>
+          <div class="section-header">
+            <h2>Przegląd Kontynentów</h2>
+            <span class="section-tag">6 kontynentów × 3 odrębne analizy</span>
+          </div>
+          <div class="continent-tabs" id="continent-tabs"></div>
+          <div id="continents-container"></div>
+        </section>
+
+        <div class="grounding-footer" id="grounding-footer"></div>
+      </main>
+
+      <!-- Pasek boczny: Kalendarz i archiwum -->
+      <aside class="sidebar">
+        <h3 class="sidebar-title">Archiwum Wydań</h3>
+        <div class="cal-header">
+          <button class="cal-nav" id="cal-prev" title="Poprzedni miesiąc">‹</button>
+          <span id="cal-month-label">Listopad 2026</span>
+          <button class="cal-nav" id="cal-next" title="Następny miesiąc">›</button>
+        </div>
+        <div class="cal-grid" id="cal-grid"></div>
+
+        <div class="archive-list">
+          <h4>Ostatnie numery w archiwum</h4>
+          <div id="archive-items"></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <script>
+    const CONTINENT_ORDER = [
+      "Europa",
+      "Ameryka Północna",
+      "Ameryka Południowa",
+      "Azja",
+      "Afryka",
+      "Australia i Oceania"
+    ];
+
+    const MONTHS_PL = [
+      "Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec",
+      "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"
+    ];
+
+    // Wydanie startowe (gdyby strona została otwarta przed pierwszym uruchomieniem GitHub Actions)
+    const FALLBACK_EDITION = {
+      date: "2026-11-23",
+      issue_number: 1,
+      editorial_lead: "Wydanie startowe aktywne. Uruchom pierwszy raz workflow w zakładce Actions na GitHubie (lub poczekaj do godziny 06:30), aby pobrać dzisiejsze wiadomości ze świata.",
+      top5: [
+        {
+          id: "demo-1",
+          title: "Witryna Kuriera Światowego jest gotowa do automatycznej pracy",
+          category: "Redakcja",
+          region: "Świat",
+          summary: "Szablon czasopisma oraz archiwum JSON zostały poprawnie zainstalowane. Od kolejnego poranka każde wydanie będzie automatycznie dopisywane do kalendarza.",
+          body: "Aby wygenerować pierwsze pełne wydanie z dzisiejszymi wiadomościami ze świata, przejdź do zakładki Actions w swoim repozytorium GitHub i uruchom zadanie „Codzienne wydanie Kuriera Światowego”.\n\nSkrypt użyje wyszukiwarki Google zintegrowanej z modelem Gemini, aby zebrać 27 odrębnych, pogłębionych artykułów z pominięciem polskiej polityki krajowej.\n\nKażde kolejne wydanie zapisze się pod swoją datą w folderze data/, umożliwiając wygodne przeglądanie archiwum w kalendarzu po prawej stronie.",
+          sources: ["Konfiguracja GitHub Pages"]
+        }
+      ],
+      interests: [],
+      continents: {}
+    };
+
+    let availableEditions = [];
+    let currentEdition = null;
+    let calYear = 2026;
+    let calMonth = 10; // 0-indexed (10 = Listopad)
+    let activeContinentFilter = "Wszystkie";
+
+    function createFallbackIllustration(seedText = "Kurier") {
+      let hash = 0;
+      for (let i = 0; i < seedText.length; i++) {
+        hash = seedText.charCodeAt(i) + ((hash << 5) - hash);
+      }
+      const palettes = [
+        ["#2C3E50", "#8B2635", "#D4C5A9"],
+        ["#1F3A3D", "#A65E2E", "#E2D9C8"],
+        ["#3A2E39", "#5C7457", "#DDD3C0"],
+        ["#253237", "#7A4419", "#E5DEC9"]
+      ];
+      const pal = palettes[Math.abs(hash) % palettes.length];
+      const svg = `
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+          <rect width="800" height="450" fill="${pal[2]}"/>
+          <circle cx="${180 + (Math.abs(hash) % 420)}" cy="210" r="145" fill="${pal[0]}" opacity="0.88"/>
+          <polygon points="0,450 320,230 620,450" fill="${pal[1]}" opacity="0.82"/>
+          <line x1="48" y1="48" x2="752" y2="48" stroke="${pal[0]}" stroke-width="2" opacity="0.45"/>
+          <line x1="48" y1="402" x2="752" y2="402" stroke="${pal[0]}" stroke-width="2" opacity="0.45"/>
+        </svg>`;
+      return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+    }
+
+    function formatPolishDate(isoDate) {
+      const [y, m, d] = isoDate.split("-").map(Number);
+      if (!y || !m || !d) return isoDate;
+      return `${d} ${MONTHS_PL[m - 1].toLowerCase()} ${y}`;
+    }
+
+    function buildArticleCard(art, isHero = false) {
+      const card = document.createElement("article");
+      card.className = isHero ? "hero-article" : "article-card";
+
+      const fallbackSrc = createFallbackIllustration(art.title || "Kurier");
+      const imgSrc = art.image_url && art.image_url.startsWith("http") ? art.image_url : fallbackSrc;
+
+      const media = document.createElement("div");
+      media.className = "media-frame";
+      const img = document.createElement("img");
+      img.src = imgSrc;
+      img.alt = art.title || "Ilustracja artykułu";
+      img.loading = "lazy";
+      img.onerror = () => { img.src = fallbackSrc; };
+      media.appendChild(img);
+
+      const content = document.createElement("div");
+      content.style.display = "flex";
+      content.style.flexDirection = "column";
+      content.style.height = "100%";
+
+      const kicker = document.createElement("div");
+      kicker.className = "kicker";
+      kicker.textContent = `${art.category || "Analiza"} • ${art.region || "Świat"}`;
+
+      const title = document.createElement("h3");
+      title.className = "article-title";
+      title.textContent = art.title;
+
+      const summary = document.createElement("p");
+      summary.className = "article-summary";
+      summary.textContent = art.summary;
+
+      const body = document.createElement("div");
+      body.className = "article-body";
+      const paragraphs = (art.body || "").split(/\n\n+/).filter(Boolean);
+      paragraphs.forEach(pText => {
+        const p = document.createElement("p");
+        p.textContent = pText.trim();
+        body.appendChild(p);
+      });
+
+      if (Array.isArray(art.sources) && art.sources.length > 0) {
+        const srcBox = document.createElement("div");
+        srcBox.className = "sources-box";
+        srcBox.textContent = "Źródła: " + art.sources.join(" • ");
+        body.appendChild(srcBox);
+      }
+
+      const btn = document.createElement("button");
+      btn.className = "expand-btn";
+      btn.textContent = "Czytaj pełny artykuł";
+      btn.addEventListener("click", () => {
+        const isOpen = body.classList.toggle("open");
+        btn.textContent = isOpen ? "Zwiń artykuł" : "Czytaj pełny artykuł";
+      });
+
+      content.append(kicker, title, summary, body, btn);
+      card.append(media, content);
+      return card;
+    }
+
+    function renderContinents(continentsObj) {
+      const tabsEl = document.getElementById("continent-tabs");
+      const containerEl = document.getElementById("continents-container");
+      tabsEl.innerHTML = "";
+      containerEl.innerHTML = "";
+
+      const allTabs = ["Wszystkie", ...CONTINENT_ORDER];
+      allTabs.forEach(tabName => {
+        const btn = document.createElement("button");
+        btn.className = "tab-btn" + (activeContinentFilter === tabName ? " active" : "");
+        btn.textContent = tabName;
+        btn.onclick = () => {
+          activeContinentFilter = tabName;
+          renderContinents(continentsObj);
+        };
+        tabsEl.appendChild(btn);
+      });
+
+      const listToShow = activeContinentFilter === "Wszystkie"
+        ? CONTINENT_ORDER
+        : [activeContinentFilter];
+
+      listToShow.forEach(contName => {
+        const articles = (continentsObj && continentsObj[contName]) || [];
+        if (articles.length === 0) return;
+
+        const block = document.createElement("div");
+        block.className = "continent-block";
+
+        const heading = document.createElement("h3");
+        heading.className = "continent-heading";
+        heading.innerHTML = `<span>${contName}</span><span class="section-tag">${articles.length} artykuły</span>`;
+
+        const grid = document.createElement("div");
+        grid.className = "articles-grid-3";
+        articles.forEach(art => grid.appendChild(buildArticleCard(art, false)));
+
+        block.append(heading, grid);
+        containerEl.appendChild(block);
+      });
+    }
+
+    function renderEdition(edition) {
+      currentEdition = edition;
+      document.getElementById("issue-badge").textContent = `Wydanie nr ${edition.issue_number || 1}`;
+      document.getElementById("formatted-date").textContent = formatPolishDate(edition.date);
+      document.getElementById("editorial-lead").textContent = edition.editorial_lead || "";
+
+      const heroEl = document.getElementById("hero-container");
+      const top5Grid = document.getElementById("top5-grid");
+      heroEl.innerHTML = "";
+      top5Grid.innerHTML = "";
+
+      const top5 = edition.top5 || [];
+      if (top5.length > 0) {
+        heroEl.appendChild(buildArticleCard(top5[0], true));
+        top5.slice(1).forEach(art => top5Grid.appendChild(buildArticleCard(art, false)));
+      }
+
+      const interestsGrid = document.getElementById("interests-grid");
+      interestsGrid.innerHTML = "";
+      (edition.interests || []).forEach(art => interestsGrid.appendChild(buildArticleCard(art, false)));
+
+      renderContinents(edition.continents || {});
+
+      const groundingEl = document.getElementById("grounding-footer");
+      groundingEl.innerHTML = "";
+      const links = edition.grounding_links || [];
+      if (links.length > 0) {
+        const label = document.createElement("div");
+        label.innerHTML = "<strong>Zweryfikowane źródła sieciowe wykorzystane w tym wydaniu:</strong>";
+        groundingEl.appendChild(label);
+        links.forEach(link => {
+          const a = document.createElement("a");
+          a.href = link.url;
+          a.target = "_blank";
+          a.rel = "noopener noreferrer";
+          a.textContent = "↗ " + link.title;
+          groundingEl.appendChild(a);
+        });
+      }
+
+      const [y, m] = edition.date.split("-").map(Number);
+      if (y && m) {
+        calYear = y;
+        calMonth = m - 1;
+      }
+      renderCalendar();
+      renderArchiveList();
+    }
+
+    function renderCalendar() {
+      const grid = document.getElementById("cal-grid");
+      const label = document.getElementById("cal-month-label");
+      label.textContent = `${MONTHS_PL[calMonth]} ${calYear}`;
+      grid.innerHTML = "";
+
+      ["Pn", "Wt", "Śr", "Cz", "Pt", "So", "Nd"].forEach(d => {
+        const el = document.createElement("div");
+        el.className = "cal-dow";
+        el.textContent = d;
+        grid.appendChild(el);
+      });
+
+      const firstDay = new Date(calYear, calMonth, 1).getDay();
+      const offset = (firstDay + 6) % 7;
+      const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+      const availableSet = new Set(availableEditions.map(e => e.date));
+
+      for (let i = 0; i < offset; i++) {
+        grid.appendChild(document.createElement("div"));
+      }
+
+      for (let day = 1; day <= daysInMonth; day++) {
+        const iso = `${calYear}-${String(calMonth + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+        const cell = document.createElement("div");
+        cell.className = "cal-day";
+        cell.textContent = day;
+
+        if (availableSet.has(iso)) {
+          cell.classList.add("available");
+          cell.title = `Otwórz wydanie z dnia ${iso}`;
+          cell.onclick = () => loadEditionByDate(iso);
+        }
+        if (currentEdition && currentEdition.date === iso) {
+          cell.classList.add("selected");
+        }
+        grid.appendChild(cell);
+      }
+    }
+
+    function renderArchiveList() {
+      const listEl = document.getElementById("archive-items");
+      listEl.innerHTML = "";
+      availableEditions.slice(0, 12).forEach(item => {
+        const btn = document.createElement("button");
+        btn.className = "archive-item" + (currentEdition && currentEdition.date === item.date ? " active" : "");
+        btn.textContent = `${item.date} — ${item.headline || "Wydanie nr " + item.issue_number}`;
+        btn.onclick = () => loadEditionByDate(item.date);
+        listEl.appendChild(btn);
+      });
+    }
+
+    async function loadEditionByDate(dateStr) {
+      try {
+        const resp = await fetch(`data/${dateStr}.json?t=${Date.now()}`);
+        if (!resp.ok) throw new Error("Brak pliku wydania");
+        const data = await resp.json();
+        const url = new URL(window.location);
+        url.searchParams.set("date", dateStr);
+        window.history.replaceState({}, "", url);
+        renderEdition(data);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } catch (err) {
+        console.warn("Nie udało się wczytać wydania:", err);
+      }
+    }
+
+    async function initApp() {
+      document.getElementById("cal-prev").onclick = () => {
+        calMonth--;
+        if (calMonth < 0) { calMonth = 11; calYear--; }
+        renderCalendar();
+      };
+      document.getElementById("cal-next").onclick = () => {
+        calMonth++;
+        if (calMonth > 11) { calMonth = 0; calYear++; }
+        renderCalendar();
+      };
+
+      try {
+        const idxResp = await fetch(`data/index.json?t=${Date.now()}`);
+        if (!idxResp.ok) throw new Error("Brak index.json");
+        const idxData = await idxResp.json();
+        availableEditions = idxData.editions || [];
+
+        const requestedDate = new URLSearchParams(window.location.search).get("date");
+        const targetDate = requestedDate && availableEditions.some(e => e.date === requestedDate)
+          ? requestedDate
+          : (availableEditions[0] && availableEditions[0].date);
+
+        if (targetDate) {
+          await loadEditionByDate(targetDate);
+          return;
+        }
+      } catch (e) {
+        console.info("Tryb startowy przed pierwszym wygenerowaniem danych.");
+      }
+
+      availableEditions = [{ date: FALLBACK_EDITION.date, issue_number: 1, headline: FALLBACK_EDITION.top5[0].title }];
+      renderEdition(FALLBACK_EDITION);
+    }
+
+    initApp();
+  </script>
+</body>
+</html>
