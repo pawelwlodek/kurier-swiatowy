@@ -1,0 +1,471 @@
+{
+  "date": "2026-11-24",
+  "editorial_lead": "Dzisiejszy dzień przyniósł dramatyczne wieści z frontu kosmicznego i humanitarnego, a jednocześnie zapowiedzi strategicznych inwestycji w infrastrukturę i naukę. Świat patrzy na rosnące napięcia i jednocześnie na przełomowe projekty, które mogą kształtować przyszłość.",
+  "top5": [
+    {
+      "title": "NATO zobowiązuje się do obrony przed zagrożeniem w kosmosie po doniesieniach o rosyjskim satelicie z głowicą jądrową",
+      "category": "Security",
+      "region": "Global",
+      "summary": "Niemieckie media informują o planach Rosji uruchomienia satelity wyposażonego w głowicę jądrową. Sojusz NATO zapowiada wzmocnienie obrony przed potencjalnymi zagrożeniami w przestrzeni kosmicznej.",
+      "body": "Sojusz NATO, pod przewodnictwem Marku Rutte, podkreślił konieczność przygotowania się na nowe rodzaje zagrożeń po pojawieniu się doniesień o rosyjskim satelicie z ładunkiem jądrowym. Decyzja ta wynika z rosnącej obawy, że państwa mogą wykorzystywać przestrzeń kosmiczną do strategicznych działań militarystycznych. Sojusz planuje rozwinięcie systemów wykrywania i neutralizacji zagrożeń w orbicie.\n\nW raporcie niemieckich mediów podkreślono, że Rosja może próbować przełamać międzynarodowy zakaz umieszczania broni jądrowej w kosmosie, co wywołało szeroką debatę wśród ekspertów ds. bezpieczeństwa. NATO, jako jedyny globalny sojusz militarny, ma teraz szansę zdefiniować nowe zasady i protokoły dotyczące broni w przestrzeni kosmicznej.\n\nW odpowiedzi na te wyzwania, państwa członkowskie NATO zobowiązały się do zwiększenia budżetów na badania i rozwój technologii antysatellite, a także do współpracy z agencjami cywilnymi, takimi jak ESA i NASA, w celu wymiany danych wywiadowczych i technologicznych.",
+      "image_query": "space defense",
+      "sources": [
+        "BBC World"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/18th_Space_Defense_Squadron_emblem.png/960px-18th_Space_Defense_Squadron_emblem.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-1"
+    },
+    {
+      "title": "Pakistański pilot Zeeshan Ali wyrusza w historyczną misję na chińską stację kosmiczną Tiangong",
+      "category": "Space",
+      "region": "Asia",
+      "summary": "Pilot Sił Powietrznych Pakistanu ma spędzić tydzień na chińskiej stacji kosmicznej, prowadząc eksperymenty naukowe. Misja podkreśla rosnącą współpracę między Pakistanem a Chinami w dziedzinie eksploracji kosmosu.",
+      "body": "Zeeshan Ali, doświadczony pilot myśliwski, zostanie pierwszym Pakistańczykiem, który wejdzie na pokład chińskiej stacji Tiangong. Podczas pobytu planowane są eksperymenty z zakresu biologii, fizyki i materiałoznawstwa, które mają przyczynić się do rozwoju technologii kosmicznych w obu krajach.\n\nWizyta ta jest częścią szerszej strategii Pakistanu, aby zwiększyć swoją obecność w programach kosmicznych i wzmocnić partnerstwo z Chinami, które od lat wspierają pakistańskie projekty lotnicze i kosmiczne. Rząd pakistański podkreśla, że misja ma także wymiar symboliczny, pokazując postęp naukowy kraju.\n\nChińska agencja kosmiczna zapewnia, że wszystkie niezbędne środki bezpieczeństwa i wsparcie techniczne zostaną zapewnione, a wyniki eksperymentów zostaną udostępnione międzynarodowej społeczności naukowej.",
+      "image_query": "Pakistani astronaut",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_url": "https://www.aljazeera.com/news/2026/11/24/pakistans-zeeshan-ali-set-for-historic-flight-to-chinas-space-station?traffic_source=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Astronauts_in_Dhaka_1969.jpg/960px-Astronauts_in_Dhaka_1969.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-2"
+    },
+    {
+      "title": "Wojny blokują globalne szlaki żywnościowe, zagrożenie dla 7,3 mln ludzi – ostrzega WFP",
+      "category": "Humanitarian",
+      "region": "Global",
+      "summary": "Program Żywnościowy ONZ ostrzega, że konflikty zbrojne utrudniają transport żywności, co może pozbawić pomocy 7,3 miliona osób. Sytuacja jest określana jako „polityczny problem”, a nie jedynie logistyczny.",
+      "body": "Dyrektor wykonawczy WFP, Luke Lindberg, podkreślił, że blokady i ataki na szlaki handlowe w regionach dotkniętych konfliktami uniemożliwiają dostawy żywności do najbardziej potrzebujących. Brak dostępu do żywności zwiększa ryzyko kryzysu humanitarnego i może doprowadzić do masowych migracji.\n\nOrganizacja zwraca uwagę, że problem nie wynika jedynie z trudności logistycznych, lecz z braku woli politycznej do zapewnienia bezpiecznych korytarzy humanitarnych. WFP apeluje do społeczności międzynarodowej o podjęcie natychmiastowych działań dyplomatycznych w celu otwarcia i ochrony szlaków transportowych.\n\nW perspektywie najbliższych miesięcy, WFP planuje zwiększyć zapasy żywności w strategicznych magazynach oraz współpracować z lokalnymi partnerami, aby zminimalizować skutki zakłóceń w dostawach.",
+      "image_query": "food crisis",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_url": "https://www.aljazeera.com/news/2026/11/24/wars-choke-global-food-routes-threatening-aid-for-7-3-million-wfp-warns?traffic_source=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Famine_in_Bretony%2C_c._1597.jpg/960px-Famine_in_Bretony%2C_c._1597.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-3"
+    },
+    {
+      "title": "Indie zobowiązują się do przekazania Nepalu 1,6 mld USD w ramach odbudowy po powodziowych katastrofach",
+      "category": "Economy",
+      "region": "Asia",
+      "summary": "Indyjskie rządy ogłosiły pakiet pomocy finansowej dla Nepalu, obejmujący inwestycje w porty i nową linię kolejową. Inicjatywa ma na celu wzmocnienie gospodarki Nepalu po niszczycielskich powodziowych powodzi.",
+      "body": "Premier Nepalu, po spotkaniu z przywódcą Indii, ogłosił, że kraj otrzyma 1,6 miliarda dolarów w ramach programów infrastrukturalnych, w tym nowego połączenia kolejowego z Indiami oraz modernizacji portu w Biratnagar. Środki mają przyspieszyć odbudowę po ostatnich powodziowych katastrofach, które zniszczyły setki tysięcy domów.\n\nIndie podkreślają, że inwestycje nie tylko pomogą Nepalu, ale także wzmocnią regionalne połączenia handlowe i logistyczne, co przyniesie korzyści obu stronom. Projekt kolejowy ma skrócić czas transportu towarów między stolicą Nepalu a indyjskimi węzłami logistycznymi.\n\nWspółpraca ta jest postrzegana jako element szerszej strategii Indii, aby zwiększyć swoją wpływowość w Azji Południowej i zapewnić stabilność gospodarczą w sąsiednich państwach, które są podatne na zmiany klimatyczne.",
+      "image_query": "India Nepal aid",
+      "sources": [
+        "BBC Asia"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Aid_received_from_China_and_India_being_offloaded_from_an_Indian_Air_Force_%28IAF%29_MI-17_V5_helicopter%2C_at_Bhulatham_village_ahead_of_Dhading_following_a_recent_massive_earthquake_in_Nepal.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-4"
+    },
+    {
+      "title": "Rosyjski śmigłowiec podejrzewany o naruszenie przestrzeni powietrznej Finlandii",
+      "category": "Aviation",
+      "region": "Europe",
+      "summary": "Finlandzki minister obrony podejrzewa, że rosyjski śmigłowiec naruszył ich przestrzeń powietrzną po incydencie z dronem na rosyjskim statku. Incydent może być powiązany z szerszymi napięciami w regionie Bałtyckim.",
+      "body": "Finlandzki minister obrony poinformował, że rosyjski śmigłowiec został wykryty w granicach przestrzeni powietrznej Finlandii, co może być odpowiedzią na wczorajszy atak dronem na rosyjski statek cargo w Zatoce Fińskiej. Incydent ten podkreśla rosnące napięcia w regionie Bałtyckim.\n\nFinlandzkie siły lotnicze monitorują sytuację i współpracują z NATO w celu oceny potencjalnych zagrożeń. Wcześniejsze incydenty, w tym ataki dronów, zwiększyły czujność państw nadbałtyckich wobec działań Rosji.\n\nEksperci ostrzegają, że takie naruszenia mogą prowadzić do eskalacji, jeśli nie zostaną podjęte dyplomatyczne kroki w celu deeskalacji sytuacji. Finlandia apeluje o wyjaśnienia ze strony Rosji i podkreśla potrzebę przestrzegania międzynarodowego prawa lotniczego.",
+      "image_query": "Russian helicopter Finland",
+      "sources": [
+        "Deutsche Welle Europe"
+      ],
+      "source_url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-eu-2092-xml-mrss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Finnish_Army_NH90_Turku_Airshow_2019_04.jpg/960px-Finnish_Army_NH90_Turku_Airshow_2019_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-5"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Lebois & Co Heritage Atelier Chronograph Bleu‑sur‑Blanc – nowy chronograf z dwukolorową tarczą emaliowaną",
+      "category": "Watchmaking",
+      "region": "Europe",
+      "summary": "Marka Lebois & Co wprowadza limitowaną edycję chronografu inspirowaną tradycyjnym stylem francuskim. Zegarek łączy nowoczesną precyzję z ręczną techniką emalii, tworząc unikatowy design.",
+      "body": "Nowy model Lebois & Co Heritage Atelier Chronograph Bleu‑sur‑Blanc wyróżnia się dwukolorową tarczą emaliowaną, nawiązującą do klasycznych barw francuskiej flagi. Zegarek jest napędzany mechanizmem automatycznym, a jego koperta wykonana jest z wysokiej jakości stali nierdzewnej, co zapewnia trwałość i elegancję.\n\nProjekt został opracowany w ramach współpracy z holenderskim przedsiębiorcą Tomem van Wijlickiem, który od 2014 roku przywraca tradycyjne marki zegarmistrzowskie. Edycja jest limitowana do kilku setek sztuk, co czyni ją pożądanym przedmiotem kolekcjonerów.\n\nWprowadzenie tego modelu podkreśla rosnące zainteresowanie rynkiem luksusowych zegarków, które łączą klasyczny rzemieślniczy kunszt z nowoczesnym designem. Lebois & Co planuje dalsze rozszerzenie linii, wprowadzając kolejne modele inspirowane historią zegarmistrzostwa.",
+      "image_query": "luxury watch",
+      "sources": [
+        "Monochrome Watches"
+      ],
+      "source_url": "https://monochrome-watches.com/hands-on-lebois-co-heritage-atelier-chronograph-bleu-sur-blanc-with-two-tone-enamel-dial/",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Counterfeit_Casio_F-91W_digital_watch.jpg/960px-Counterfeit_Casio_F-91W_digital_watch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-6"
+    },
+    {
+      "title": "Dwa potężne czarne dziury z początków Wszechświata podważają dotychczasowe modele kosmologiczne",
+      "category": "Astronomy",
+      "region": "Global",
+      "summary": "Naukowcy odkryli najstarszą znaną parę kwazarów, napędzanych czarnymi dziurami ważącymi 1,5 miliarda i 400 milionów mas Słońca. Obiekty istnieją zaledwie 900 milionów lat po Wielkim Wybuchu, co jest sprzeczne z istniejącymi teoriami formowania się supermasywnych czarnych dziur.",
+      "body": "Zespół astronomów wykorzystał teleskop kosmiczny Jamesa Webba oraz naziemne obserwatoria radiowe, aby zidentyfikować dwa niezwykle masywne czarne dziury w odległej galaktyce kwazara. Ich masa i wiek sugerują, że musiały powstać znacznie szybciej niż przewidywały dotychczasowe modele formowania się czarnych dziur.\n\nOdkrycie to wymusza rewizję istniejących teorii dotyczących wzrostu supermasywnych czarnych dziur w młodym Wszechświecie. Naukowcy rozważają możliwość, że wczesne warunki kosmiczne sprzyjały szybkiemu gromadzeniu materii lub że istnieją nieznane mechanizmy przyspieszające ich rozwój.\n\nWyniki zostaną opublikowane w prestiżowym czasopiśmie „Nature Astronomy”, a dalsze obserwacje mają na celu potwierdzenie tych niezwykłych właściwości oraz zbadanie ich wpływu na formowanie się pierwszych galaktyk.",
+      "image_query": "binary black holes",
+      "sources": [
+        "ScienceDaily Top Science"
+      ],
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060342.htm",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/BBH-NGC7727.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "id": "art-7"
+    },
+    {
+      "title": "USA wprowadzają Megaspeed na czarną listę po skandalu z Nvidia – nowe wyzwania dla cyberbezpieczeństwa AI",
+      "category": "Technology",
+      "region": "North America",
+      "summary": "Amerykański rząd umieścił chińską firmę Megaspeed na listę podmiotów zakazanych po ujawnieniu nielegalnego transferu chipów AI do Chin. Decyzja podkreśla rosnące napięcia w dziedzinie cyberbezpieczeństwa i regulacji sztucznej inteligencji.",
+      "body": "Po powrocie Jensena Huanga na stanowisko CEO Nvidii, amerykańskie władze podjęły decyzję o umieszczeniu Megaspeed na czarnej liście, zarzucając firmie nielegalny eksport zaawansowanych chipów AI do Chin. Rząd argumentuje, że takie działania zagrażają bezpieczeństwu narodowemu i mogą przyspieszyć rozwój chińskich technologii militarnych.\n\nDecyzja wywołała falę reakcji w branży technologicznej, podkreślając potrzebę bardziej rygorystycznych kontroli eksportowych oraz transparentności w łańcuchu dostaw komponentów AI. Firmy z sektora sztucznej inteligencji muszą teraz dostosować się do nowych wymogów, aby uniknąć sankcji.\n\nEksperci ds. cyberbezpieczeństwa ostrzegają, że podobne incydenty mogą stać się częstsze, gdy państwa będą rywalizować o dominację w dziedzinie AI. Wprowadzenie listy zakazów ma na celu ograniczenie nieautoryzowanego transferu technologii, ale jednocześnie może wpłynąć na globalny rynek chipów i innowacje.",
+      "image_query": "AI chip blacklist",
+      "sources": [
+        "BBC US & Canada"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+      "image_url": "",
+      "id": "art-8"
+    },
+    {
+      "title": "Irlandzkie koleje przyspieszają rozwój: rozszerzenie linii Navan i modernizacja Limerick",
+      "category": "Railway",
+      "region": "Europe",
+      "summary": "Irish Rail ogłosił plany rozbudowy linii kolejowej w Navan oraz zwiększenia przepustowości w Limerick, co ma poprawić połączenia regionalne i przyspieszyć transport pasażerski. Projekt jest częścią szerszej strategii modernizacji infrastruktury kolejowej w Irlandii.",
+      "body": "Rozbudowa linii Navan obejmuje budowę nowych odcinków torów, modernizację stacji oraz wprowadzenie nowoczesnych systemów sygnalizacji, co pozwoli na zwiększenie częstotliwości kursowania pociągów. Projekt ma na celu skrócenie czasu podróży między Dublinem a Navan oraz wsparcie rozwoju gospodarczego regionu.\n\nW Limerick planowane są prace zwiększające przepustowość istniejących linii, w tym rozbudowa torowisk i modernizacja infrastruktury stacji, aby pomieścić większą liczbę pociągów regionalnych i międzymiastowych. Inwestycje te mają przyczynić się do zmniejszenia zatłoczenia dróg i promować zrównoważony transport.\n\nFinansowanie projektów pochodzi z funduszy unijnych oraz krajowych, a ich realizacja ma zakończyć się w kolejnych latach, przyczyniając się do zwiększenia atrakcyjności Irlandii jako miejsca do życia i pracy, a także do redukcji emisji CO₂ w transporcie.",
+      "image_query": "Irish rail expansion",
+      "sources": [
+        "International Railway Journal"
+      ],
+      "source_url": "https://www.railjournal.com/financial/irish-rail-advances-navan-extension-and-limerick-capacity-upgrade/",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Expansion_of_the_Cambridge_Biomedical_Campus_-_geograph.org.uk_-_4924753.jpg/960px-Expansion_of_the_Cambridge_Biomedical_Campus_-_geograph.org.uk_-_4924753.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-9"
+    }
+  ],
+  "continents": {
+    "Europa": [
+      {
+        "title": "Strajki kosztów życia paraliżują transport lotniczy w Belgii",
+        "category": "Gospodarka",
+        "region": "Europa",
+        "summary": "Seria strajków w Belgii, wywołana trudnościami rządu w ustaleniu budżetu, doprowadziła do masowych odwołań lotów. Przewoźnicy i pasażerowie mierzą się z chaosem logistycznym w kluczowym europejskim hubie.",
+        "body": "Belgijskie lotniska, w tym Bruksela-Zaventem, odnotowały w ostatnich dniach znaczący wzrost liczby odwołanych rejsów. Przyczyną jest ogólnokrajowy strajk, w którym uczestniczą pracownicy sektora transportowego i publicznego, protestując przeciwko rosnącym kosztom życia i braku porozumienia rządu w sprawie cięć budżetowych.\n\nSytuacja ta stanowi poważne wyzwanie dla łańcuchów dostaw i turystyki, które są silnie uzależnione od sprawnego funkcjonowania portu lotniczego w Brukseli. Linie lotnicze apelują do pasażerów o elastyczność, jednocześnie starając się zrekompensować opóźnienia dodatkowymi rejsami, co generuje dodatkowe koszty operacyjne.\n\nEksperci ostrzegają, że przedłużający się impas polityczny w Brukseli może mieć długofalowe konsekwencje dla atrakcyjności Belgii jako centrum logistycznego Europy. Rząd premiera stoi pod presją, by szybko znaleźć kompromis, zanim protesty rozszerzą się na inne kluczowe sektory gospodarki.",
+        "image_query": "Belgium airport strike",
+        "sources": [
+          "BBC Europe"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/OO-DJP_3_B.Ae_146-RJ85_DAT_Delta_Air_Tspt_MAN_10FEB02_%286955985214%29.jpg/960px-OO-DJP_3_B.Ae_146-RJ85_DAT_Delta_Air_Tspt_MAN_10FEB02_%286955985214%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-10"
+      },
+      {
+        "title": "Niemiecka policja reaguje na falę fałszywych alarmów bombowych w szkołach",
+        "category": "Społeczeństwo",
+        "region": "Europa",
+        "summary": "W Niemczech doszło do serii incydentów zagrażających bezpieczeństwu w placówkach oświatowych, co wymusiło ewakuacje i interwencję służb. Podobne przypadki zgłaszane są również w Danii, sugerując transgraniczny charakter zjawiska.",
+        "body": "Niemieckie służby bezpieczeństwa podjęły działania w odpowiedzi na liczne zawiadomienia o rzekomych bombach ukrytych w szkołach na terenie całego kraju. Choć policja oświadczyła, że na obecnym etapie nie uznaje tych zagrożeń za wiarygodne, każda taka informacja wymagała czasochłonnej ewakuacji budynków i przeszukań, co zakłócało normalny przebieg zajęć lekcyjnych.\n\nZjawisko to nie jest odosobnione, ponieważ duńskie władze raportują podobną serię fałszywych alarmów, co wskazuje na możliwe koordynowane działania w internecie lub naśladownictwo. Specjaliści od cyberbezpieczeństwa badają, czy incydenty mają podłoże terrorystyczne, czy są wynikiem prowokacji w mediach społecznościowych.\n\nEdukatorzy i rodzice wyrażają obawy o wpływ takich incydentów na poczucie bezpieczeństwa uczniów. Władze szkolne rozważają wdrożenie nowych protokołów bezpieczeństwa oraz szkolenia personelu z zakresu reagowania na sytuacje kryzysowe, aby minimalizować stres związany z ewakuacjami.",
+        "image_query": "German school police",
+        "sources": [
+          "Deutsche Welle Europe"
+        ],
+        "source_url": "https://www.dw.com/en/german-police-respond-to-multiple-school-bomb-threats/a-80018842?maca=en-rss-en-eu-2092-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Wasserschutzpolizei-Schule.jpg/960px-Wasserschutzpolizei-Schule.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-11"
+      },
+      {
+        "title": "Macedonia Północna wciąż w martwym punkcie na drodze do UE",
+        "category": "Polityka",
+        "region": "Europa",
+        "summary": "Po 21 latach statusu kandydata Macedonia Północna nie poczyniła znaczących postępów w procesie akcesyjnym, co kontrastuje z postępami Czarnogóry i Albanii. Kluczową przeszkodą pozostaje polityczny spór z Bułgarią.",
+        "body": "Mimo odnowionego pędu w procesie rozszerzania Unii Europejskiej, Macedonia Północna pozostaje w stagnacji, będąc kandydatem do członkostwa od 2005 roku. Podczas gdy sąsiednie kraje, takie jak Czarnogóra i Albania, zbliżają się do podpisania traktatów akcesyjnych, Skopje boryka się z blokadą dyplomatyczną.\n\nGłównym hamulcem rozwoju negocjacji jest nieprzezwyciężony spór historyczny i polityczny z Bułgarią, która jako kraj członkowski UE może wetać kolejne etapy akcesji Macedonii. Dyplomaci unijni apelują o rozwiązanie tego konfliktu, wskazując, że dalsze opóźnienia mogą osłabić zaufanie obywateli do projektu europejskiego.\n\nLokalne elity polityczne muszą teraz znaleźć sposób na złagodzenie napięć z Sofią, aby odblokować proces. Brak postępu w tej kwestii grozi marginalizacją kraju na scenie europejskiej oraz pogłębieniem frustracji społecznej wynikającej z wieloletniego oczekiwania na integrację z Zachodem.",
+        "image_query": "North Macedonia EU flag",
+        "sources": [
+          "Deutsche Welle Europe"
+        ],
+        "source_url": "https://www.dw.com/en/north-macedonia-remains-stalled-on-its-eu-path-after-21-years-as-a-candidate/a-80020841?maca=en-rss-en-eu-2092-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_North_Macedonia_%28CMYK%29.png/960px-Flag_of_North_Macedonia_%28CMYK%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-12"
+      }
+    ],
+    "Ameryka Północna": [
+      {
+        "title": "Krytyka po deklaracji Trumpa o przywróceniu CEO Nvidii",
+        "category": "Technologia",
+        "region": "Ameryka Północna",
+        "summary": "Prezydent USA spotkał się z falą krytyki po stwierdzeniu, że 'przekonał' Nvidię do przywrócenia Jensa Huanga na stanowisko CEO. Powrót Huanga przyczynił się do wzrostu wartości akcji spółki o 1 bilion dolarów.",
+        "body": "Deklaracja prezydenta Donalda Trumpa, iż wywierał presję na zarząd Nvidii w celu przywrócenia Jensa Huanga, wywołała burzę w mediach i kręgach biznesowych. Krytycy wskazują na niebezpieczną mieszankę polityki i korporacyjnego zarządzania, sugerując, że interwencja głowy państwa w decyzje personalne giganta technologicznego podważa niezależność spółek notowanych na giełdzie.\n\nMimo kontrowersji, rynek zareagował pozytywnie na powrót Huanga, co przełożyło się na gigantyczny wzrost kapitalizacji firmy. Analitycy podkreślają, że Huang jest kluczową postacią dla strategii Nvidii w zakresie sztucznej inteligencji, a jego stabilność na stanowisku jest postrzegana jako czynnik stabilizujący dla całego sektora AI.\n\nSytuacja ta podsyca debaty na temat granic wpływu politycznego na sektor technologiczny w Stanach Zjednoczonych. Eksperci ostrzegają, że takie precedensy mogą w przyszłości skomplikować relacje między administracją federalną a innymi liderami branży, zwłaszcza w kontekście regulacji eksportowych i bezpieczeństwa narodowego.",
+        "image_query": "Jensen Huang Nvidia",
+        "sources": [
+          "BBC US & Canada"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Jensen_Huang_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "id": "art-13"
+      },
+      {
+        "title": "USA umieszczają firmę Megaspeed na czarnej liście handlowej",
+        "category": "Gospodarka",
+        "region": "Ameryka Północna",
+        "summary": "Administracja Trumpa dodała azjatycką firmę AI Megaspeed do listy sankcyjnej po oskarżeniach o przemyt chipów do Chin. Decyzja zbiegła się w czasie ze skandalem wokół Nvidii i powrotem Jensa Huanga.",
+        "body": "Departament Handlu USA oficjalnie umieścił firmę Megaspeed na czarnej liście, zakazując jej dostępu do amerykańskich technologii i komponentów. Powodem decyzji są poważne oskarżenia o nielegalne przekazywanie zaawansowanych chipów AI do Chin, co stanowi naruszenie restrykcji eksportowych wprowadzonych w celu ochrony przewagi technologicznej Stanów Zjednoczonych.\n\nSkandal wokół Megaspeed nabrał dodatkowego wymiaru po ujawnieniu informacji o romansie byłego menedżera firmy z Jensem Huangiem, co rzekomo ułatwiło obejście kontroli. Ta kontrowersyjna mieszanka osobistych relacji i korporacyjnych interesów podważyła zaufanie do łańcucha dostaw w branży półprzewodników.\n\nNowe sankcje mogą mieć daleko idące konsekwencje dla globalnego rynku AI, zmuszając firmy do rewizji swoich partnerstw i procedur compliance. Eksperci przewidują, że incydent ten przyspieszy rozwój autonomicznych łańcuchów dostaw w Azji, jednocześnie zwiększając presję na amerykańskie firmy, aby wzmocniły swoje zabezpieczenia przed wyciekami technologii.",
+        "image_query": "AI chips trade",
+        "sources": [
+          "BBC US & Canada"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+        "image_url": "",
+        "id": "art-14"
+      },
+      {
+        "title": "Kontrowersyjna kolacja z udziałem posiadaczy memecoinów Trumpa",
+        "category": "Społeczeństwo",
+        "region": "Ameryka Północna",
+        "summary": "Goście kolacji organizowanej przez prezydenta Trumpa dla posiadaczy jego kryptowaluty opisują wydarzenie jako chaotyczne i pełne napięcia. Incydent pogłębia spory o etykę i wpływ polityczny na rynek krypto.",
+        "body": "Dwie osoby, które uczestniczyły w kontrowersyjnej kolacji z udziałem prezydenta Donalda Trumpa i największych posiadaczy jego kryptowaluty, ujawniły szczegóły wydarzenia, które odbiło się szerokim echem w mediach. Goście opisali atmosferę jako napiętą, a sam przebieg spotkania jako odbiegający od standardów dyplomatycznych, co wywołało falę spekulacji o motywach politycznych prezydenta.\n\nWydarzenie to stało się symbolem rosnącej kontrowersji wokół zaangażowania najwyższych urzędników państwowych w rynek kryptowalut. Krytycy argumentują, że takie spotkania tworzą ryzyko konfliktu interesów i mogą być wykorzystywane do wpływania na ceny aktywów cyfrowych na korzyść określonych grup.\n\nRynek krypto reaguje na te doniesienia z dużą zmiennością, a inwestorzy coraz częściej domagają się transparentności w relacjach między sektorem publicznym a prywatnym. Eksperci prawni analizują, czy działania prezydenta naruszają jakieś przepisy dotyczące etyki urzędniczej, co może prowadzić do dalszych sporów sądowych i politycznych.",
+        "image_query": "Crypto dinner controversy",
+        "sources": [
+          "NPR News"
+        ],
+        "source_url": "https://www.npr.org/2026/11/23/nx-s1-6045883/they-attended-trumps-controversial-meme-coin-dinner-it-didnt-go-well",
+        "image_url": "",
+        "id": "art-15"
+      }
+    ],
+    "Ameryka Południowa": [
+      {
+        "title": "Aresztowanie 'Chapo Isidro' wywołuje falę przemocy w Meksyku",
+        "category": "Bezpieczeństwo",
+        "region": "Ameryka Południowa",
+        "summary": "Po aresztowaniu wpływowego kartelowca Fausta Isidro Meza Flores doszło do ataku na meksykańskich żołnierzy. Osiem osób zostało zatrzymanych w związku z próbą przywrócenia porządku.",
+        "body": "Aresztowanie Fausta Isidro Meza Floresa, znanego jako 'Chapo Isidro' i figurowanego na liście 10 najbardziej poszukiwanych przestępców FBI, nie przyniosło natychmiastowego spokoju do regionu. Wręcz przeciwnie, w jego ślad zaatakowano jednostki wojskowe, które próbowały przywrócić porządek publiczny, co świadczy o silnym oporze struktur kartelowych wobec interwencji państwa.\n\nW odpowiedzi na eskalację przemocy, władze meksykańskie zatrzymały ośmiu podejrzanych o udział w strzelaninie. Operacja ta jest częścią szerszej kampanii na rzecz stabilizacji bezpieczeństwa w regionach dotkniętych działalnością narkotykowych karteli, które wykorzystują chaos polityczny do umacniania swojej pozycji.\n\nEksperci ds. bezpieczeństwa ostrzegają, że aresztowanie pojedynczych liderów może prowokować dalszą destabilizację, jeśli nie będzie to połączone z systemowymi zmianami w walce z korupcją i przemytem. Meksykańskie siły zbrojne muszą teraz balansować między koniecznością pokazania siły a uniknięciem eskalacji konfliktu zbrojnego z uzbrojonymi grupami przestępczymi.",
+        "image_query": "Mexico police operation",
+        "sources": [
+          "BBC Latin America"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/401st_Military_Police_Company_patrols_southern_border_near_Calexico_%289168921%29.jpg/960px-401st_Military_Police_Company_patrols_southern_border_near_Calexico_%289168921%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-16"
+      },
+      {
+        "title": "Bolsonaro w szpitalu: zapalenie płuc komplikuje leczenie",
+        "category": "Społeczeństwo",
+        "region": "Ameryka Południowa",
+        "summary": "Były prezydent Brazylii Jair Bolsonaro został zdiagnozowany z zapaleniem płuc podczas pobytu w szpitalu w Brazylii. Lekarze wykluczyli konieczność operacji, ale stan zdrowia pozostaje pod ścisłą obserwacją.",
+        "body": "Stan zdrowia byłego prezydenta Brazylii Jaira Bolsonaro uległ pogorszeniu, gdy w szpitalu w Brazylii zdiagnozowano u niego zapalenie płuc. Początkowo hospitalizowany z powodu niedrożności jelit, Bolsonaro wymaga teraz intensywniejszej opieki medycznej, co budzi niepokój wśród jego zwolenników i obserwatorów sceny politycznej.\n\nZespół lekarzy prowadzących oświadczył, że na obecnym etapie nie ma potrzeby przeprowadzania kolejnych zabiegów chirurgicznych, koncentrując się na leczeniu zachowawczym infekcji. Sytuacja zdrowotna Bolsonaro ma istotne znaczenie polityczne, biorąc pod uwagę jego wciąż silny wpływ na brazylijską prawicę i trwające procesy sądowe.\n\nMedia brazylijskie śledzą każdy aspekt hospitalizacji, a politycy z obozu opozycyjnego i rządowego komentują sytuację, próbując wykorzystać ją w kampaniach wyborczych. Zdrowie Bolsonaro pozostaje jednym z kluczowych czynników wpływających na dynamikę brazylijskiej polityki w nadchodzących miesiącach.",
+        "image_query": "Jair Bolsonaro hospital",
+        "sources": [
+          "MercoPress"
+        ],
+        "source_url": "https://en.mercopress.com/2026/11/23/pneumonia-complicates-jair-bolsonaro-s-hospital-stay-in-brasilia?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/05_06_2020_Cerim%C3%B4nia_de_inaugura%C3%A7%C3%A3o_do_Hospital_de_Campanha_de_%C3%81guas_Lindas_de_Goi%C3%A1s_%2849973249008%29.jpg/960px-05_06_2020_Cerim%C3%B4nia_de_inaugura%C3%A7%C3%A3o_do_Hospital_de_Campanha_de_%C3%81guas_Lindas_de_Goi%C3%A1s_%2849973249008%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-17"
+      },
+      {
+        "title": "Wielka Brytania wspiera nowy rząd w Paragwaju",
+        "category": "Dyplomacja",
+        "region": "Ameryka Południowa",
+        "summary": "Londyn wyraził poparcie dla rządu prezydenta Pedro Alliana w Paragwaju, który objął urząd po odwołaniu Santiago Peña. Zmiana władzy nastąpiła w kontekście kryzysu bankowego w kraju.",
+        "body": "Ministerstwo Spraw Zagranicznych Wielkiej Brytanii oficjalnie potwierdziło swoje wsparcie dla nowego rządu Paragwaju pod przewodnictwem Pedro Alliana. Decyzja ta ma na celu stabilizację dyplomatyczną kraju po gwałtownej zmianie władzy, która nastąpiła po odwołaniu prezydenta Santiago Peña w związku z upadkiem banku Ueno.\n\nKryzys bankowy w Paragwaju wywołał poważne obawy dotyczące stabilności gospodarczej regionu, a szybkie przejęcie władzy przez Alliana było kluczowe dla utrzymania porządku konstytucyjnego. Brytyjskie wsparcie sygnalizuje gotowość do kontynuacji dialogu politycznego i gospodarczego z nowym kierownictwem kraju.\n\nAnalitycy regionalni uważają, że stabilizacja Paragwaju jest istotna dla szerszej architektury bezpieczeństwa w Ameryce Południowej. Nowy rząd stoi przed wyzwaniem odbudowy zaufania inwestorów i naprawy systemu finansowego, co będzie wymagało bliskiej współpracy z partnerami międzynarodowymi, w tym z Wielką Brytanią.",
+        "image_query": "Paraguay government",
+        "sources": [
+          "MercoPress"
+        ],
+        "source_url": "https://en.mercopress.com/2026/11/23/uk-expresses-support-for-pedro-alliana-s-government-in-paraguay?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Argentina-Paraguay_border.png/960px-Argentina-Paraguay_border.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-18"
+      }
+    ],
+    "Azja": [
+      {
+        "title": "Sheikh Hasina planuje powrót do Bangladeszu mimo wyroku śmierci",
+        "category": "Polityka",
+        "region": "Azja",
+        "summary": "Dethronowana premier Bangladeszu Sheikh Hasina ogłosiła, że wróci do kraju 16 grudnia, mimo że skazano ją zaocznie na karę śmierci. Jej powrót może wywołać nowe napięcia polityczne w kraju.",
+        "body": "Sheikh Hasina, która przebywa na wygnaniu w Indiach od dwóch lat, zaskoczyła obserwatorów, ogłaszając datę swojego powrotu do Bangladeszu na 16 grudnia. Decyzja ta jest szczególnie kontrowersyjna, ponieważ w zeszłym roku została skazana zaocznie na karę śmierci za brutalne stłumienie protestów, które pochłonęły setki ofiar.\n\nPowrót Hasiny może stać się katalizatorem dalszej polaryzacji społecznej w Bangladeszu. Jej zwolennicy widzą w niej jedyną osobę zdolną do przywrócenia porządku, podczas gdy opozycja i organizacje praw człowieka ostrzegają przed ryzykiem eskalacji przemocy i pogwałcenia praw człowieka.\n\nWładze Bangladeszu muszą teraz zdecydować, jak zareagować na ten ruch, balansując między egzekucją wyroku a uniknięciem kryzysu konstytucyjnego. Międzynarodowa społeczność obserwuje sytuację z niepokojem, apelując o dialog i poszanowanie praworządności w tym kluczowym kraju Azji Południowej.",
+        "image_query": "Sheikh Hasina Bangladesh",
+        "sources": [
+          "Deutsche Welle Asia"
+        ],
+        "source_url": "https://www.dw.com/en/exiled-leader-sheikh-hasina-plans-to-return-to-bangladesh-on-dec-16/a-80028083?maca=en-rss-en-asia-5133-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Bangladesh_National_Cricket_team_with_Sheikh_Hasina_3.jpg/960px-Bangladesh_National_Cricket_team_with_Sheikh_Hasina_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-19"
+      },
+      {
+        "title": "Tadżykistan wycofuje się z Międzynarodowego Trybunału Karnego",
+        "category": "Prawo",
+        "region": "Azja",
+        "summary": "Tadżykistan rozpoczął procedurę wycofania się z MTK, podążając za apelem USA o jego rozwiązanie. Decyzja zapadła podczas wizyty Władimira Putina w Duszambie.",
+        "body": "Tadżykistan oficjalnie zainicjował proces wycofania się z Międzynarodowego Trybunału Karnego, stając się kolejnym państwem, które kwestionuje jurysdykcję tego gremium. Decyzja ta jest zgodna z rosnącym trendem wśród państw, które pod wpływem presji politycznej i dyplomatycznej rezygnują z udziału w międzynarodowych mechanizmach wymiaru sprawiedliwości.\n\nZbieżność w czasie tej decyzji z wizytą prezydenta Rosji Władimira Putina w Tadżykistanie sugeruje silny wpływ rosyjskiej dyplomacji na politykę zagraniczną kraju. Kreml od dawna krytykuje MTK, oskarżając go o polityczną stronniczość, i zachęca swoje sojuszniki do opuszczenia trybunału.\n\nWycofanie się Tadżykistanu osłabi pozycję MTK, który i tak boryka się z problemami finansowymi i politycznymi. Eksperci ds. prawa międzynarodowego ostrzegają, że erozja autorytetu trybunału może utrudnić ściganie zbrodni wojennych i przeciwko ludzkości w przyszłości, tworząc lukę w globalnym systemie praworządności.",
+        "image_query": "Tajikistan diplomacy",
+        "sources": [
+          "Deutsche Welle Asia"
+        ],
+        "source_url": "https://www.dw.com/en/tajikistan-follows-us-call-withdraws-from-icc/a-80023903?maca=en-rss-en-asia-5133-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Diplomatic_relations_of_Tajikistan.png/960px-Diplomatic_relations_of_Tajikistan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-20"
+      },
+      {
+        "title": "Wpływ powrotu Jensa Huanga na relacje USA-Chiny",
+        "category": "Gospodarka",
+        "region": "Azja",
+        "summary": "Powrót Jensa Huanga na stanowisko CEO Nvidii nie gwarantuje ulgi dla Pekinu w kwestii eksportu chipów. Chińskie władze muszą radzić sobie z ograniczeniami technologicznymi niezależnie od zmian personalnych w USA.",
+        "body": "Chociaż powrót Jensa Huanga do Nvidii jest postrzegany jako sygnał stabilizacji w amerykańskim sektorze technologicznym, dla Chin nie oznacza to automatycznego poluzowania restrykcji eksportowych. Pekin wciąż boryka się z ograniczeniami w dostępie do zaawansowanych procesorów AI, co hamuje rozwój krajowej branży sztucznej inteligencji.\n\nChińskie władze intensyfikują wysiłki na rzecz rozwoju autonomicznych łańcuchów dostaw półprzewodników, inwestując miliardy dolarów w krajowe fabryki. Strategia ta ma na celu zmniejszenie zależności od amerykańskich technologii, choć eksperci wskazują, że dogonienie Nvidii pod względem wydajności i efektywności energetycznej zajmie lata.\n\nRelacje handlowe między USA a Chinami pozostają napięte, a kwestia chipów AI stała się jednym z głównych punktów sporu w negocjacjach dwustronnych. Powrót Huanga może ułatwić dialog technologiczny, ale nie zmieni fundamentalnych obaw bezpieczeństwa narodowego, które napędzają amerykańską politykę eksportową.",
+        "image_query": "China tech industry",
+        "sources": [
+          "BBC Asia"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Bus_Stop_in_Hi-tech_Industry_Development_Zone_-_panoramio.jpg/960px-Bus_Stop_in_Hi-tech_Industry_Development_Zone_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-21"
+      }
+    ],
+    "Afryka": [
+      {
+        "title": "El Niño zagraża bezpieczeństwu wodnemu w RPA",
+        "category": "Środowisko",
+        "region": "Afryka",
+        "summary": "Miasta w RPA zaostrzają ograniczenia zużycia wody, ostrzegając przed nadejściem silnej suszy. Służby meteorologiczne przewidują, że obecny El Niño może być jednym z najsilniejszych w historii.",
+        "body": "Rząd Południowej Afryki wprowadza surowsze limity zużycia wody w największych miastach, reagując na ostrzeżenia o nadchodzącej suszy. Służby meteorologiczne przewidują, że obecny cykl El Niño będzie wyjątkowo silny, co oznacza niższe opady deszczu i wyższe temperatury w nadchodzących miesiącach letnich.\n\nSektor rolny, który jest kluczowy dla gospodarki RPA, stoi przed poważnym wyzwaniem. Rolnicy muszą dostosować swoje plany upraw, aby przetrwać okres suszy, co może wpłynąć na ceny żywności i bezpieczeństwo żywnościowe kraju.\n\nWładze apelują do obywateli o oszczędzanie wody i ograniczanie jej zużycia do minimum. Edukacja publiczna i inwestycje w infrastrukturę wodną, taką jak deszczownice i zbiorniki retencyjne, stają się priorytetem w długoterminowej strategii adaptacji do zmian klimatu.",
+        "image_query": "South Africa drought",
+        "sources": [
+          "Africanews"
+        ],
+        "source_url": "http://www.africanews.com/2026/11/24/south-african-cities-tighten-water-restrictions-as-el-nino-threatens-drought/",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Drought_in_East_Africa_%286246%29.jpg/960px-Drought_in_East_Africa_%286246%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-22"
+      },
+      {
+        "title": "Powodzie na Wyspach Galapagos zmuszają mieszkańców do ewakuacji",
+        "category": "Katastrofy naturalne",
+        "region": "Afryka",
+        "summary": "Ulewne deszcze związane z El Niño zalały części Wysp Galapagos, zmuszając mieszkańców do opuszczenia domów. Zespoły ratunkowe ewakuują ludzi łodziami, a społeczności walczą o uratowanie dobytku.",
+        "body": "Wyspy Galapagos, znane ze swojej unikalnej bioróżnorodności, zostały dotknięte poważnymi powodziami, które zagrażają bezpieczeństwu mieszkańców i lokalnej fauny. Ulewne deszcze, wynikające z silnego zjawiska El Niño, spowodowały wezbranie rzek i zalanie nizinnych obszarów, gdzie mieszkają społeczności rybackie.\n\nOperacje ratunkowe są utrudnione przez trudne warunki pogodowe i ograniczoną infrastrukturę na wyspach. Zespoły ratunkowe wykorzystują łodzie do ewakuacji ludzi z odciętych miejscowości, a lokalne organizacje pozarządowe wspierają poszkodowanych w zabezpieczeniu tymczasowego schronienia.\n\nEkolodzy obawiają się o wpływ powodzi na delikatny ekosystem Galapagos, który jest chroniony przez UNESCO. Zalanie terenów lęgowych i siedlisk gatunków endemicznych może mieć długofalowe konsekwencje dla bioróżnorodności, co wymaga koordynacji działań ratunkowych z programami ochrony przyrody.",
+        "image_query": "Galapagos flooding",
+        "sources": [
+          "Africanews"
+        ],
+        "source_url": "http://www.africanews.com/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns/",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/1794_Samuel_Dunn_Wall_Map_of_the_World_in_Hemispheres_-_Geographicus_-_World2-dunn-1794.jpg/960px-1794_Samuel_Dunn_Wall_Map_of_the_World_in_Hemispheres_-_Geographicus_-_World2-dunn-1794.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-23"
+      },
+      {
+        "title": "Prezydent Nigerii przyznaje, że dotknęły go przerwy w dostawie wody",
+        "category": "Infrastruktura",
+        "region": "Afryka",
+        "summary": "Prezydent Bola Tinubu przyznał, że sam doświadczył przerw w dostawie wody, co jest powszechnym problemem w Nigerii. Jego słowa mają na celu podkreślenie skali kryzysu infrastrukturalnego w kraju.",
+        "body": "Prezydent Nigerii Bola Tinubu w rzadkim geście empatii przyznał, że sam został dotknięty przerwami w dostawie wody, które dotykają miliony obywateli. Jego wypowiedź, w której opisał sytuację, gdy woda zniknęła podczas golenia, ma na celu zwrócenie uwagi na kryzys infrastrukturalny, który hamuje rozwój kraju.\n\nNigeria boryka się z chronicznym brakiem inwestycji w infrastrukturę wodno-kanalizacyjną, co prowadzi do częstych awarii i niedoborów wody pitnej. Problem ten jest szczególnie odczuwalny w dużych miastach, takich jak Lagos, gdzie popyt na wodę znacznie przewyższa możliwości dostawcze.\n\nRząd zapowiada reformy w sektorze wodnym, w tym modernizację sieci dystrybucyjnej i zwiększenie inwestycji w oczyszczalnie. Eksperci podkreślają, że rozwiązanie tego problemu wymaga nie tylko środków finansowych, ale również walki z korupcją i poprawy zarządzania zasobami wodnymi.",
+        "image_query": "Nigeria water crisis",
+        "sources": [
+          "BBC Africa"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cv1j65xjjk65o?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Dust_storms_from_Bod%C3%A9l%C3%A9_Depression%2C_Chad_%28MODIS_2017-12-29%29.jpg/960px-Dust_storms_from_Bod%C3%A9l%C3%A9_Depression%2C_Chad_%28MODIS_2017-12-29%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-24"
+      }
+    ],
+    "Australia i Oceania": [
+      {
+        "title": "Labor i Koalicja zgadzają się w sprawie praw autorskich AI",
+        "category": "Technologia",
+        "region": "Australia i Oceania",
+        "summary": "Parlamentarny komitet poparł nową metodę kompensacji dla australijskich artystów za wykorzystanie ich dzieł do trenowania AI. Branża muzyczna pozostaje jednak przeciwna zmianom.",
+        "body": "W Australii doszło do istotnego przełomu w debacie na temat praw autorskich w erze sztucznej inteligencji. Parlamentarny komitet ds. kultury poparł propozycję Laboru i Koalicji, która przewiduje nowy mechanizm kompensacji dla artystów, których prace są wykorzystywane do trenowania modeli AI.\n\nDecyzja ta jest odpowiedzią na rosnące obawy twórców, że ich dzieła są wykorzystywane bez ich zgody i wynagrodzenia. Nowy system ma na celu zapewnienie, że artyści będą mogli czerpać korzyści ekonomiczne z komercyjnego wykorzystania ich twórczości przez firmy technologiczne.\n\nMimo politycznego kompromisu, branża muzyczna wyraża sceptycyzm, argumentując, że proponowane zmiany są niewystarczające i mogą nie chronić wystarczająco praw twórców. Dyskusja ta ma kluczowe znaczenie dla przyszłości kreatywnego sektora w Australii i może stać się modelem dla innych krajów rozwijających regulacje AI.",
+        "image_query": "AI copyright Australia",
+        "sources": [
+          "ABC News Australia"
+        ],
+        "source_url": "https://www.abc.net.au/news/2026-11-24/labor-and-coalition-find-common-ground-on-ai/107422394",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Perth_%28AU%29%2C_Elizabeth_Quay_Bridge_--_2019_--_0346-8_%28crop_2%29.jpg/960px-Perth_%28AU%29%2C_Elizabeth_Quay_Bridge_--_2019_--_0346-8_%28crop_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-25"
+      }
+    ]
+  },
+  "grounding_links": [
+    {
+      "title": "BBC World: NATO zobowiązuje się do obrony przed zagrożeniem w kosmosie po do",
+      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Al Jazeera: Pakistański pilot Zeeshan Ali wyrusza w historyczną misję na chiń",
+      "url": "https://www.aljazeera.com/news/2026/11/24/pakistans-zeeshan-ali-set-for-historic-flight-to-chinas-space-station?traffic_source=rss"
+    },
+    {
+      "title": "Al Jazeera: Wojny blokują globalne szlaki żywnościowe, zagrożenie dla 7,3 mln",
+      "url": "https://www.aljazeera.com/news/2026/11/24/wars-choke-global-food-routes-threatening-aid-for-7-3-million-wfp-warns?traffic_source=rss"
+    },
+    {
+      "title": "BBC Asia: Indie zobowiązują się do przekazania Nepalu 1,6 mld USD w ramach ",
+      "url": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Deutsche Welle Europe: Rosyjski śmigłowiec podejrzewany o naruszenie przestrzeni powietr",
+      "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-eu-2092-xml-mrss"
+    },
+    {
+      "title": "Monochrome Watches: Lebois & Co Heritage Atelier Chronograph Bleu‑sur‑Blanc – nowy ch",
+      "url": "https://monochrome-watches.com/hands-on-lebois-co-heritage-atelier-chronograph-bleu-sur-blanc-with-two-tone-enamel-dial/"
+    },
+    {
+      "title": "ScienceDaily Top Science: Dwa potężne czarne dziury z początków Wszechświata podważają doty",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261122060342.htm"
+    },
+    {
+      "title": "BBC US & Canada: USA wprowadzają Megaspeed na czarną listę po skandalu z Nvidia – ",
+      "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "International Railway Journal: Irlandzkie koleje przyspieszają rozwój: rozszerzenie linii Navan ",
+      "url": "https://www.railjournal.com/financial/irish-rail-advances-navan-extension-and-limerick-capacity-upgrade/"
+    },
+    {
+      "title": "BBC Europe: Strajki kosztów życia paraliżują transport lotniczy w Belgii",
+      "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Deutsche Welle Europe: Niemiecka policja reaguje na falę fałszywych alarmów bombowych w ",
+      "url": "https://www.dw.com/en/german-police-respond-to-multiple-school-bomb-threats/a-80018842?maca=en-rss-en-eu-2092-xml-mrss"
+    },
+    {
+      "title": "Deutsche Welle Europe: Macedonia Północna wciąż w martwym punkcie na drodze do UE",
+      "url": "https://www.dw.com/en/north-macedonia-remains-stalled-on-its-eu-path-after-21-years-as-a-candidate/a-80020841?maca=en-rss-en-eu-2092-xml-mrss"
+    },
+    {
+      "title": "BBC US & Canada: Krytyka po deklaracji Trumpa o przywróceniu CEO Nvidii",
+      "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "NPR News: Kontrowersyjna kolacja z udziałem posiadaczy memecoinów Trumpa",
+      "url": "https://www.npr.org/2026/11/23/nx-s1-6045883/they-attended-trumps-controversial-meme-coin-dinner-it-didnt-go-well"
+    },
+    {
+      "title": "BBC Latin America: Aresztowanie 'Chapo Isidro' wywołuje falę przemocy w Meksyku",
+      "url": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "MercoPress: Bolsonaro w szpitalu: zapalenie płuc komplikuje leczenie",
+      "url": "https://en.mercopress.com/2026/11/23/pneumonia-complicates-jair-bolsonaro-s-hospital-stay-in-brasilia?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+    },
+    {
+      "title": "MercoPress: Wielka Brytania wspiera nowy rząd w Paragwaju",
+      "url": "https://en.mercopress.com/2026/11/23/uk-expresses-support-for-pedro-alliana-s-government-in-paraguay?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+    },
+    {
+      "title": "Deutsche Welle Asia: Sheikh Hasina planuje powrót do Bangladeszu mimo wyroku śmierci",
+      "url": "https://www.dw.com/en/exiled-leader-sheikh-hasina-plans-to-return-to-bangladesh-on-dec-16/a-80028083?maca=en-rss-en-asia-5133-xml-mrss"
+    },
+    {
+      "title": "Deutsche Welle Asia: Tadżykistan wycofuje się z Międzynarodowego Trybunału Karnego",
+      "url": "https://www.dw.com/en/tajikistan-follows-us-call-withdraws-from-icc/a-80023903?maca=en-rss-en-asia-5133-xml-mrss"
+    },
+    {
+      "title": "BBC Asia: Wpływ powrotu Jensa Huanga na relacje USA-Chiny",
+      "url": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Africanews: El Niño zagraża bezpieczeństwu wodnemu w RPA",
+      "url": "http://www.africanews.com/2026/11/24/south-african-cities-tighten-water-restrictions-as-el-nino-threatens-drought/"
+    },
+    {
+      "title": "Africanews: Powodzie na Wyspach Galapagos zmuszają mieszkańców do ewakuacji",
+      "url": "http://www.africanews.com/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns/"
+    },
+    {
+      "title": "BBC Africa: Prezydent Nigerii przyznaje, że dotknęły go przerwy w dostawie wo",
+      "url": "https://www.bbc.co.uk/news/articles/cv1j65xjjk65o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "ABC News Australia: Labor i Koalicja zgadzają się w sprawie praw autorskich AI",
+      "url": "https://www.abc.net.au/news/2026-11-24/labor-and-coalition-find-common-ground-on-ai/107422394"
+    }
+  ],
+  "issue_number": 1
+}
