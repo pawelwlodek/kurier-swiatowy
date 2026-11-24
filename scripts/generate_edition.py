@@ -29,9 +29,6 @@ CONTINENTS = [
     "Australia i Oceania",
 ]
 
-GROQ_MODEL = "llama-3.3-70b-versatile"
-GEMINI_MODELS = ["gemini-3.8-flash-lite", "gemini-3.8-flash"]
-
 RSS_FEEDS = {
     "Świat (przegląd główny)": [
         ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml"),
@@ -202,33 +199,96 @@ def extract_json_payload(raw_text: str) -> dict:
     return json.loads(match.group(0), strict=False)
 
 
-def call_groq_json(api_key: str, prompt: str) -> dict:
+def discover_groq_models(api_key: str) -> list[str]:
+    """Pobiera aktualną listę aktywnych modeli czatowych z konta Groq."""
+    url = "https://api.groq.com/openai/v1/models"
+    headers = {"Authorization": f"Bearer {api_key}"}
+    excluded = ("whisper", "guard", "tts", "playai", "orpheus", "safeguard", "embed")
+    resp = requests.get(url, headers=headers, timeout=15)
+    if resp.status_code != 200:
+        raise RuntimeError(f"Groq models API błąd {resp.status_code}: {resp.text[:300]}")
+    models_data = resp.json().get("data", [])
+    candidates = []
+    for item in models_data:
+        mid = item.get("id", "")
+        lower = mid.lower()
+        if mid and not any(tok in lower for tok in excluded):
+            candidates.append(mid)
+
+    def model_priority(mid: str) -> int:
+        low = mid.lower()
+        if "llama-4" in low or "70b" in low or "120b" in low:
+            return 0
+        if "qwen" in low or "gpt-oss" in low or "32b" in low or "deepseek" in low:
+            return 1
+        if "llama" in low or "mixtral" in low or "gemma" in low:
+            return 2
+        return 3
+
+    candidates.sort(key=model_priority)
+    return candidates
+
+
+def call_groq_json(api_key: str, models: list[str], prompt: str, required_key: str) -> dict:
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
     }
-    payload = {
-        "model": GROQ_MODEL,
-        "messages": [
-            {
-                "role": "system",
-                "content": "Jesteś redaktorem naczelnym polskiego dziennika opiniotwórczego. Zwracasz wyłącznie poprawny obiekt JSON.",
-            },
-            {"role": "user", "content": prompt},
-        ],
-        "response_format": {"type": "json_object"},
-        "temperature": 0.3,
-        "max_tokens": 8000,
-    }
-    resp = requests.post(url, headers=headers, json=payload, timeout=90)
-    if resp.status_code != 200:
-        raise RuntimeError(f"Groq API błąd {resp.status_code}: {resp.text[:500]}")
-    content = resp.json()["choices"][0]["message"]["content"]
-    return extract_json_payload(content)
+    last_err = None
+
+    for model_id in models:
+        use_json_format = True
+        for attempt in range(1, 3):
+            payload = {
+                "model": model_id,
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": "Jesteś redaktorem naczelnym polskiego dziennika opiniotwórczego. Zwracasz wyłącznie poprawny obiekt JSON bez żadnego tekstu przed ani po nim.",
+                    },
+                    {"role": "user", "content": prompt},
+                ],
+                "temperature": 0.3,
+                "max_tokens": 8000,
+            }
+            if use_json_format:
+                payload["response_format"] = {"type": "json_object"}
+
+            try:
+                print(f"Groq: próba z modelem {model_id} (próba {attempt})...")
+                resp = requests.post(url, headers=headers, json=payload, timeout=90)
+                if resp.status_code == 200:
+                    content = resp.json()["choices"][0]["message"]["content"]
+                    parsed = extract_json_payload(content)
+                    if parsed.get(required_key):
+                        print(f"Groq: sukces modelem {model_id}.")
+                        return parsed
+                    raise ValueError(f"Brak oczekiwanego klucza '{required_key}' w JSON.")
+                err_text = resp.text[:400]
+                last_err = f"{model_id} -> HTTP {resp.status_code}: {err_text}"
+                print(f"[WARN] {last_err}")
+                if resp.status_code == 400 and use_json_format and "json" in err_text.lower():
+                    use_json_format = False
+                    continue
+                if resp.status_code == 429 and attempt == 1:
+                    time.sleep(20)
+                    continue
+                break
+            except Exception as exc:
+                last_err = f"{model_id} -> {exc}"
+                print(f"[WARN] {last_err}")
+                break
+
+    raise RuntimeError(f"Żaden model Groq nie zwrócił poprawnego wydania. Ostatni błąd: {last_err}")
 
 
 def generate_via_groq(today_str: str, rss_digest: str, groq_key: str) -> dict:
+    models = discover_groq_models(groq_key)
+    if not models:
+        raise RuntimeError("Lista modeli Groq jest pusta.")
+    print(f"Wykryte aktywne modele Groq: {models}")
+
     interests_bullet = "\n".join(f"- {item}" for item in USER_INTERESTS)
 
     prompt_part1 = f"""
@@ -252,7 +312,7 @@ DEPESZE RSS:
 Zwróć wyłącznie obiekt JSON o kluczach: `editorial_lead`, `top5`, `interests`.
 """
     print("Groq (1/2): Generowanie sekcji Najważniejsze 5 oraz Wybrane tematy...")
-    part1 = call_groq_json(groq_key, prompt_part1)
+    part1 = call_groq_json(groq_key, models, prompt_part1, "top5")
 
     used_titles = [
         art.get("title", "")
@@ -291,7 +351,7 @@ Zwróć wyłącznie obiekt JSON o strukturze:
 }}
 """
     print("Groq (2/2): Generowanie przeglądu 6 kontynentów...")
-    part2 = call_groq_json(groq_key, prompt_part2)
+    part2 = call_groq_json(groq_key, models, prompt_part2, "continents")
 
     return {
         "date": today_str,
@@ -300,6 +360,23 @@ Zwróć wyłącznie obiekt JSON o strukturze:
         "interests": part1.get("interests", []),
         "continents": part2.get("continents", {}),
     }
+
+
+def discover_gemini_models(client) -> list[str]:
+    models = ["gemini-3.8-flash"]
+    excluded = ("embedding", "imagen", "veo", "aqa", "tts", "audio", "robotics", "computer-use")
+    try:
+        for m in client.models.list():
+            name = getattr(m, "name", "") or ""
+            if name.startswith("models/"):
+                name = name[len("models/"):]
+            low = name.lower()
+            if "gemini" in low and ("flash" in low or "pro" in low):
+                if not any(tok in low for tok in excluded) and name not in models:
+                    models.append(name)
+    except Exception:
+        pass
+    return models[:4]
 
 
 def generate_via_gemini(today_str: str, rss_digest: str, gemini_key: str) -> dict:
@@ -317,25 +394,32 @@ DEPESZE RSS:
 
 Zwróć wyłącznie JSON o kluczach: `date`, `editorial_lead`, `top5`, `interests`, `continents`.
 """
+    models = discover_gemini_models(client)
     last_err = None
-    for model_name in GEMINI_MODELS:
-        try:
-            print(f"Próba generowania modelem Gemini: {model_name}...")
-            resp = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-                config={
-                    "response_mime_type": "application/json",
-                    "max_output_tokens": 32768,
-                    "temperature": 0.3,
-                },
-            )
-            if resp and resp.text:
-                return extract_json_payload(resp.text)
-        except Exception as exc:
-            last_err = exc
-            print(f"[WARN] Gemini {model_name} błąd: {exc}")
-    raise RuntimeError(f"Brak działającego modelu. Ostatni błąd: {last_err}")
+    for model_name in models:
+        for attempt in range(1, 4):
+            try:
+                print(f"Gemini: próba z modelem {model_name} (próba {attempt}/3)...")
+                resp = client.models.generate_content(
+                    model=model_name,
+                    contents=prompt,
+                    config={
+                        "response_mime_type": "application/json",
+                        "max_output_tokens": 32768,
+                        "temperature": 0.3,
+                    },
+                )
+                if resp and resp.text:
+                    return extract_json_payload(resp.text)
+            except Exception as exc:
+                last_err = exc
+                err_str = str(exc)
+                print(f"[WARN] Gemini {model_name} błąd: {err_str}")
+                if any(c in err_str for c in ("503", "UNAVAILABLE", "429")) and attempt < 3:
+                    time.sleep(25 * attempt)
+                else:
+                    break
+    raise RuntimeError(f"Brak działającego modelu Gemini. Ostatni błąd: {last_err}")
 
 
 def build_grounding_links(edition: dict) -> list[dict]:
@@ -421,13 +505,23 @@ def main():
 
     groq_key = os.environ.get("GROQ_API_KEY", "").strip()
     gemini_key = os.environ.get("GEMINI_API_KEY", "").strip()
+    edition = None
 
     if groq_key:
-        edition = generate_via_groq(today_str, rss_digest, groq_key)
-    elif gemini_key:
-        edition = generate_via_gemini(today_str, rss_digest, gemini_key)
-    else:
-        raise RuntimeError("Brak klucza GROQ_API_KEY ani GEMINI_API_KEY w GitHub Secrets.")
+        try:
+            edition = generate_via_groq(today_str, rss_digest, groq_key)
+        except Exception as groq_exc:
+            print(f"[WARN] Groq zakończył się błędem ({groq_exc}).")
+            if gemini_key:
+                print("Przełączam awaryjnie na Gemini API...")
+            else:
+                raise
+
+    if edition is None:
+        if gemini_key:
+            edition = generate_via_gemini(today_str, rss_digest, gemini_key)
+        else:
+            raise RuntimeError("Brak klucza GROQ_API_KEY ani GEMINI_API_KEY w GitHub Secrets.")
 
     edition["grounding_links"] = build_grounding_links(edition)
     edition = enrich_with_images(edition)
