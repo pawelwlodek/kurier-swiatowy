@@ -67,7 +67,7 @@ jobs:
           cp -r data _site/ 2>/dev/null || true
 
       - name: Wysłanie paczki GitHub Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: '_site'
 
