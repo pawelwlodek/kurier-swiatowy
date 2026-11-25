@@ -1,0 +1,511 @@
+{
+  "date": "2026-11-25",
+  "editorial_lead": "Światowy krajobraz dzisiejszych wiadomości ukazuje rosnące napięcia technologiczne i geopolityczne, a jednocześnie fascynujące postępy w nauce i infrastrukturze. Nasz pierwszy numer „Kurier Światowy” prezentuje najważniejsze wydarzenia oraz tematy, które z pewnością zainteresują naszych czytelników.",
+  "top5": [
+    {
+      "title": "Prokurator USA unika pytań o dochodzenie w sprawie Nvidia",
+      "category": "Technology",
+      "region": "North America",
+      "summary": "Prokurator generalny Stanów Zjednoczonych odmówił udzielenia odpowiedzi na pytania dotyczące dochodzenia w sprawie Nvidia. Akcje spółki spadły o 7% pod wpływem rosnącej presji politycznej.",
+      "body": "W wywiadzie udzielonym agencji BBC, prokurator generalny nie skomentował szczegółów trwającego śledztwa, które dotyczy potencjalnych nieprawidłowości w relacjach firmy z administracją prezydenta Trumpa. \n\nAnalizy rynkowe wskazują, że spadek cen akcji Nvidia wynika nie tylko z obaw regulacyjnych, ale także z niepewności co do przyszłych decyzji legislacyjnych. \n\nEksperci podkreślają, że sytuacja może wpłynąć na cały sektor półprzewodników, zmuszając inwestorów do przemyślenia strategii portfelowych.",
+      "image_query": "Nvidia headquarters",
+      "sources": [
+        "BBC World"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Director_L%C3%AA_Nguy%E1%BB%85n_Thi%C3%AAn_Nga_and_NVIDIA_Founder_and_CEO_Jensen_Huang.jpg/960px-Director_L%C3%AA_Nguy%E1%BB%85n_Thi%C3%AAn_Nga_and_NVIDIA_Founder_and_CEO_Jensen_Huang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-1"
+    },
+    {
+      "title": "Rosja ujawnia prawie pół miliona ofiar w wojnie na Ukrainie",
+      "category": "War",
+      "region": "Europe",
+      "summary": "Ujawnione dane pokazują, że Rosja odnotowała blisko 500 000 zgonów w wyniku trwającego konfliktu z Ukrainą. Analiza demograficzna wskazuje na znaczne zmiany w strukturze śmiertelności w kraju.",
+      "body": "BBC Europe opublikowało raport oparty na wyciekach statystycznych, które ukazują skalę ludzkich strat po stronie rosyjskiej. Dane obejmują zarówno żołnierzy, jak i cywilów, co podkreśla szeroki wpływ konfliktu na społeczeństwo. \n\nEksperci demograficzni zwracają uwagę, że tak duża liczba zgonów może mieć długoterminowe konsekwencje dla struktury wiekowej i rynku pracy w Rosji. \n\nMiędzynarodowe organizacje praw człowieka apelują o dalsze śledztwa i transparentność w raportowaniu ofiar konfliktu.",
+      "image_query": "war casualties Russia",
+      "sources": [
+        "BBC Europe"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Civilian_casualties_in_Mariupol.jpg/960px-Civilian_casualties_in_Mariupol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-2"
+    },
+    {
+      "title": "Strategiczne więzi Indii i Izraela wykraczają poza politykę wewnętrzną",
+      "category": "Diplomacy",
+      "region": "Asia",
+      "summary": "Indie i Izrael rozwijają współpracę w dziedzinie wywiadu, technologii i obrony, pomimo krytyki ze strony partii opozycyjnej w Indiach. Relacje te obejmują m.in. wymianę danych wywiadowczych i projekty rakietowe.",
+      "body": "Al Jazeera opisuje, że rząd indyjski kontynuuje współpracę z Izraelem, mimo że opozycja oskarża Tel Aviv o udział w ludobójstwie w Gazie. Spotkania na wysokim szczeblu koncentrują się na bezpieczeństwie cybernetycznym i systemach monitoringu. \n\nWspólne projekty obejmują rozwój technologii antydronowych oraz wymianę ekspertów w dziedzinie sztucznej inteligencji. \n\nAnalitycy podkreślają, że strategiczne partnerstwo może wpłynąć na równowagę sił w regionie Indo-Pacyficznym, zwłaszcza w kontekście rosnącej rywalizacji z Chinami.",
+      "image_query": "India Israel cooperation",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_url": "https://www.aljazeera.com/news/2026/11/25/phone-spying-to-missiles-why-india-israel-strategic-ties-go-beyond-modi?traffic_source=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Gulfstream_G550_Nachshon%2C_Israel_-_Air_Force_JP7469108.jpg/960px-Gulfstream_G550_Nachshon%2C_Israel_-_Air_Force_JP7469108.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-3"
+    },
+    {
+      "title": "Wybory w Gambii – czy nowy prezydent spełni obietnice reform?",
+      "category": "Politics",
+      "region": "Africa",
+      "summary": "Obywatele Gambii udali się do urn, aby wybrać nowego przywódcę w obliczu poważnych problemów gospodarczych. Kampania wyborcza była naznaczona obietnicami walki z korupcją i poprawy warunków życia.",
+      "body": "Al Jazeera relacjonuje, że frekwencja wyborcza była jedną z najwyższych w ostatniej dekadzie, co świadczy o rosnącym zaangażowaniu społeczeństwa. Kandydaci obiecali zwiększenie inwestycji zagranicznych i reformy systemu podatkowego. \n\nJednakże międzynarodowi obserwatorzy podkreślają, że realne wdrożenie reform będzie wymagało stabilności politycznej i wsparcia instytucji finansowych. \n\nPo wyborach oczekuje się, że nowy prezydent będzie musiał zmierzyć się z wyzwaniami takimi jak bezrobocie, ubóstwo i rosnące napięcia etniczne.",
+      "image_query": "Gambia election",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_url": "https://www.aljazeera.com/news/2026/11/25/the-gambia-election-can-the-next-president-deliver-on-a-decade-of-promise?traffic_source=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Gambian_Presidential_Election%2C_2016.png/960px-Gambian_Presidential_Election%2C_2016.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-4"
+    },
+    {
+      "title": "Wielka Brytania ostrzega przed rosyjską sabotażem w firmach",
+      "category": "Security",
+      "region": "Europe",
+      "summary": "Ministerstwo Obrony i służby bezpieczeństwa Wielkiej Brytanii wydały ostrzeżenie o możliwym rosyjskim sabotażu w przedsiębiorstwach. Komunikat podkreśla potrzebę zwiększonej czujności i wzmocnienia zabezpieczeń.",
+      "body": "Al Jazeera informuje, że brytyjskie agencje wydały publiczne oświadczenie, w którym wskazano na rosnące ryzyko działań destabilizacyjnych ze strony Rosji. Firmy z sektora energetycznego i technologicznego są szczególnie narażone. \n\nWładze zalecają wprowadzenie dodatkowych kontroli dostępu, monitorowanie sieci oraz szkolenia personelu w zakresie wykrywania nieautoryzowanych działań. \n\nEksperci ds. cyberbezpieczeństwa podkreślają, że takie ostrzeżenia są częścią szerszej strategii obronnej UE przeciwko agresywnym działaniom państwowym.",
+      "image_query": "UK security warning",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat?traffic_source=rss",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bio-Security_Warning_Sign_-_geograph.org.uk_-_1213945.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "id": "art-5"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Bremont Supernova – nowy zegarek z kalendarzem wieczystym i GMT",
+      "category": "Watchmaking",
+      "region": "Europe",
+      "summary": "Brytyjski producent Bremont wprowadził na rynek model Supernova z funkcją perpetual calendar i GMT. Zegarek łączy nowoczesną technologię z motywami kosmicznymi, nawiązując do misji astronautycznych.",
+      "body": "Monochrome Watches opisuje, że Supernova Perpetual Calendar GMT Monopusher to pierwsze w ofercie Bremonta połączenie kalendarza wieczystego z funkcją GMT w jednym mechanizmie. Model dostępny jest w wersji czarnej DLC, co podkreśla jego ekskluzywny charakter. \n\nZegarek został zaprojektowany z myślą o podróżnikach i astronautach, a jego tarcza prezentuje subtelne odniesienia do gwiazd i orbit. Mechanizm jest w pełni ręcznie nakręcany, co przyciąga miłośników tradycyjnego zegarmistrzostwa. \n\nCena i limitowana edycja sprawiają, że Supernova szybko stała się pożądanym przedmiotem kolekcjonerów, a jej premiera wywołała liczne dyskusje w środowisku horologicznym.",
+      "image_query": "Bremont Supernova watch",
+      "sources": [
+        "Monochrome Watches"
+      ],
+      "source_url": "https://monochrome-watches.com/bremont-supernova-perpetual-calendar-gmt-monopusher-black-dlc-introducing-price/",
+      "image_url": "",
+      "id": "art-6"
+    },
+    {
+      "title": "2000‑letni rzymski wrak statku odsłania starożytną technikę uszczelniania",
+      "category": "Science",
+      "region": "Europe",
+      "summary": "Badacze odkryli w Grecji wrak rzymskiego statku sprzed 2200 lat, który wykorzystywał unikalną mieszankę żywicy sosnowej i wosku pszczelego do uszczelniania kadłuba. Analiza mikroskopowa pozwoliła odtworzyć starożytną metodę ochrony drewna przed wodą.",
+      "body": "ScienceDaily informuje, że wrak został znaleziony na dnie Morza Jońskiego i po podniesieniu poddany szczegółowym badaniom. Zespół badawczy z Uniwersytetu w Atenach zidentyfikował warstwę ochronną składającą się z żywicy sosnowej, wosku pszczelego oraz drobnych cząstek piasku. \n\nBadania mikroskopowe wykazały, że mieszanka zapewniała nie tylko wodoodporność, ale także elastyczność, co było kluczowe dla wytrzymałości statku w trudnych warunkach morskich. \n\nOdkrycie to nie tylko wzbogaca naszą wiedzę o technologiach starożytnych, ale może także inspirować nowoczesne rozwiązania w dziedzinie ochrony drewna i materiałów kompozytowych.",
+      "image_query": "ancient Roman shipwreck",
+      "sources": [
+        "ScienceDaily Top Science"
+      ],
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261123232342.htm",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Archaeological_Museum_of_Rethymno_49_-_Agia_Galini_shipwreck%2C_3rd_century_AD.jpg/960px-Archaeological_Museum_of_Rethymno_49_-_Agia_Galini_shipwreck%2C_3rd_century_AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-7"
+    },
+    {
+      "title": "USA badają irańskie powiązania z atakami na 50 statków handlowych",
+      "category": "Cybersecurity",
+      "region": "North America",
+      "summary": "Amerykańska agencja rządowa prowadzi dochodzenie w sprawie rzekomych irańskich powiązań z atakami na kilkadziesiąt komercyjnych jednostek morskich. Incydenty te mogą być częścią szerszej kampanii cybernetycznej przeciwko infrastrukturze krytycznej.",
+      "body": "NPR News donosi, że władze USA zidentyfikowały potencjalne powiązania między irańskimi grupami hakerskimi a atakami na systemy nawigacyjne i komunikacyjne ponad 50 statków handlowych. Analiza wskazuje na użycie złośliwego oprogramowania typu ransomware oraz technik phishingu. \n\nŚledczy podkreślają, że ataki te mają miejsce w kontekście trwającego konfliktu zbrojnego między USA a Iranem, a ich celem jest zakłócenie globalnych szlaków handlowych. \n\nEksperci ds. bezpieczeństwa cybernetycznego apelują o wzmocnienie zabezpieczeń na platformach morskich oraz o międzynarodową współpracę w wymianie informacji o zagrożeniach.",
+      "image_query": "cyber attack ships",
+      "sources": [
+        "NPR News"
+      ],
+      "source_url": "https://www.npr.org/2026/11/24/nx-s1-6052994/hack-commercial-vessels-iran",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/16126.d.1%2819%29-The_Japanese_naval_attack_on_Weihaiwei.jpg/960px-16126.d.1%2819%29-The_Japanese_naval_attack_on_Weihaiwei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-8"
+    },
+    {
+      "title": "Przełom w budowie Brenner Base Tunnel – ostatni TBM przebił się na koniec",
+      "category": "Railway",
+      "region": "Europe",
+      "summary": "Zakończono prace mechanicznego wiercenia w tunelu Brenner Base Tunnel, który połączy Austrię i Włochy. Projekt, o długości 55 km, ma otworzyć się w 2034 roku i znacząco skrócić czas podróży kolejowych przez Alpy.",
+      "body": "International Railway Journal informuje, że ostatni TBM (Tunnel Boring Machine) zakończył prace w sekcji podziemnej, co oznacza, że główne wykopy tunelu są już zakończone. Projekt ten jest jednym z najważniejszych elementów transeuropejskiej sieci kolejowej, mającym na celu zwiększenie przepustowości i redukcję emisji CO₂. \n\nPo zakończeniu wiercenia rozpocznie się etap wykończeniowy, obejmujący instalację systemów sygnalizacji, wentylacji oraz testy bezpieczeństwa. Inwestycja szacowana jest na ponad 8 miliardów euro i jest współfinansowana przez Unię Europejską oraz rządy obu krajów. \n\nEksperci przewidują, że po otwarciu tunelu podróż z Monachium do Mediolan zostanie skrócona o kilka godzin, co przyczyni się do zwiększenia atrakcyjności transportu kolejowego w porównaniu do ruchu drogowego i lotniczego.",
+      "image_query": "Brenner Base Tunnel",
+      "sources": [
+        "International Railway Journal"
+      ],
+      "source_url": "https://www.railjournal.com/infrastructure/final-tbm-breaks-through-on-brenner-base-tunnel/",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Brenner_Base_Tunnel_-_Tunnelr%C3%B6hren.jpg/960px-Brenner_Base_Tunnel_-_Tunnelr%C3%B6hren.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-9"
+    }
+  ],
+  "continents": {
+    "Europa": [
+      {
+        "title": "Hiszpania na rozdrożu: Wybory i ryzyko wejścia skrajnej prawicy do rządu",
+        "category": "Polityka",
+        "region": "Europa",
+        "summary": "Nadchodzące wybory w Hiszpanii mogą doprowadzić do historycznego wejścia partii skrajnie prawicowej do koalicji rządowej. Polaryzacja społeczna i spory o wizję przyszłości kraju dominują w kampanii wyborczej.",
+        "body": "Hiszpańska scena polityczna wchodzi w decydującą fazę przed niedzielnymi wyborami, które mogą zmienić układ sił w parlamencie. Kluczowym pytaniem jest to, czy skrajnie prawicowa partia zdoła uzyskać wystarczające poparcie, by wejść do rządu po raz pierwszy w historii kraju.\n\nKampania wyborcza koncentruje się na zderzeniu dwóch odmiennych wizji politycznych, co odzwierciedla głęboki podział w hiszpańskim społeczeństwie. Tematy takie jak imigracja, bezpieczeństwo i gospodarka stają się głównymi polami bitwy między kandydatami.\n\nEksperci ostrzegają, że wynik wyborów może mieć daleko idące konsekwencje nie tylko dla wewnętrznej stabilności Hiszpanii, ale także dla jej pozycji w ramach Unii Europejskiej. Obserwatorzy z całej Europy śledzą rozwój sytuacji, licząc na jasny sygnał o kierunku, w którym podąży jeden z kluczowych państw strefy euro.",
+        "image_query": "Spain election campaign",
+        "sources": [
+          "BBC Europe"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/1933_Spanish_Electoral_Campaign_Mundo_Gr%C3%A1fico.jpg/960px-1933_Spanish_Electoral_Campaign_Mundo_Gr%C3%A1fico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-10"
+      },
+      {
+        "title": "Ukraina apeluje o 115 mld euro pomocy zagranicznej na 2027 rok",
+        "category": "Gospodarka",
+        "region": "Europa",
+        "summary": "Prezydent Wołodymyr Zełenski ogłosił, że Ukraina potrzebuje 115 mld euro finansowania zewnętrznego w przyszłym roku. Kijów zabezpieczył już zobowiązania na kwotę około 90 mld euro.",
+        "body": "Prezydent Ukrainy, Wołodymyr Zełenski, przedstawił nowe wytyczne dotyczące finansowania gospodarki i wysiłków wojennych na rok 2027. Szacunki wskazują, że do utrzymania stabilności kraju niezbędne będzie pozyskanie 115 mld euro z zagranicznych źródeł.\n\nWedług oficjalnych komunikatów, Kijów zdołał już zapewnić sobie zobowiązania partnerów międzynarodowych na kwotę około 90 mld euro. Pozostała luka budżetowa stanowi poważne wyzwanie dla ukraińskich władz, które muszą intensyfikować dyplomację ekonomiczną.\n\nTa decyzja podkreśla zależność ukraińskiej gospodarki od wsparcia zachodniego w obliczu trwającego konfliktu. Eksperci wskazują, że skala tych potrzeb jest bezprecedensowa i wymaga koordynacji ze strony instytucji takich jak MFW i Komisja Europejska.",
+        "image_query": "Ukraine economic aid",
+        "sources": [
+          "France 24 Europe"
+        ],
+        "source_url": "https://www.france24.com/en/europe/20261125-ukraine-seeks-%E2%82%AC115-billion-in-foreign-aid-for-2027-zelensky-says",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/20230818_Ukraine_Moldova_ECHO_funded_hum_assistance.png/960px-20230818_Ukraine_Moldova_ECHO_funded_hum_assistance.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-11"
+      },
+      {
+        "title": "Północna Macedonia wciąż w martwym punkcie na drodze do UE",
+        "category": "Polityka",
+        "region": "Europa",
+        "summary": "Mimo ożywienia procesu rozszerzenia UE, Północna Macedonia pozostaje zablokowana w procesie akcesyjnym od 21 lat. Spór polityczny z Bułgarią hamuje postępy kraju kandydującego.",
+        "body": "Choć kraje takie jak Czarnogóra i Albania zbliżają się do członkostwa w Unii Europejskiej, sytuacja Północnej Macedonii pozostaje bez zmian. Kraj ten jest kandydatem od 2005 roku, ale jego droga do UE jest zablokowana przez trudny spór polityczny z Bułgarią.\n\nAnalitycy wskazują, że impas ten wynika z kwestii historycznych i tożsamościowych, które bułgarskie władze wykorzystują jako argument przeciwko dalszym negocjacjom. Sytuacja ta kontrastuje z postępami innych państw bałkańskich, co buduje frustrację w Skopje.\n\nUnia Europejska stoi przed dylematem, jak odblokować ten proces, nie naruszając przy tym suwerenności państw członkowskich. Brak rozwiązania tego sporu może podważyć wiarygodność polityki rozszerzenia UE w regionie Bałkanów Zachodnich.",
+        "image_query": "North Macedonia EU flag",
+        "sources": [
+          "Deutsche Welle Europe"
+        ],
+        "source_url": "https://www.dw.com/en/north-macedonia-remains-stalled-on-its-eu-path-after-21-years-as-a-candidate/a-80020841?maca=en-rss-en-eu-2092-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_North_Macedonia_%28CMYK%29.png/960px-Flag_of_North_Macedonia_%28CMYK%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-12"
+      }
+    ],
+    "Ameryka Północna": [
+      {
+        "title": "Huawei skazana za kradzież tajemnic handlowych, uniewinniona z zarzutu o szantaż",
+        "category": "Technologia",
+        "region": "Ameryka Północna",
+        "summary": "Jury w Nowym Jorku uznało chińskiego giganta technologicznego za winnego kradzieży tajemnic handlowych. Firma zapowiedziała odwołanie od wyroku, co może mieć daleko idące konsekwencje dla relacji handlowych USA i Chin.",
+        "body": "Po wielomiesięcznym procesie w Nowym Jorku zapadł wyrok w sprawie Huawei, jednego z największych konfliktów prawnych w branży technologicznej. Jury uznało firmę za winną kradzieży tajemnic handlowych, ale uniewinniło ją z zarzutu o prowadzenie działalności szantażowej.\n\nWyrok ten jest istotny nie tylko dla Huawei, ale i dla całego sektora technologicznego, który obserwuje, jak amerykańskie sądy traktują kwestie własności intelektualnej w kontekście geopolitycznym. Huawei oświadczyła, że planuje złożyć apelację, co przedłuży spór prawny o kolejne lata.\n\nEksperci wskazują, że ten precedens może wpłynąć na przyszłe inwestycje chińskich firm w USA oraz na negocjacje handlowe między dwoma potęgami. Sprawa ta podkreśla rosnącą rywalizację technologiczną, która staje się centralnym elementem polityki zagranicznej Stanów Zjednoczonych.",
+        "image_query": "Huawei headquarters",
+        "sources": [
+          "BBC US & Canada"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sidejo_de_Huawei_en_%C5%9Cen%C4%B5eno_04.jpg/960px-Sidejo_de_Huawei_en_%C5%9Cen%C4%B5eno_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-13"
+      },
+      {
+        "title": "Tarify i koszty nawozów duszą największy region produkcji jabłek w USA",
+        "category": "Gospodarka",
+        "region": "Ameryka Północna",
+        "summary": "Rolnicy w stanie Waszyngton, odpowiedzialni za ponad 70% produkcji świeżych jabłek w USA, borykają się z rosnącymi kosztami. Silny dolar i cła obniżają konkurencyjność amerykańskiego eksportu.",
+        "body": "Przemysł jabłkowy w stanie Waszyngton, wart 9 miliardów dolarów, przechodzi poważny kryzys. Rolnicy zgłaszają, że rosnące koszty paliwa, nawozów i cła znacząco obniżają ich marże zysku.\n\nSilny dolar amerykański dodatkowo komplikuje sytuację, ponieważ obniża siłę nabywczą zagranicznych kupujących. To zmusza producentów do szukania nowych rynków zbytu lub cięcia kosztów, co często prowadzi do obniżenia jakości upraw.\n\nEkonomiści ostrzegają, że jeśli tendencja ta się utrzyma, może dojść do konsolidacji sektora i utraty miejsc pracy w regionie. Przypadek ten ilustruje szersze wyzwania, przed którymi stoi amerykańskie rolnictwo w obliczu zmieniającej się polityki handlowej i globalnych łańcuchów dostaw.",
+        "image_query": "Washington apple orchard",
+        "sources": [
+          "NPR News"
+        ],
+        "source_url": "https://www.npr.org/sections/the-picture-show/2026/11/24/g-s1-154620/how-high-costs-are-squeezing-apple-producers",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Apple_orchard_at_Rock_House_-_geograph.org.uk_-_1428764.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "id": "art-14"
+      },
+      {
+        "title": "Wyciek danych w CIA i biurze dyrektora wywiadu narodowego",
+        "category": "Bezpieczeństwo",
+        "region": "Ameryka Północna",
+        "summary": "Agencja Wywiadu Centralnego (CIA) i Biuro Dyrektora Wywiadu Narodowego odkryły włamanie komputerowe. Wyciek dotyczył nieklasyfikowanych informacji z systemu analizy otwartych źródeł.",
+        "body": "Amerykańskie agencje wywiadowcze poinformowały o incydencie bezpieczeństwa, w którym doszło do włamania do systemów CIA i ODNI. Wyciek dotyczył nieklasyfikowanych danych z systemu analizy otwartych źródeł, co budzi obawy o integralność procesów wywiadowczych.\n\nChociaż wyciek nie dotyczył informacji ściśle tajnych, eksperci wskazują, że nawet dane nieklasyfikowane mogą być wykorzystywane do rekonstrukcji metod pracy agencji. Incydent ten następuje w okresie wzmożonej aktywności cybernetycznej ze strony państwowych aktorów.\n\nReakcja na incydent obejmuje wewnętrzną rewizję protokołów bezpieczeństwa i potencjalne zmiany w architekturze sieciowej. Sprawa ta podkreśla, że nawet najbardziej zaawansowane systemy wywiadowcze są podatne na ataki, co wymaga ciągłego inwestowania w cyberbezpieczeństwo.",
+        "image_query": "CIA headquarters",
+        "sources": [
+          "MercoPress"
+        ],
+        "source_url": "https://en.mercopress.com/2026/11/25/cia-and-us-intelligence-office-suffer-intrusion-exposing-unclassified-information?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Aerial_view_of_CIA_headquarters%2C_Langley%2C_Virginia_14762v.jpg/960px-Aerial_view_of_CIA_headquarters%2C_Langley%2C_Virginia_14762v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-15"
+      }
+    ],
+    "Ameryka Południowa": [
+      {
+        "title": "Argentina wchodzi w techniczną recesję po dwóch kwartałach spadku",
+        "category": "Gospodarka",
+        "region": "Ameryka Południowa",
+        "summary": "Gospodarka Argentyny weszła w techniczną recesję, co jest pierwszym takim przypadkiem od pierwszej połowy 2024 roku. PKB spadł o 0,6% w drugim kwartale, a wskaźniki miesięczne potwierdzają tendencję spadkową.",
+        "body": "Argentyńska gospodarka mierzy się z nowym kryzysem, wchodząc w fazę technicznej recesji. Dwa kolejne kwartały spadku PKB, z ostatnim wynoszącym 0,6%, sygnalizują pogorszenie się sytuacji makroekonomicznej w kraju.\n\nWedług danych urzędu statystycznego INDEC, wskaźniki miesięczne aktywności gospodarczej potwierdzają tę negatywną tendencję. Ekspansja polityki fiskalnej i monetarnej nie zdołała jeszcze odwrócić trendu, co budzi niepokój wśród inwestorów.\n\nRząd musi teraz zdecydować o kolejnych krokach stabilizacyjnych, które mogą obejmować dalsze cięcia wydatków lub negocjacje z wierzycielami. Przypadek Argentyny jest kolejnym przykładem wrażliwości gospodarek emerging markets na globalne wstrząsy i wewnętrzne błędy polityczne.",
+        "image_query": "Argentina economy",
+        "sources": [
+          "MercoPress"
+        ],
+        "source_url": "https://en.mercopress.com/2026/11/25/argentina-enters-technical-recession-after-two-quarters-of-contraction-the-first-since-2024?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Argentina_Monetary_Base_Since_Javier_Milei_Took_Over.webp/960px-Argentina_Monetary_Base_Since_Javier_Milei_Took_Over.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-16"
+      },
+      {
+        "title": "Bomba samochodowa w Kolumbii rani ponad 20 osób",
+        "category": "Bezpieczeństwo",
+        "region": "Ameryka Południowa",
+        "summary": "Eksplozja bomby samochodowej w kolumbijskim mieście raniła ponad 20 osób. Jest to kolejny atak na budynki sił bezpieczeństwa i urzędy rządowe.",
+        "body": "Kolumbia zmaga się z nowym atakiem terrorystycznym, w którym bomba samochodowa zdetonowana w mieście raniła ponad 20 osób. Incydent ten jest częścią serii ataków na infrastrukturę rządową i siedziby sił bezpieczeństwa.\n\nAtak ten podważa poczucie bezpieczeństwa w regionie i może wpłynąć na plany rządu dotyczące stabilizacji. Władze kolumbijskie zapowiedziały wzmożone patrole i śledztwo w celu zidentyfikowania sprawców.\n\nEksperci wskazują, że takie ataki często mają na celu destabilizację polityczną i podważenie autorytetu państwa. Sytuacja ta wymaga od Kolumbii nie tylko reakcji militarnej, ale także dialogu społecznego, aby rozwiązać przyczyny konfliktu.",
+        "image_query": "Colombia car bomb",
+        "sources": [
+          "BBC Latin America"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/2012_car_bombing_in_bogota_-_attackers_wig.JPG/960px-2012_car_bombing_in_bogota_-_attackers_wig.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-17"
+      },
+      {
+        "title": "Zasady zwiedzania argentyńskiego cmentarza wojskowego na Falklandach",
+        "category": "Kultura",
+        "region": "Ameryka Południowa",
+        "summary": "Władze turystyczne na Falklandach apelują o przestrzeganie zasad zachowania na argentyńskim cmentarzu wojskowym w Darwin. Trwa program naprawy zniszczonej kamieniarki.",
+        "body": "Na wyspach Falklandach toczy się debata na temat odpowiedniego zachowania zwiedzających na argentyńskim cmentarzu wojskowym w Darwin. Władze turystyczne zaapelowały do operatorów, aby przypominali gościom o zasadach, w tym o podnoszeniu flagi do wysokości pasa.\n\nCmentarz, który upamiętnia ofiary konfliktu z 1982 roku, wymaga konserwacji, a program naprawy kamieniarki jest w toku. Deterioracja obiektu budzi obawy o zachowanie pamięci historycznej w tym spornym regionie.\n\nKwestia ta wykracza poza turystykę i dotyka wrażliwych aspektów dyplomatycznych i historycznych. Sposób, w jaki traktowane są miejsca pamięci, może wpływać na relacje między Argentyną a Wielką Brytanią oraz na percepcję globalną tego sporu terytorialnego.",
+        "image_query": "Falklands cemetery",
+        "sources": [
+          "MercoPress"
+        ],
+        "source_url": "https://en.mercopress.com/2026/11/24/the-flag-at-waist-height-the-rules-for-visiting-the-argentine-military-cemetery-in-the-falklands?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Curious_tree_in_Falkland_Old_Churchyard_-_geograph.org.uk_-_5343231.jpg/960px-Curious_tree_in_Falkland_Old_Churchyard_-_geograph.org.uk_-_5343231.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-18"
+      }
+    ],
+    "Azja": [
+      {
+        "title": "Chiny startują z misją Shenzhou-24 z pierwszym pakistańskim astronautą",
+        "category": "Nauka",
+        "region": "Azja",
+        "summary": "Chiny uruchomiły misję Shenzhou-24, która dostarczy trzech astronautów na stację kosmiczną Tiangong. W skład załogi wchodzi pierwszy pakistański pilot, co symbolizuje rosnącą współpracę międzynarodową.",
+        "body": "Chińska agencja kosmiczna ogłosiła pełny sukces startu misji Shenzhou-24, która ma na celu dostarczenie nowej załogi na stację Tiangong. Wśród trzech astronautów znajduje się pierwszy pakistański pilot, co stanowi historyczny moment dla programu kosmicznego Pakistanu.\n\nTa misja podkreśla rosnącą rolę Chin w eksploracji kosmosu i ich dążenie do budowy międzynarodowych partnerstw. Obecność pakistańskiego astronauty jest symbolem szerszej współpracy strategicznej między dwoma krajami.\n\nEksperci wskazują, że takie inicjatywy mogą zmienić dynamikę rywalizacji kosmicznej, dotychczas dominowanej przez USA i Rosję. Chiny pozycjonują się jako lider w zakresie pokojowego wykorzystania przestrzeni kosmicznej i otwartej współpracy naukowej.",
+        "image_query": "China space launch",
+        "sources": [
+          "BBC Asia"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/CRS-9_mission_%2828348649546%29.jpg/960px-CRS-9_mission_%2828348649546%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-19"
+      },
+      {
+        "title": "Kampania antykorupcyjna Xi Jinpinga uderza w gwiazdę Partii Komunistycznej",
+        "category": "Polityka",
+        "region": "Azja",
+        "summary": "Chen Jining, wznosząca się gwiazda w Partii Komunistycznej Chin, została objęta kampanią antykorupcyjną. Jej upadek jest częścią najszerszej czystki w Politbiurum od kilku dekad.",
+        "body": "Prezydent Xi Jinping kontynuuje swoją intensywną kampanię antykorupcyjną, która tym razem dotknęła Chen Jining, jednego z najbardziej obiecujących polityków w Partii Komunistycznej Chin. Jej aresztowanie i postawienie zarzutów są sygnałem, że nikt nie jest poza zasięgiem prezydenta.\n\nTa czystka jest najszerszą w historii Politbiurum od kilku dekad, co budzi obawy o stabilność wewnętrznej struktury partii. Eksperci wskazują, że takie działania mogą służyć konsolidacji władzy Xi i eliminacji potencjalnych rywali.\n\nKonsekwencje tej czystki mogą sięgnąć daleko poza politykę wewnętrzną Chin, wpływając na relacje dyplomatyczne i gospodarcze. Obserwatorzy śledzą, jak inne kraje zareagują na te zmiany w chińskim establishmentie politycznym.",
+        "image_query": "China Politburo",
+        "sources": [
+          "BBC Asia"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/c6y80kk4zmdno?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1st_National_People%27s_Congress_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "id": "art-20"
+      },
+      {
+        "title": "Czy Korea Północna wstrzymuje wysyłkę dodatkowych wojsk do Rosji?",
+        "category": "Bezpieczeństwo",
+        "region": "Azja",
+        "summary": "Ukraina ostrzegała o rozbudowie sił koreańskich, ale ta nie materializuje się. Analitycy twierdzą, że Pjongjang balansuje między relacjami z Moskwą a Pekinem.",
+        "body": "Mimo wcześniejszych ostrzeżeń Ukrainy, spodziewana rozbudowa sił koreańskich w Rosji nie nastąpiła. Analitycy sugerują, że Korea Północna może celowo wstrzymywać wysyłkę dodatkowych wojsk, aby nie eskalować konfliktu.\n\nPjongjang znajduje się w trudnej pozycji, balansując między strategiczną współpracą z Rosją a koniecznością utrzymania dobrych relacji z Chinami. Ta dyplomacja równowagi jest kluczowa dla przetrwania reżimu Kimów.\n\nSytuacja ta ma implikacje dla szerszego konfliktu na Ukrainie, gdzie wsparcie militarne ze strony Korei Północnej mogłoby zmienić równowagę sił. Obserwatorzy międzynarodowi uważnie śledzą ruchy wojskowe i dyplomatyczne, aby ocenić rzeczywiste intencje Pjongjangu.",
+        "image_query": "North Korea troops",
+        "sources": [
+          "Deutsche Welle Asia"
+        ],
+        "source_url": "https://www.dw.com/en/is-north-korea-holding-back-on-sending-russia-more-troops/a-80033025?maca=en-rss-en-asia-5133-xml-mrss",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/3RAR_troops_await_orders_to_sweep_a_North_Korean_village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "id": "art-21"
+      }
+    ],
+    "Afryka": [
+      {
+        "title": "Kameruński separatysta nie przyznaje się do winy w norweskim sądzie",
+        "category": "Prawo",
+        "region": "Afryka",
+        "summary": "Lider separatystów z Kamerunu, Lucas Cho Ayaba, nie przyznał się do zarzutów o wspieranie zbrodni wojennych i terroryzmu. Proces toczy się w norweskim sądzie.",
+        "body": "W norweskim sądzie rozpoczął się proces Lucasa Cho Ayaby, lidera separatystów z Kamerunu, który nie przyznał się do zarzutów o wspieranie zbrodni wojennych i terroryzmu. Sprawa ta jest jednym z pierwszych przypadków, w których afrykański polityk jest sądzony za zbrodnie popełnione w konflikcie wewnętrznym.\n\nKonflikt w anglojęzycznych regionach Kamerunu trwa od ponad dekady, a ponad pół miliona osób zostało zmuszonych do ucieczki z domów. Proces ten może stać się precedensem dla rozliczania zbrodni wojennych w Afryce.\n\nMiędzynarodowa społeczność obserwuje ten proces z uwagą, licząc na sprawiedliwe rozstrzygnięcie. Wynik sprawy może wpłynąć na przyszłe wysiłki pokojowe w Kamerunie i na percepcję roli państw trzecich w rozliczaniu zbrodni.",
+        "image_query": "Cameroon separatist trial",
+        "sources": [
+          "Africanews"
+        ],
+        "source_url": "http://www.africanews.com/2026/11/24/cameroon-separatist-leader-pleads-not-guilty-at-norway-war-crimes-trial/",
+        "image_url": "",
+        "id": "art-22"
+      },
+      {
+        "title": "MFW zatwierdza program gospodarczy dla Gwinei o wartości 425 mln dolarów",
+        "category": "Gospodarka",
+        "region": "Afryka",
+        "summary": "Międzynarodowy Fundusz Walutowy zatwierdził program gospodarczy i finansowy dla Gwinei o wartości 425 milionów dolarów. Program ma na celu stabilizację gospodarki i wsparcie reform strukturalnych.",
+        "body": "Gwinea otrzymała od Międzynarodowego Funduszu Walutowego (MFW) zatwierdzenie programu gospodarczego o wartości 425 milionów dolarów. Program ten ma na celu wsparcie stabilizacji makroekonomicznej i wdrożenie kluczowych reform strukturalnych.\n\nGwinea, bogata w surowce, boryka się z wyzwaniami gospodarczymi, w tym z zależnością od eksportu i słabą infrastrukturą. Program MFW ma pomóc w dywersyfikacji gospodarki i poprawie zarządzania publicznego.\n\nEksperci wskazują, że sukces programu będzie zależał od woli politycznej rządu i zdolności do wdrożenia reform. Wsparcie MFW jest kluczowe dla utrzymania stabilności w regionie, który odgrywa coraz większą rolę w globalnych łańcuchach dostaw surowców.",
+        "image_query": "Guinea economy",
+        "sources": [
+          "Africanews"
+        ],
+        "source_url": "http://www.africanews.com/2026/11/24/imf-approves-425-million-economic-and-financial-programme-for-guinea/",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/2006Guinea_exports.PNG/960px-2006Guinea_exports.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-23"
+      },
+      {
+        "title": "Śmierć Pete Edochie, weterana nigerijskiego Nollywood",
+        "category": "Kultura",
+        "region": "Afryka",
+        "summary": "Pete Edochie, znany z roli w adaptacji 'Rozbitych' Chinuyi Achebe, zmarł w wieku 79 lat. Był jedną z najważniejszych postaci nigerijskiego przemysłu filmowego.",
+        "body": "Nigeria żegna Pete Edochie, jednego z najbardziej znanych aktorów w historii Nollywood, który zmarł w wieku 79 lat. Edochie zdobył sławę w 1987 roku, grając główną rolę w telewizyjnej adaptacji powieści 'Rozbite' Chinuyi Achebe.\n\nPrzez dekady był twarzą nigerijskiego kina, pojawiając się w setkach filmów i seriali. Jego kariera przyczyniła się do globalnej rozpoznawalności afrykańskiego przemysłu filmowego.\n\nŚmierć Edochie wywołała falę kondolencji w branży rozrywkowej i wśród fanów na całym świecie. Jego dziedzictwo będzie żyć w filmach, które zainspirowały nowe pokolenia afrykańskich twórców.",
+        "image_query": "Nollywood actor Pete Edochie",
+        "sources": [
+          "BBC Africa"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Filming_a_nollywood_movie_titled_the_lion.jpg/960px-Filming_a_nollywood_movie_titled_the_lion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-24"
+      }
+    ],
+    "Australia i Oceania": [
+      {
+        "title": "Spór Queenslandu i Canberry o przegląd prawa środowiskowego",
+        "category": "Polityka",
+        "region": "Australia i Oceania",
+        "summary": "Federalny minister środowiska Murray Watt oskarża Queensland o bycie 'wolnym stanem' w sporze o przegląd prawa środowiskowego. Konflikt między rządem federalnym a stanowym narasta.",
+        "body": "W Australii narasta spór między rządem federalnym a stanem Queensland dotyczący przeglądu prawa środowiskowego. Federalny minister środowiska Murray Watt ostro skrytykował Queensland, nazywając go 'wolnym stanem' zamiast 'mądrym stanem'.\n\nKonflikt ten dotyczy zakresu władzy stanowej w kwestii ochrony środowiska i może mieć daleko idące konsekwencje dla polityki klimatycznej Australii. Rząd federalny dąży do centralizacji regulacji, podczas gdy Queensland broni swojej autonomii.\n\nEksperci wskazują, że spór ten może podważyć spójność australijskiej polityki środowiskowej. Rozstrzygnięcie tego sporu będzie kluczowe dla przyszłych inwestycji w odnawialne źródła energii i ochrony bioróżnorodności.",
+        "image_query": "Queensland environmental law",
+        "sources": [
+          "ABC News Australia"
+        ],
+        "source_url": "https://www.abc.net.au/news/2026-11-25/murray-watt-qld-governmental-environmental-law-review/107426774",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Approaching_storm%2C_Girraween_Environmental_Lodge%2C_Wyberba_DSCF4445.jpg/960px-Approaching_storm%2C_Girraween_Environmental_Lodge%2C_Wyberba_DSCF4445.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-25"
+      },
+      {
+        "title": "Obawy o obsadę i obciążenie pracy w klinice w Dannevirke",
+        "category": "Zdrowie",
+        "region": "Australia i Oceania",
+        "summary": "Ostatni lekarz rodzinny opuszcza Barraud Street Health Centre w Dannevirke. Mieszkańcy obawiają się o dostępność opieki zdrowotnej w małej społeczności.",
+        "body": "W Dannevirke na Nowej Zelandii narastają obawy o dostępność opieki zdrowotnej po tym, jak ostatni lekarz rodzinny opuścił lokalną klinikę. Mieszkańcy obawiają się, że brak personelu medycznego pogorszy sytuację zdrowotną w społeczności.\n\nKlinika w Dannevirke od dawna boryka się z problemami kadrowymi, a odejście ostatniego lekarza pogłębia kryzys. Mieszkańcy muszą teraz dojeżdżać do większych miast na wizyty, co jest kosztowne i czasochłonne.\n\nSytuacja ta ilustruje szerszy problem niedoboru personelu medycznego w małych społecznościach na Nowej Zelandii. Rząd musi znaleźć rozwiązania, które zapewnią równy dostęp do opieki zdrowotnej niezależnie od miejsca zamieszkania.",
+        "image_query": "New Zealand rural clinic",
+        "sources": [
+          "Radio New Zealand"
+        ],
+        "source_url": "https://www.rnz.co.nz/news/health/2773024/worries-about-staffing-and-workload-at-dannevirke-clinic",
+        "image_url": "",
+        "id": "art-26"
+      },
+      {
+        "title": "Dwóch oskarżonych po znalezieniu narkotyków w aucie na promie Cook Strait",
+        "category": "Prawo",
+        "region": "Australia i Oceania",
+        "summary": "Dwie osoby zostały oskarżone po znalezieniu 200 tabletek MDMA i 4 kg marihuany w aucie na promie Cook Strait. Wartość narkotyków szacowana jest na 30 000 dolarów.",
+        "body": "Na promie Cook Strait w Nowej Zelandii doszło do zatrzymania dwóch osób, u których znaleziono 200 tabletek MDMA i 4 kg marihuany. Wartość narkotyków szacowana jest na 30 000 dolarów nowozelandzkich.\n\nZatrzymanie to jest częścią szerszych działań służb bezpieczeństwa na promach, które są często wykorzystywane do przemytu narkotyków. Władze podkreślają, że walka z przemytem narkotyków jest priorytetem.\n\nSprawa ta budzi obawy o bezpieczeństwo podróżnych i integralność transportu promowego. Eksperci wskazują, że przemyt narkotyków przez promy jest trudny do wykrycia, co wymaga zaawansowanych technologii i współpracy międzynarodowej.",
+        "image_query": "Cook Strait ferry",
+        "sources": [
+          "Radio New Zealand"
+        ],
+        "source_url": "https://www.rnz.co.nz/news/crime-and-justice/2772878/two-charged-after-30k-worth-of-drugs-found-in-car-off-cook-strait-ferry",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Arahanga_Cook_Strait_ferry%2C.jpg/960px-Arahanga_Cook_Strait_ferry%2C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-27"
+      }
+    ]
+  },
+  "grounding_links": [
+    {
+      "title": "BBC World: Prokurator USA unika pytań o dochodzenie w sprawie Nvidia",
+      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC Europe: Rosja ujawnia prawie pół miliona ofiar w wojnie na Ukrainie",
+      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Al Jazeera: Strategiczne więzi Indii i Izraela wykraczają poza politykę wewnę",
+      "url": "https://www.aljazeera.com/news/2026/11/25/phone-spying-to-missiles-why-india-israel-strategic-ties-go-beyond-modi?traffic_source=rss"
+    },
+    {
+      "title": "Al Jazeera: Wybory w Gambii – czy nowy prezydent spełni obietnice reform?",
+      "url": "https://www.aljazeera.com/news/2026/11/25/the-gambia-election-can-the-next-president-deliver-on-a-decade-of-promise?traffic_source=rss"
+    },
+    {
+      "title": "Al Jazeera: Wielka Brytania ostrzega przed rosyjską sabotażem w firmach",
+      "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat?traffic_source=rss"
+    },
+    {
+      "title": "Monochrome Watches: Bremont Supernova – nowy zegarek z kalendarzem wieczystym i GMT",
+      "url": "https://monochrome-watches.com/bremont-supernova-perpetual-calendar-gmt-monopusher-black-dlc-introducing-price/"
+    },
+    {
+      "title": "ScienceDaily Top Science: 2000‑letni rzymski wrak statku odsłania starożytną technikę uszcz",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261123232342.htm"
+    },
+    {
+      "title": "NPR News: USA badają irańskie powiązania z atakami na 50 statków handlowych",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-6052994/hack-commercial-vessels-iran"
+    },
+    {
+      "title": "International Railway Journal: Przełom w budowie Brenner Base Tunnel – ostatni TBM przebił się n",
+      "url": "https://www.railjournal.com/infrastructure/final-tbm-breaks-through-on-brenner-base-tunnel/"
+    },
+    {
+      "title": "BBC Europe: Hiszpania na rozdrożu: Wybory i ryzyko wejścia skrajnej prawicy d",
+      "url": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "France 24 Europe: Ukraina apeluje o 115 mld euro pomocy zagranicznej na 2027 rok",
+      "url": "https://www.france24.com/en/europe/20261125-ukraine-seeks-%E2%82%AC115-billion-in-foreign-aid-for-2027-zelensky-says"
+    },
+    {
+      "title": "Deutsche Welle Europe: Północna Macedonia wciąż w martwym punkcie na drodze do UE",
+      "url": "https://www.dw.com/en/north-macedonia-remains-stalled-on-its-eu-path-after-21-years-as-a-candidate/a-80020841?maca=en-rss-en-eu-2092-xml-mrss"
+    },
+    {
+      "title": "BBC US & Canada: Huawei skazana za kradzież tajemnic handlowych, uniewinniona z za",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "NPR News: Tarify i koszty nawozów duszą największy region produkcji jabłek ",
+      "url": "https://www.npr.org/sections/the-picture-show/2026/11/24/g-s1-154620/how-high-costs-are-squeezing-apple-producers"
+    },
+    {
+      "title": "MercoPress: Wyciek danych w CIA i biurze dyrektora wywiadu narodowego",
+      "url": "https://en.mercopress.com/2026/11/25/cia-and-us-intelligence-office-suffer-intrusion-exposing-unclassified-information?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+    },
+    {
+      "title": "MercoPress: Argentina wchodzi w techniczną recesję po dwóch kwartałach spadku",
+      "url": "https://en.mercopress.com/2026/11/25/argentina-enters-technical-recession-after-two-quarters-of-contraction-the-first-since-2024?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+    },
+    {
+      "title": "BBC Latin America: Bomba samochodowa w Kolumbii rani ponad 20 osób",
+      "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "MercoPress: Zasady zwiedzania argentyńskiego cmentarza wojskowego na Falkland",
+      "url": "https://en.mercopress.com/2026/11/24/the-flag-at-waist-height-the-rules-for-visiting-the-argentine-military-cemetery-in-the-falklands?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+    },
+    {
+      "title": "BBC Asia: Chiny startują z misją Shenzhou-24 z pierwszym pakistańskim astro",
+      "url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC Asia: Kampania antykorupcyjna Xi Jinpinga uderza w gwiazdę Partii Komun",
+      "url": "https://www.bbc.co.uk/news/articles/c6y80kk4zmdno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Deutsche Welle Asia: Czy Korea Północna wstrzymuje wysyłkę dodatkowych wojsk do Rosji?",
+      "url": "https://www.dw.com/en/is-north-korea-holding-back-on-sending-russia-more-troops/a-80033025?maca=en-rss-en-asia-5133-xml-mrss"
+    },
+    {
+      "title": "Africanews: Kameruński separatysta nie przyznaje się do winy w norweskim sądz",
+      "url": "http://www.africanews.com/2026/11/24/cameroon-separatist-leader-pleads-not-guilty-at-norway-war-crimes-trial/"
+    },
+    {
+      "title": "Africanews: MFW zatwierdza program gospodarczy dla Gwinei o wartości 425 mln ",
+      "url": "http://www.africanews.com/2026/11/24/imf-approves-425-million-economic-and-financial-programme-for-guinea/"
+    },
+    {
+      "title": "BBC Africa: Śmierć Pete Edochie, weterana nigerijskiego Nollywood",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "ABC News Australia: Spór Queenslandu i Canberry o przegląd prawa środowiskowego",
+      "url": "https://www.abc.net.au/news/2026-11-25/murray-watt-qld-governmental-environmental-law-review/107426774"
+    },
+    {
+      "title": "Radio New Zealand: Obawy o obsadę i obciążenie pracy w klinice w Dannevirke",
+      "url": "https://www.rnz.co.nz/news/health/2773024/worries-about-staffing-and-workload-at-dannevirke-clinic"
+    },
+    {
+      "title": "Radio New Zealand: Dwóch oskarżonych po znalezieniu narkotyków w aucie na promie Coo",
+      "url": "https://www.rnz.co.nz/news/crime-and-justice/2772878/two-charged-after-30k-worth-of-drugs-found-in-car-off-cook-strait-ferry"
+    }
+  ],
+  "issue_number": 2
+}
