@@ -1,0 +1,475 @@
+{
+  "date": "2026-11-26",
+  "editorial_lead": "Dzisiejszy dzień przyniósł szereg przełomowych wydarzeń – od międzynarodowych napięć handlowych po spektakularne odkrycia naukowe. Czytelnik znajdzie tu zarówno najważniejsze globalne wiadomości, jak i tematy dopasowane do swoich pasji.",
+  "top5": [
+    {
+      "title": "USA wprowadza nowe taryfy celne wobec Chin i UE",
+      "category": "Gospodarka",
+      "region": "Świat",
+      "summary": "Stany Zjednoczone ogłosiły nowe cła na towary z Chin oraz Unii Europejskiej, co może znacząco wpłynąć na globalne łańcuchy dostaw. Decyzja spotkała się z natychmiastową krytyką ze strony europejskich przywódców handlowych.",
+      "body": "Rząd amerykański uzasadnia wprowadzenie stawek ochronnych rosnącymi kosztami produkcji i potrzebą wyrównania szans dla rodzimych przedsiębiorstw. Nowe opłaty obejmą szeroką gamę produktów, od elektroniki po wyroby przemysłowe, co może podnieść ceny konsumenckie w wielu krajach.\n\nUnia Europejska już wydała oświadczenie, w którym zdecydowanie odrzuca podstawy amerykańskich propozycji i zapowiada podjęcie kroków odwetowych. Eksperci przewidują, że eskalacja może doprowadzić do kolejnej rundy negocjacji w ramach Światowej Organizacji Handlu.\n\nWśród najważniejszych partnerów handlowych USA, oprócz Chin, znajdują się także Meksyk, Kanada i Japonia, które obserwują sytuację z niepokojem. Analitycy ostrzegają, że długoterminowe konsekwencje mogą obejmować spowolnienie globalnego wzrostu gospodarczego.",
+      "image_query": "tariff trade protest",
+      "sources": [
+        "BBC World"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/A_Free_Trade_Forecast.jpg/960px-A_Free_Trade_Forecast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-1"
+    },
+    {
+      "title": "Obrazki asteroidy testującej obronę Ziemi ukazują krater stadionowy",
+      "category": "Nauka",
+      "region": "Świat",
+      "summary": "Zdjęcia z misji testowej pokazały gigantyczny krater wielkości stadionu powstały po celowym uderzeniu sondy w asteroidę. Eksperyment ma ocenić skuteczność metod odchylenia potencjalnie niebezpiecznych ciał niebieskich.",
+      "body": "NASA oraz europejskie agencje kosmiczne przeprowadziły kontrolowane uderzenie w asteroidę, aby symulować scenariusz obrony przed potencjalnym uderzeniem w Ziemię. Analiza krateru pozwoliła zweryfikować modele dynamiki rozprzestrzeniania się odłamków.\n\nWyniki eksperymentu będą kluczowe przy opracowywaniu przyszłych misji, które mają na celu odchylenie lub rozbicie zagrożonych obiektów. Naukowcy podkreślają, że dokładne mapowanie krateru umożliwi lepsze prognozy skutków podobnych działań w rzeczywistych warunkach.\n\nPubliczność na całym świecie z zainteresowaniem śledziła transmisję z misji, podkreślając rosnącą świadomość społeczną dotyczącą zagrożeń kosmicznych. Kolejne testy planowane są na najbliższe lata, z udziałem większych i bardziej masywnych asteroid.",
+      "image_query": "asteroid crater space",
+      "sources": [
+        "BBC World"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Crater_on_Asteroid_Vesta_%28opo9727a%29.jpg/960px-Crater_on_Asteroid_Vesta_%28opo9727a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-2"
+    },
+    {
+      "title": "Tragedia na autostradzie w Kairze – 31 ofiar w wyniku wypadku cysterny",
+      "category": "Wypadki",
+      "region": "Afryka",
+      "summary": "W wyniku przewrócenia się cysterny z paliwem na jednej z obwodnic Kairu zginęło 31 osób, a kolejne 21 zostało rannych. Pożar rozprzestrzenił się szybko, utrudniając akcję ratunkową.",
+      "body": "Cysterna, jadąca w godzinach szczytu, straciła kontrolę i przewróciła się na poboczu, wywołując potężną eksplozję i pożar. Straż pożarna oraz służby medyczne natychmiast podjęły akcję gaśniczą i ewakuacyjną, jednak gęsty dym i płomienie utrudniały dostęp.\n\nWładze egipskie ogłosiły, że przeprowadzą szczegółowe dochodzenie w sprawie przyczyn wypadku, w tym stanu technicznego pojazdu oraz warunków drogowych. Również organizacje międzynarodowe wyraziły współczucie dla ofiar i ich rodzin.\n\nIncydent podkreśla potrzebę wzmocnienia przepisów bezpieczeństwa transportu paliwowego w regionie oraz modernizacji infrastruktury drogowej, aby zapobiec podobnym tragediom w przyszłości.",
+      "image_query": "fuel tanker fire",
+      "sources": [
+        "BBC Africa"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/65_Frazier_Mountain_Road_Views_%2829%29_-_Fuel_Tanker_%26_Fire_Helicopter.jpg/960px-65_Frazier_Mountain_Road_Views_%2829%29_-_Fuel_Tanker_%26_Fire_Helicopter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-3"
+    },
+    {
+      "title": "Sędzia Międzynarodowego Trybunału Karnego Kimberly Prost poddana presji amerykańskich sankcji",
+      "category": "Prawo międzynarodowe",
+      "region": "Świat",
+      "summary": "Kimberly Prost, sędzia ICT, stała się celem amerykańskich sankcji, co utrudnia jej pracę i dostęp do usług finansowych. Sprawa podkreśla napięcia między USA a międzynarodowymi instytucjami wymiaru sprawiedliwości.",
+      "body": "Prost prowadziła dochodzenia w sprawie zbrodni wojennych, które według amerykańskich władz mogłyby zaszkodzić interesom USA. W odpowiedzi na jej działania, amerykańskie agencje nałożyły sankcje, blokując jej konta bankowe i ograniczając dostęp do niektórych platform technologicznych.\n\nSędzia i jej zwolennicy argumentują, że takie środki są próbą wywierania presji na niezależny wymiar sprawiedliwości i naruszają zasady międzynarodowego prawa. Organizacje praw człowieka wyraziły zaniepokojenie, wskazując na ryzyko erozji autonomii trybunału.\n\nSprawa może stać się precedensem w relacjach między potęgą gospodarczą a organami międzynarodowymi, podkreślając rosnącą rolę sankcji jako narzędzia politycznego w konfliktach prawnych.",
+      "image_query": "court sanctions protest",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_url": "https://www.aljazeera.com/news/2026/11/26/icc-judge-kimberly-prost-tries-war-crimes-shes-a-target-of-us-sanctions?traffic_source=rss",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Agnes_O%27Malley_%281891-1980%29_in_The_Miami_Herald_of_Miami%2C_Florida_on_February_16%2C_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "id": "art-4"
+    },
+    {
+      "title": "Bank Korei Południowej podnosi stopy procentowe i podnosi prognozę wzrostu PKB",
+      "category": "Finanse",
+      "region": "Azja",
+      "summary": "Bank Centralny Korei Południowej podniósł kluczową stopę procentową o 0,25 % i jednocześnie podniósł prognozę wzrostu gospodarczego. Decyzja odzwierciedla rosnący eksport chipów AI i optymistyczne perspektywy sektora technologicznego.",
+      "body": "Podwyżka stóp ma na celu kontrolowanie inflacji, która w ostatnich miesiącach wykazywała tendencję wzrostową w wyniku silnego popytu na zaawansowane układy scalone. Jednocześnie bank podkreślił, że silny popyt zagraniczny, zwłaszcza z Chin i USA, wspiera dalszy rozwój gospodarczy.\n\nPrognoza wzrostu PKB została podniesiona do 2,8 % na najbliższy rok, co jest najwyższą prognozą od kilku lat. Eksperci wskazują, że inwestycje w sztuczną inteligencję i nowe technologie produkcyjne będą kluczowym motorem napędowym.\n\nRynki finansowe zareagowały pozytywnie, a waluta koreańska umocniła się wobec dolara. Decyzja Banku Centralnego jest szeroko komentowana jako sygnał stabilności i dalszego przyciągania inwestycji zagranicznych.",
+      "image_query": "south korea economy",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_url": "https://www.aljazeera.com/economy/2026/11/26/south-koreas-central-bank-hikes-interest-rates-raises-gdp-growth-forecast?traffic_source=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/South_Korean_bonds.webp/960px-South_Korean_bonds.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-5"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Jaeger‑LeCoultre Master Control Chronomètre Date – elegancja i precyzja",
+      "category": "Zegarmistrzostwo",
+      "region": "Europa",
+      "summary": "Nowy model od Jaeger‑LeCoultre łączy klasyczną estetykę z nowoczesną technologią, oferując zintegrowany bransoletowy pasek i komplikację chronometru. Recenzja podkreśla zarówno wyrafinowany design, jak i wysoką precyzję mechanizmu.",
+      "body": "Zegarek prezentuje stalową kopertę o średnicy 42 mm, a jego tarcza zdobiona jest subtelnymi indeksami i datownikiem, które podkreślają elegancję sportowego charakteru. Mechanizm Master Control zapewnia rezerwy chodu do 70 godzin oraz odporność na wstrząsy, co czyni go praktycznym wyborem na co dzień.\n\nInnowacyjnym elementem jest zintegrowany pasek, który eliminuje potrzebę oddzielnego łączenia bransolety, zapewniając jednocześnie komfort noszenia i jednolitą estetykę. Projektanci podkreślają, że rozwiązanie to ma na celu zminimalizowanie luzów i zwiększenie trwałości.\n\nRecenzja zwraca uwagę na cenę, która plasuje model w segmencie luksusowym, ale jednocześnie oferuje wartość dla kolekcjonerów poszukujących połączenia tradycji z nowoczesnym podejściem do designu.",
+      "image_query": "luxury watch",
+      "sources": [
+        "Monochrome Watches"
+      ],
+      "source_url": "https://monochrome-watches.com/jaeger-lecoultre-master-control-chronometre-date-luxury-sports-watch-integrated-bracelet-review-price/",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Counterfeit_Casio_F-91W_digital_watch.jpg/960px-Counterfeit_Casio_F-91W_digital_watch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-6"
+    },
+    {
+      "title": "Naukowcy odkrywają podwodne jeziora pod Morzem Czerwonym",
+      "category": "Nauka",
+      "region": "Świat",
+      "summary": "Zespół badaczy zidentyfikował niezwykłe, słone jeziora pod powierzchnią Morza Czerwonego, które mogą dostarczyć wskazówek o dawnych oceanach i potencjalnym życiu pozaziemskim. Zjawisko to przypomina znane brine pools, ale występuje na znacznie większej głębokości.",
+      "body": "Badania przeprowadzone przy użyciu sonarów i podwodnych pojazdów bezzałogowych ujawniły rozległe formacje słonych jezior, sięgające ponad milę pod powierzchnią wody. Ich niezwykle wysokie zasolenie tworzy warstwę, w której woda nie miesza się z otaczającą ją wodą morską.\n\nNaukowcy spekulują, że te podwodne jeziora mogą zachować pierwotne składniki chemiczne Ziemi, co pozwoli lepiej zrozumieć procesy geologiczne oraz warunki sprzyjające powstawaniu życia w ekstremalnych środowiskach. Analizy próbki wody wskazują na obecność unikalnych mikroorganizmów przystosowanych do wysokiego ciśnienia.\n\nOdkrycie otwiera nowe perspektywy dla badań nad podwodnymi ekosystemami i może mieć implikacje dla poszukiwań życia na innych planetach, gdzie podobne warunki mogłyby istnieć pod lodowymi powłokami.",
+      "image_query": "underwater lake red sea",
+      "sources": [
+        "ScienceDaily Top Science"
+      ],
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Commons_logo_mosaic_19x35.jpg/960px-Commons_logo_mosaic_19x35.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-7"
+    },
+    {
+      "title": "Kagi uruchamia alternatywną usługę poczty Gmail z funkcjami AI",
+      "category": "Technologia",
+      "region": "Świat",
+      "summary": "Nowa platforma Kagi wprowadza usługę poczty elektronicznej, konkurującą z Gmail, z wbudowanymi funkcjami sztucznej inteligencji i ochroną prywatności. Projekt ma przyciągnąć użytkowników szukających alternatywy wolnej od reklam i śledzenia danych.",
+      "body": "Kagi, znana dotąd z wyszukiwarki skoncentrowanej na prywatności, rozszerzyła swoją ofertę o pełnoprawny klient poczty, który integruje generatywną AI pomagającą w redagowaniu, podsumowywaniu i organizacji wiadomości. System zapewnia szyfrowanie end‑to‑end oraz brak reklam, co ma zwiększyć zaufanie użytkowników.\n\nFirma podkreśla, że usługa jest dostępna w modelu subskrypcyjnym, eliminując potrzebę monetyzacji poprzez zbieranie danych. Wstępne recenzje wskazują na intuicyjny interfejs i szybkie działanie, co może przyciągnąć zarówno profesjonalistów, jak i codziennych użytkowników.\n\nEksperci ds. cyberbezpieczeństwa zauważają, że wprowadzenie takiej platformy może wywrzeć presję na tradycyjnych dostawców poczty, zmuszając ich do podniesienia standardów prywatności i integracji AI. Kagi planuje dalsze rozwinięcie funkcji, w tym automatyczne klasyfikowanie spamu i integrację z kalendarzem.",
+      "image_query": "email AI privacy",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Mapping_Perseverance%E2%80%99s_Route_With_AI_%28PIA26645%29.png/960px-Mapping_Perseverance%E2%80%99s_Route_With_AI_%28PIA26645%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-8"
+    },
+    {
+      "title": "Hongkong – Northern Link pod presją finansową",
+      "category": "Transport",
+      "region": "Azja",
+      "summary": "Projekt Northern Link, mający połączyć północne dzielnice Hongkongu z istniejącą siecią metra, napotyka na poważne trudności finansowe związane z niższymi przychodami z nieruchomości. Władze rozważają alternatywne źródła finansowania, aby utrzymać harmonogram budowy.",
+      "body": "MTR Corporation poinformowała, że przychody z nieruchomości, które miały pokrywać koszty budowy, nie osiągnęły prognozowanych poziomów, co zmusiło zarząd do poszukiwania dodatkowego wsparcia rządowego i prywatnych inwestorów. Projekt, liczący ponad 20 km linii, ma zwiększyć przepustowość i skrócić czasy podróży w północnych rejonach miasta.\n\nEksperci transportowi ostrzegają, że opóźnienia w finansowaniu mogą prowadzić do przesunięć terminów oddania kolejnych odcinków, a w najgorszym scenariuszu – do częściowego wstrzymania prac. Władze miejskie podkreślają strategiczne znaczenie Northern Link dla rozwoju zrównoważonego transportu i redukcji korków.\n\nMimo wyzwań, projekt pozostaje priorytetem, a rząd Hongkongu zapowiada możliwość wprowadzenia specjalnych obligacji infrastrukturalnych oraz partnerstw publiczno‑prywatnych, aby zapewnić niezbędne środki i utrzymać pierwotny plan realizacji.",
+      "image_query": "high speed rail hongkong",
+      "sources": [
+        "International Railway Journal"
+      ],
+      "source_url": "https://www.railjournal.com/financial/hong-kongs-northern-link-faces-funding-pressure/",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/201609_Wuhan%E2%80%93Guangzhou_High-Speed_Railway_over_Yinzhan%27ao_Station.jpg/960px-201609_Wuhan%E2%80%93Guangzhou_High-Speed_Railway_over_Yinzhan%27ao_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-9"
+    }
+  ],
+  "continents": {
+    "Europa": [
+      {
+        "title": "Węgry i Ukraina otwierają nowy rozdział w relacjach dyplomatycznych",
+        "category": "Polityka zagraniczna",
+        "region": "Europa",
+        "summary": "Nowy premier Węgier, Peter Magyar, spotkał się z prezydentem Wołodymyrem Zełenskim, aby zresetować relacje między krajami po latach napięć. Wizyta ma na celu odbudowę zaufania i normalizację kontaktów bilateralnych.",
+        "body": "Po okresie chłodnych i wrogich relacji, które zdominowały politykę zagraniczną Węgier za rządów Viktora Orbana, nowy premier Peter Magyar podjął decyzję o strategicznym zwrocie w kierunku Kijowa. Spotkanie z prezydentem Zełenskim stanowi symboliczny początek nowego etapu, w którym Budapeszt dąży do odbudowy mostów dyplomatycznych i gospodarczych, które zostały zerwane podczas poprzedniej kadencji.\n\nObie strony podkreślają wagę stabilizacji regionu oraz konieczności współpracy w zakresie bezpieczeństwa energetycznego i obronnego. Magyar zadeklarował gotowość do wsparcia suwerenności Ukrainy, co stanowi wyraźne odcięcie się od dotychczasowej linii politycznej jego poprzednika, który często blokował inicjatywy unijne wspierające Kijów.\n\nEksperci oceniają, że ten ruch może mieć dalekosiężne konsekwencje dla spójności politycznej wewnątrz Unii Europejskiej. Normalizacja stosunków węgiersko-ukraińskich może ułatwić przegłosowanie kolejnych pakietów pomocowych oraz integrację Ukrainy z europejskimi strukturami politycznymi i gospodarczymi.",
+        "image_query": "Hungary Ukraine summit",
+        "sources": [
+          "Deutsche Welle"
+        ],
+        "source_url": "https://www.dw.com/en/peter-magyar-meets-volodymyr-zelenskyy-hungary-and-ukraine-make-a-fresh-start-after-the-icy-relations-of-the-viktor-orban-era/a-80054175?maca=en-rss-en-eu-2092-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/President_of_Ukraine_opened_the_inaugural_summit_of_the_Crimea_Platform._%2851716203888%29.jpg/960px-President_of_Ukraine_opened_the_inaugural_summit_of_the_Crimea_Platform._%2851716203888%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-10"
+      },
+      {
+        "title": "Rosyjski system satelitarny Rassvet jako odpowiedź na Starlink",
+        "category": "Technologia wojskowa",
+        "region": "Europa",
+        "summary": "Rosja rozwija własny system łączności satelitarnej o nazwie Rassvet, który ma konkurować z amerykańskim Starlinkiem. Nowa infrastruktura może zmienić dynamikę komunikacji wojskowej na polu walki.",
+        "body": "Amerykański system Starlink odegrał kluczową rolę w wspieraniu ukraińskich sił zbrojnych, zapewniając niezawodną łączność w warunkach intensywnych walk. Rosja, chcąc zniwelować tę przewagę technologiczną, przyspiesza prace nad własnym odpowiednikiem, Rassvet, który ma umożliwić niezależną komunikację dla rosyjskich jednostek wojskowych.\n\nWdrożenie Rassvetu może oznaczać nowy etap w wojnie informacyjnej i technologicznej, w której kontrola nad przestrzenią kosmiczną staje się tak samo ważna jak dominacja na lądzie. System ten ma być odporny na zakłócenia i zapewniać szyfrowane kanały transmisyjne dla dronów oraz jednostek naziemnych.\n\nEksperci ostrzegają, że rozwój takich systemów może prowadzić do eskalacji konfliktu w przestrzeni kosmicznej. Rywalizacja między mocarstwami o dominację na orbicie niskiej może wpłynąć na globalne standardy bezpieczeństwa kosmicznego oraz dostępność usług satelitarnych dla cywilnych użytkowników na całym świecie.",
+        "image_query": "satellite constellation space",
+        "sources": [
+          "Deutsche Welle"
+        ],
+        "source_url": "https://www.dw.com/en/can-rassvet-russia-s-starlink-change-the-course-of-the-war-in-ukraine/a-80052579?maca=en-rss-en-eu-2092-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Objects_and_debris_in_LEO_by_height_white.png/960px-Objects_and_debris_in_LEO_by_height_white.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-11"
+      },
+      {
+        "title": "Spór o finansowanie Ukrainy dzieli przywódców UE",
+        "category": "Gospodarka i polityka",
+        "region": "Europa",
+        "summary": "Liderzy Unii Europejskiej stają w obliczu poważnego kryzysu podczas szczytu w Brukseli dotyczącego pożyczki w wysokości 45 miliardów euro. Niemcy naciskają na solidarność, podczas gdy inne kraje domagają się wyłączeń.",
+        "body": "Czwartkowy szczyt w Brukseli zamienił się w pole bitwy dyplomatycznej, gdy przywódcy państw członkowskich UE nie mogli osiągnąć konsensusu w sprawie nowego pakietu finansowego dla Ukrainy. Propozycja pożyczki w wysokości 45 miliardów euro, mającej wesprzeć Kijów do 2027 roku, spotkała się z oporem części stolic, które obawiają się długoterminowych zobowiązań budżetowych.\n\nNiemcy, tradycyjny filar wsparcia dla Ukrainy, apelują o pełną solidarność i odrzucają pomysły na wyłączenia poszczególnych krajów z mechanizmu współfinansowania. Z drugiej strony, kilka państw członkowskich argumentuje, że ich zdolności budżetowe są ograniczone i domagają się elastyczności w sposobie rozliczania wkładów.\n\nBrak porozumienia grozi paraliżem dalszej pomocy humanitarnej i militarnej, co może zostać wykorzystane przez Rosję do osłabienia morale ukraińskich sił zbrojnych. Sytuacja ta ujawnia głębokie podziały wewnątrz UE dotyczące strategii długoterminowego wsparcia dla kraju będącego w stanie wojny.",
+        "image_query": "EU leaders summit Brussels",
+        "sources": [
+          "France 24"
+        ],
+        "source_url": "https://www.france24.com/en/europe/20261126-live-eu-leaders-face-showdown-over-ukraine-funding-as-divisions-deepen",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/20140605_Second_Day_of_the_Brussels_G7_Summit_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "id": "art-12"
+      }
+    ],
+    "Ameryka Północna": [
+      {
+        "title": "Macy's odwołuje paradę dziękczynieniową z powodu burzy",
+        "category": "Kultura i społeczeństwo",
+        "region": "Ameryka Północna",
+        "summary": "Ikoniczna parada dziękczynieniowa w Nowym Jorku została po raz pierwszy w historii opóźniona z powodu ekstremalnych warunków pogodowych. Prognozy zapowiadają silne wiatry i ulewy w okresie świątecznym.",
+        "body": "Tradycja, która przyciągała miliony widzów i telewidzów przez dekady, uległa zmianie, gdy organizatorzy parady Macy's zdecydowali się na jej przesunięcie. Decyzja ta, bezprecedensowa w historii wydarzenia, została podjęta w obliczu nadchodzącej burzy, która ma przynieść niszczycielskie wiatry i intensywne opady deszczu do Nowego Jorku.\n\nZmiana terminu ma na celu zapewnienie bezpieczeństwa uczestnikom, artystom oraz publiczności, a także ochronę delikatnych balonów i dekoracji przed zniszczeniem przez żywioł. To wydarzenie podkreśla rosnący wpływ zmian klimatycznych na tradycyjne amerykańskie obchody i logistykę dużych imprez masowych.\n\nMieszkańcy Nowego Jorku i turyści muszą teraz dostosować swoje plany świąteczne, co może wpłynąć na ruch w mieście i lokalny biznes. Paradę, która jest symbolem początku sezonu świątecznego, przeniesiono na bezpieczniejszy termin, co stanowi nowy rozdział w historii tej kultowej imprezy.",
+        "image_query": "New York storm parade",
+        "sources": [
+          "BBC World"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Desert_Storm_Welcome_Home_parade_Army_Pfc._White.jpg/960px-Desert_Storm_Welcome_Home_parade_Army_Pfc._White.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-13"
+      },
+      {
+        "title": "Sędzia federalny blokuje działania FCC wobec ABC",
+        "category": "Prawo i media",
+        "region": "Ameryka Północna",
+        "summary": "Sąd federalny orzekł, że Federalna Komisja Łączności naruszyła wolność słowa, próbując rewizji licencji stacji ABC. Decyzja ta stanowi ważny precedens w sporze o niezależność mediów.",
+        "body": "W istotnym wyroku sąd federalny zablokował administrację prezydenta Trumpa, która planowała rewizję wszystkich lokalnych licencji nadawczych należących do sieci ABC. Sędzia uznał, że działania FCC były motywowane politycznie i naruszały pierwszą poprawkę do Konstytucji Stanów Zjednoczonych, gwarantującą wolność słowa.\n\nStacje ABC nadają sygnał w sześciu największych rynkach medialnych w USA, co czyni je kluczowym graczem w krajowym krajobrazie informacyjnym. Decyzja sądu chroni te stacje przed potencjalnym odcięciem od eteru, co mogłoby mieć poważne konsekwencje dla dostępu obywateli do różnorodnych źródeł informacji.\n\nWyrok ten jest postrzegany jako zwycięstwo dla niezależności mediów w obliczu rosnącej presji politycznej na sektor medialny. Może również zniechęcić przyszłe próby wykorzystywania regulacji telekomunikacyjnych jako narzędzia do cenzury lub karania krytycznych wobec rządu stacji telewizyjnych.",
+        "image_query": "US court justice media",
+        "sources": [
+          "NPR News"
+        ],
+        "source_url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Building_detail%2C_Court_of_Family_and_Minors%2C_Justice_Campus%2C_Lisbon%2C_Portugal_julesvernex2-2.jpg/960px-Building_detail%2C_Court_of_Family_and_Minors%2C_Justice_Campus%2C_Lisbon%2C_Portugal_julesvernex2-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-14"
+      },
+      {
+        "title": "Mała piekarnia w Austin buduje wspólnotę w podzielonym świecie",
+        "category": "Społeczeństwo",
+        "region": "Ameryka Północna",
+        "summary": "W Austin działa nietypowa inicjatywa 'Little Free Bakery', gdzie sąsiedzi spotykają się po wypieki, a nie po zyski. Projekt ten służy jako przestrzeń integracji społecznej w czasach polaryzacji.",
+        "body": "W samym sercu Austin, w Teksasie, powstała unikalna inicjatywa społeczna pod nazwą Little Free Bakery. Zamiast dążyć do maksymalizacji zysków, piekarze organizują pop-up'owe wypieki, które służą jako pretekst do budowania więzi sąsiedzkich i dialogu między ludźmi o różnych poglądach.\n\nW dobie rosnącej polaryzacji politycznej i społecznej, ta mała piekarnia staje się symbolem nadziei i wspólnoty. Mieszkańcy przychodzą po świeże ciasta, ale zostają na rozmowy, wymieniając się doświadczeniami i wspólnie budując poczucie przynależności do lokalnej społeczności.\n\nInicjatywa ta pokazuje, że w erze cyfrowej i podziałów, tradycyjne formy interakcji twarzą w twarz wciąż mają ogromną moc. Little Free Bakery dowodzi, że proste gesty, takie jak dzielenie się jedzeniem, mogą być skutecznym narzędziem do łagodzenia napięć i odbudowywania zaufania w lokalnym środowisku.",
+        "image_query": "community bakery neighbors",
+        "sources": [
+          "NPR News"
+        ],
+        "source_url": "https://www.npr.org/2026/11/25/nx-s1-6005522/little-free-bakery-austin-community-connection",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/9699_Frederick_Roeder%27s_House_%26_Confectionery_-_Harpers_Ferry%2C_WV_%289389352734%29.jpg/960px-9699_Frederick_Roeder%27s_House_%26_Confectionery_-_Harpers_Ferry%2C_WV_%289389352734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-15"
+      }
+    ],
+    "Ameryka Południowa": [
+      {
+        "title": "Brazylia wycofuje ambasadora z Argentyny w geście protestu",
+        "category": "Dyplomacja",
+        "region": "Ameryka Południowa",
+        "summary": "Rząd Brazylii zdecydował o stałym wycofaniu ambasadora z Buenos Aires i odmowie zaproszenia prezydenta Milei na inaugurację Luli. Ruch ten sygnalizuje pogłębienie kryzysu dyplomatycznego między sąsiadami.",
+        "body": "W zaskakującym posunięciu dyplomatycznym Brazylija poinformowała o wycofaniu swojego ambasadora, Julio Bitelli, z Argentyny. Decyzja ta jest odpowiedzią na eskalację napięć między dwoma największymi gospodarkami Ameryki Południowej i oznacza poważne pogorszenie stosunków bilateralnych.\n\nDodatkowo, brazylijski rząd ogłosił, że prezydent Javier Milei nie otrzyma zaproszenia na uroczystości inauguracyjne prezydenta Luiza Inácio Luli da Silvy, zaplanowane na 5 stycznia. Takie działanie jest postrzegane jako silny sygnał polityczny, podkreślający różnice ideologiczne i strategiczne między oboma przywódcami.\n\nKryzys ten może mieć dalekosiężne konsekwencje dla integracji regionalnej w ramach Mercosur. Odstąpienie od tradycyjnej dyplomacji sąsiedzkiej może osłabić wspólną pozycję obu krajów na arenie międzynarodowej oraz wpłynąć na przepływy handlowe i inwestycyjne w regionie.",
+        "image_query": "Brazil Argentina diplomacy",
+        "sources": [
+          "MercoPress"
+        ],
+        "source_url": "https://en.mercopress.com/2026/11/26/brazil-withdraws-its-ambassador-to-argentina-and-will-not-invite-milei-to-lula-s-inauguration?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Stamp_of_Brazil_-_1961_-_Colnect_189493_-_1_-_Spanning_the_Atlantic_Ocean.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "id": "art-16"
+      },
+      {
+        "title": "Kolumbia rezygnuje z członkostwa w banku BRICS",
+        "category": "Gospodarka",
+        "region": "Ameryka Południowa",
+        "summary": "Nowy rząd Kolumbii porzucił proces przystąpienia do Nowego Banku Rozwoju, finansowego ramienia grupy BRICS. Decyzja ta sygnalizuje zwrot w polityce zagranicznej w kierunku Stanów Zjednoczonych.",
+        "body": "Administracja prezydenta Abelardo de la Esprielli podjęła decyzję o zakończeniu procesu akcesji Kolumbii do Nowego Banku Rozwoju (NDB), instytucji finansowej powiązanej z grupą BRICS. Ruch ten stanowi wyraźne odcięcie się od polityki poprzedniego prezydenta Gustava Petro, który dążył do zacieśnienia więzi z Chinami i Rosją.\n\nRezygnacja z członkostwa w NDB jest postrzegana jako element szerszej strategii zbliżenia Kolumbii do Stanów Zjednoczonych i zachodnich partnerów gospodarczych. Nowy rząd chce zapewnić stabilność makroekonomiczną i przyciągnąć inwestycje z rynków rozwiniętych, unikając zależności od finansowania ze strony mocarstw wschodnich.\n\nZmiana ta może wpłynąć na równowagę geopolityczną w Ameryce Łacińskiej, gdzie wiele krajów balansuje między wpływem USA a Chin. Decyzja Kolumbii może zachęcić inne państwa regionu do rewizji swoich strategii dyplomatycznych i ekonomicznych w obliczu globalnej rywalizacji mocarstw.",
+        "image_query": "Colombia economy finance",
+        "sources": [
+          "MercoPress"
+        ],
+        "source_url": "https://en.mercopress.com/2026/11/26/colombia-drops-its-bid-to-join-the-brics-bank-in-a-new-shift-towards-the-united-states?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Economic_growth_of_Colombia.jpg/960px-Economic_growth_of_Colombia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-17"
+      },
+      {
+        "title": "Kolumbia: Bomba samochodowa rani ponad 20 osób",
+        "category": "Bezpieczeństwo",
+        "region": "Ameryka Południowa",
+        "summary": "Eksplozja samochodu-pułapki w kolumbijskim mieście raniła ponad 20 osób, w tym funkcjonariuszy sił bezpieczeństwa. Atak jest częścią serii incydentów wymierzonych w obiekty rządowe.",
+        "body": "W jednym z kolumbijskich miast doszło do poważnego ataku terrorystycznego, w którym użyto bomby samochodowej. Eksplozja, która nastąpiła w pobliżu budynku mieszczącego siedzibę sił bezpieczeństwa, spowodowała obrażenia u ponad 20 osób, w tym cywilów i funkcjonariuszy.\n\nTen incydent jest kolejnym w serii ataków na infrastrukturę rządową i policyjną, co wskazuje na nasilenie działań grup zbrojnych dążących do destabilizacji kraju. Rząd Kolumbii zapowiada zwiększenie środków bezpieczeństwa i intensywne śledztwo w celu identyfikacji sprawców.\n\nAtak ten podważa poczucie bezpieczeństwa w regionie i może wpłynąć na plany rozwojowe oraz inwestycyjne w kraju. Sytuacja ta podkreśla wyzwania, przed którymi stoi Kolumbia w dążeniu do trwałego pokoju i stabilności społecznej po dekadach konfliktu zbrojnego.",
+        "image_query": "Colombia explosion security",
+        "sources": [
+          "BBC Latin America"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/The_2011_Libyan_rebellion.png/960px-The_2011_Libyan_rebellion.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-18"
+      }
+    ],
+    "Azja": [
+      {
+        "title": "Chiny omijają sankcje na chipy AI za pośrednictwem Azji Południowo-Wschodniej",
+        "category": "Technologia i gospodarka",
+        "region": "Azja",
+        "summary": "Chińskie firmy wykorzystują infrastrukturę obliczeniową w Azji Południowo-Wschodniej, aby obejść amerykańskie restrykcje na zaawansowane chipy AI. Waszyngton intensyfikuje wysiłki, by powstrzymać ten proceder.",
+        "body": "W obliczu surowych amerykańskich sankcji na eksport zaawansowanych chipów półprzewodnikowych do Chin, chińskie korporacje technologiczne znalazły nowe sposoby na uzyskanie dostępu do mocy obliczeniowych. Kluczowym elementem tej strategii jest wykorzystanie centrów danych i infrastruktury chmurowej zlokalizowanych w krajach Azji Południowo-Wschodniej, takich jak Singapur, Malezja czy Wietnam.\n\nAmerykańskie służby wywiadowcze i regulacyjne monitorują te przepływy, starając się zidentyfikować i zablokować kanały, przez które chińskie firmy legalnie lub nielegalnie pozyskują dostęp do technologii AI. Walka ta staje się nowym frontem w globalnym konflikcie technologicznym między USA a Chinami.\n\nSytuacja ta stawia kraje Azji Południowo-Wschodniej w trudnej pozycji, jako że stają się one areną rywalizacji mocarstw. Muszą one balansować między korzyściami ekonomicznymi płynącymi z inwestycji chińskich a presją polityczną ze strony Stanów Zjednoczonych, aby przestrzegać restrykcji eksportowych.",
+        "image_query": "data center chips asia",
+        "sources": [
+          "Deutsche Welle"
+        ],
+        "source_url": "https://www.dw.com/en/how-chinese-companies-circumvent-chips-sanctions-in-southeast-asia/a-80041002?maca=en-rss-en-asia-5133-xml-mrss",
+        "image_url": "",
+        "id": "art-19"
+      },
+      {
+        "title": "Kim Dzong Un wizytuje zakłady nuklearne i promuje broń taktyczną",
+        "category": "Bezpieczeństwo",
+        "region": "Azja",
+        "summary": "Lider Korei Północnej odwiedził obiekty produkujące materiały rozszczepialne, podkreślając nieodwracalność statusu nuklearnego kraju. Wezwał do szerszego wykorzystania broni taktycznej w strategii militarnej.",
+        "body": "Kim Dzong Un dokonał inspekcji kluczowych obiektów w programie nuklearnym Korei Północnej, w tym zakładów produkujących materiały rozszczepialne. Podczas wizyty oświadczył, że status nuklearny jego kraju jest nieodwracalny i stanowi fundamentalny element bezpieczeństwa narodowego.\n\nLider Pjongjangu wezwał również do szerszego wdrożenia broni taktycznej nuklearnej, co sugeruje zmianę w doktrynie militarnej kraju. Taktyczna broń jądrowa, przeznaczona do użycia na polu walki, stanowiłaby poważne zagrożenie dla Korei Południowej i Stanów Zjednoczonych, zwiększając ryzyko eskalacji konfliktu.\n\nTe działania następują w kontekście rosnących napięć na Półwyspie Koreańskim i mogą skłonić sąsiadów do dalszego wzmacniania swoich systemów obrony przeciwrakietowej. Międzynarodowa społeczność obserwuje te ruchy z niepokojem, obawiając się dalszej destabilizacji regionu i wyścigu zbrojeń.",
+        "image_query": "North Korea nuclear facility",
+        "sources": [
+          "Deutsche Welle"
+        ],
+        "source_url": "https://www.dw.com/en/kim-jong-un-tours-nuclear-material-sites-urges-wider-use-of-tactical-nuclear-weapons/a-80055887?maca=en-rss-en-asia-5133-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/DPRK_%2801610081%29_%288446218823%29.jpg/960px-DPRK_%2801610081%29_%288446218823%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-20"
+      },
+      {
+        "title": "Hongkong: Rok po pożarze, rodziny ofiar czekają na sprawiedliwość",
+        "category": "Społeczeństwo",
+        "region": "Azja",
+        "summary": "Minął rok od jednego z najtragiczniejszych pożarów w historii Hongkongu, w którym zginęło 168 osób podczas remontu. Rodziny ofiar wciąż czekają na wyjaśnienia i odpowiedzialność sprawców.",
+        "body": "Rocznicę jednego z najczarniejszych dni w historii Hongkongu, gdy pożar podczas prac remontowych zabił 168 mieszkańców, rodziny ofiar uczciły żałobą i żądaniem sprawiedliwości. Tragedia ta ujawniła poważne luki w przepisach dotyczących bezpieczeństwa budowlanego i nadzoru nad pracami remontowymi w starych budynkach.\n\nMimo upływu roku, postępy w śledztwie i procesach sądowych są powolne, co wywołuje frustrację i gniew wśród bliskich ofiar. Wiele rodzin czuje się opuszczonych przez system prawny i administracyjny, który nie zapewnił im odpowiedniego wsparcia ani transparentności w dochodzeniu prawdy.\n\nTragedia ta stała się katalizatorem dla szerszej debaty publicznej na temat warunków mieszkaniowych, praw lokatorów oraz odpowiedzialności deweloperów i wykonawców. Władze Hongkongu stanęły pod presją wprowadzenia surowszych regulacji i kar za naruszenia przepisów bezpieczeństwa, aby zapobiec powtórzeniu się takiego dramatu.",
+        "image_query": "Hong Kong fire memorial",
+        "sources": [
+          "BBC Asia"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/A_closeup_of_a_plaque_at_the_Hong_Kong_Race_Course_Fire_Memorial.jpg/960px-A_closeup_of_a_plaque_at_the_Hong_Kong_Race_Course_Fire_Memorial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-21"
+      }
+    ],
+    "Afryka": [
+      {
+        "title": "Somalia: Wycofanie wojsk zagranicznych grozi przejęciem przez al-Shabab",
+        "category": "Bezpieczeństwo",
+        "region": "Afryka",
+        "summary": "W miarę wycofywania się sił zagranicznych z Somalii, rośnie obawa, że ugrupowanie al-Shabab przejmie kontrolę nad kluczowymi obszarami. Kraj zależy od wsparcia militarnego i finansowego ze strony partnerów międzynarodowych.",
+        "body": "Somalia stoi w obliczu kryzysu bezpieczeństwa, ponieważ planowane wycofanie się wojsk zagranicznych, w tym sił Unii Afrykańskiej i partnerów zachodnich, może stworzyć próżnię, którą szybko wypełni radykalne ugrupowanie al-Shabab. Organizacja ta od lat prowadzi kampanię terrorystyczną, dążąc do obalenia rządu federalnego i narzucenia swojej wersji prawa szariatu.\n\nRząd somalijski, który wciąż boryka się z problemami instytucjonalnymi i finansowymi, jest głęboko zależny od wsparcia zagranicznego dla utrzymania stabilności. Bez tego wsparcia, siły bezpieczeństwa kraju mogą nie być w stanie skutecznie kontratakować i kontrolować terytorium, co grozi eskalacją przemocy i kryzysem humanitarnym.\n\nSytuacja ta podkreśla złożoność konfliktów w Rogu Afryki i konieczność długoterminowej strategii rozwoju oraz budowy zdolności lokalnych. Społeczność międzynarodowa musi znaleźć sposób na wsparcie Somalii, który nie będzie opierał się wyłącznie na obecności wojskowej, ale na wzmocnieniu instytucji państwowych i gospodarki.",
+        "image_query": "Somalia security troops",
+        "sources": [
+          "BBC Africa"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/ck62y23z58yeo?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/CJTF-HOA_physical_therapist_takes_care_of_troops_in_Kismayo%2C_Somalia_%289066754%29.jpg/960px-CJTF-HOA_physical_therapist_takes_care_of_troops_in_Kismayo%2C_Somalia_%289066754%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-22"
+      },
+      {
+        "title": "Śmierć Pete'a Edochie, legendy nigerijskiego kina Nollywood",
+        "category": "Kultura",
+        "region": "Afryka",
+        "summary": "Zmarł Pete Edochie, wybitny aktor nigerijskiego kina Nollywood, który zasłynął z roli w adaptacji powieści 'Rozbity świat'. Jego śmierć to strata dla afrykańskiej kultury filmowej.",
+        "body": "Nigerijska scena filmowa pogrążyła się w żałobie po śmierci Pete'a Edochie, jednego z najbardziej rozpoznawalnych aktorów kina Nollywood. Edochie zdobył sławę w 1987 roku, grając główną rolę w telewizyjnej adaptacji kultowej powieści Chinua Achebe 'Rozbity świat', co uczyniło go ikoną afrykańskiej kultury.\n\nPrzez dekady Edochie był twarzą przemysłu filmowego Nigerii, który stał się jednym z największych na świecie pod względem liczby produkcji. Jego kariera obejmowała setki filmów, w których często odgrywał role ojców, mędrców i bohaterów, kształtując wizerunek afrykańskiego kina na arenie międzynarodowej.\n\nŚmierć Edochie to nie tylko strata dla rodziny i współpracowników, ale i dla całego kontynentu, który ceni jego wkład w promocję afrykańskiej tożsamości i historii przez medium filmowe. Jego dziedzictwo będzie żyć w pamięci widzów i kolejnych pokoleń twórców kina.",
+        "image_query": "Nollywood actor portrait",
+        "sources": [
+          "BBC Africa"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Ger_Duany_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "id": "art-23"
+      },
+      {
+        "title": "Mozambik awansuje do 1/8 finału Mistrzostw Świata U-17",
+        "category": "Sport",
+        "region": "Afryka",
+        "summary": "Reprezentacja Mozambiku awansowała do fazy pucharowej Mistrzostw Świata U-17 w Katarze po remisie 2-2 z Australią. To historyczny sukces dla afrykańskiego futbolu młodzieżowego.",
+        "body": "Mozambik zapisał się w historii afrykańskiego futbolu, awansując do rundy 32. Mistrzostw Świata U-17 rozgrywanych w Katarze. Drużyna zremisowała 2-2 z Australią w decydującym meczu fazy grupowej, co zapewniło jej miejsce w dalszej części turnieju.\n\nTen sukces jest szczególnie istotny, ponieważ Mozambik nie jest tradycyjną potęgą piłkarską w Afryce. Awans ten pokazuje rosnący poziom szkolenia młodzieży w kraju oraz determinację piłkarzy, którzy chcą udowodnić swoje umiejętności na międzynarodowej scenie.\n\nWynik ten budzi nadzieje na dalsze postępy w turnieju i może przyciągnąć większą uwagę sponsorów oraz federacji piłkarskich do rozwoju infrastruktury sportowej w Mozambiku. Sukces młodzieżowej reprezentacji może stać się inspiracją dla młodych sportowców w całym regionie.",
+        "image_query": "Mozambique football team",
+        "sources": [
+          "Africanews"
+        ],
+        "source_url": "http://www.africanews.com/2026/11/25/mozambique-advance-to-round-of-32-after-2-2-draw-with-australia/",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/DSC_9110_%288094719128%29.jpg/960px-DSC_9110_%288094719128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-24"
+      }
+    ],
+    "Australia i Oceania": [
+      {
+        "title": "Wysypka żołądkowa w obozie szkolnym w Waikato",
+        "category": "Zdrowie publiczne",
+        "region": "Australia i Oceania",
+        "summary": "Ponad 400 osób uczestniczących w obozie szkolnym w regionie Waikato na Nowej Zelandii zostało dotkniętych epidemią żołądkową. Władze badają przyczyny wybuchu choroby.",
+        "body": "W regionie Waikato na Nowej Zelandii doszło do poważnego incydentu zdrowotnego, gdy ponad 400 uczestników obozu szkolnego zachorowało na ostrą biegunkę i wymioty. Władze sanitarne natychmiast uruchomiły procedury kryzysowe, aby ustalić źródło zakażenia i zapobiec dalszemu rozprzestrzenianiu się choroby.\n\nPodejrzenia padają na skażoną wodę lub żywność podawaną podczas obozu. Specjaliści od zdrowia publicznego współpracują z organizatorami, aby zbadać próbki i zidentyfikować patogen odpowiedzialny za epidemię. Sytuacja ta podnosi pytania o standardy higieny w placówkach oświatowych i letnich.\n\nIncydent ten stanowi przypomnienie o ryzyku związanym z dużymi zgromadzeniami ludzi w zamkniętych przestrzeniach, szczególnie w kontekście sezonowych chorób żołądkowych. Władze apelują do rodziców o monitorowanie stanu zdrowia dzieci i zgłaszanie wszelkich objawów do służb medycznych.",
+        "image_query": "school camp health safety",
+        "sources": [
+          "Radio New Zealand"
+        ],
+        "source_url": "https://www.rnz.co.nz/news/health/2800879/gastroenteritis-outbreak-at-waikato-school-camp",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/2018_Camp_Fire_map_1.png/960px-2018_Camp_Fire_map_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-25"
+      }
+    ]
+  },
+  "grounding_links": [
+    {
+      "title": "BBC World: USA wprowadza nowe taryfy celne wobec Chin i UE",
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC World: Obrazki asteroidy testującej obronę Ziemi ukazują krater stadiono",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC Africa: Tragedia na autostradzie w Kairze – 31 ofiar w wyniku wypadku cys",
+      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Al Jazeera: Sędzia Międzynarodowego Trybunału Karnego Kimberly Prost poddana ",
+      "url": "https://www.aljazeera.com/news/2026/11/26/icc-judge-kimberly-prost-tries-war-crimes-shes-a-target-of-us-sanctions?traffic_source=rss"
+    },
+    {
+      "title": "Al Jazeera: Bank Korei Południowej podnosi stopy procentowe i podnosi prognoz",
+      "url": "https://www.aljazeera.com/economy/2026/11/26/south-koreas-central-bank-hikes-interest-rates-raises-gdp-growth-forecast?traffic_source=rss"
+    },
+    {
+      "title": "Monochrome Watches: Jaeger‑LeCoultre Master Control Chronomètre Date – elegancja i pr",
+      "url": "https://monochrome-watches.com/jaeger-lecoultre-master-control-chronometre-date-luxury-sports-watch-integrated-bracelet-review-price/"
+    },
+    {
+      "title": "ScienceDaily Top Science: Naukowcy odkrywają podwodne jeziora pod Morzem Czerwonym",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm"
+    },
+    {
+      "title": "Ars Technica: Kagi uruchamia alternatywną usługę poczty Gmail z funkcjami AI",
+      "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/"
+    },
+    {
+      "title": "International Railway Journal: Hongkong – Northern Link pod presją finansową",
+      "url": "https://www.railjournal.com/financial/hong-kongs-northern-link-faces-funding-pressure/"
+    },
+    {
+      "title": "Deutsche Welle: Węgry i Ukraina otwierają nowy rozdział w relacjach dyplomatyczny",
+      "url": "https://www.dw.com/en/peter-magyar-meets-volodymyr-zelenskyy-hungary-and-ukraine-make-a-fresh-start-after-the-icy-relations-of-the-viktor-orban-era/a-80054175?maca=en-rss-en-eu-2092-xml-mrss"
+    },
+    {
+      "title": "Deutsche Welle: Rosyjski system satelitarny Rassvet jako odpowiedź na Starlink",
+      "url": "https://www.dw.com/en/can-rassvet-russia-s-starlink-change-the-course-of-the-war-in-ukraine/a-80052579?maca=en-rss-en-eu-2092-xml-mrss"
+    },
+    {
+      "title": "France 24: Spór o finansowanie Ukrainy dzieli przywódców UE",
+      "url": "https://www.france24.com/en/europe/20261126-live-eu-leaders-face-showdown-over-ukraine-funding-as-divisions-deepen"
+    },
+    {
+      "title": "BBC World: Macy's odwołuje paradę dziękczynieniową z powodu burzy",
+      "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "NPR News: Sędzia federalny blokuje działania FCC wobec ABC",
+      "url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr"
+    },
+    {
+      "title": "NPR News: Mała piekarnia w Austin buduje wspólnotę w podzielonym świecie",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-6005522/little-free-bakery-austin-community-connection"
+    },
+    {
+      "title": "MercoPress: Brazylia wycofuje ambasadora z Argentyny w geście protestu",
+      "url": "https://en.mercopress.com/2026/11/26/brazil-withdraws-its-ambassador-to-argentina-and-will-not-invite-milei-to-lula-s-inauguration?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+    },
+    {
+      "title": "MercoPress: Kolumbia rezygnuje z członkostwa w banku BRICS",
+      "url": "https://en.mercopress.com/2026/11/26/colombia-drops-its-bid-to-join-the-brics-bank-in-a-new-shift-towards-the-united-states?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+    },
+    {
+      "title": "BBC Latin America: Kolumbia: Bomba samochodowa rani ponad 20 osób",
+      "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Deutsche Welle: Chiny omijają sankcje na chipy AI za pośrednictwem Azji Południow",
+      "url": "https://www.dw.com/en/how-chinese-companies-circumvent-chips-sanctions-in-southeast-asia/a-80041002?maca=en-rss-en-asia-5133-xml-mrss"
+    },
+    {
+      "title": "Deutsche Welle: Kim Dzong Un wizytuje zakłady nuklearne i promuje broń taktyczną",
+      "url": "https://www.dw.com/en/kim-jong-un-tours-nuclear-material-sites-urges-wider-use-of-tactical-nuclear-weapons/a-80055887?maca=en-rss-en-asia-5133-xml-mrss"
+    },
+    {
+      "title": "BBC Asia: Hongkong: Rok po pożarze, rodziny ofiar czekają na sprawiedliwość",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC Africa: Somalia: Wycofanie wojsk zagranicznych grozi przejęciem przez al-",
+      "url": "https://www.bbc.co.uk/news/articles/ck62y23z58yeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC Africa: Śmierć Pete'a Edochie, legendy nigerijskiego kina Nollywood",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Africanews: Mozambik awansuje do 1/8 finału Mistrzostw Świata U-17",
+      "url": "http://www.africanews.com/2026/11/25/mozambique-advance-to-round-of-32-after-2-2-draw-with-australia/"
+    },
+    {
+      "title": "Radio New Zealand: Wysypka żołądkowa w obozie szkolnym w Waikato",
+      "url": "https://www.rnz.co.nz/news/health/2800879/gastroenteritis-outbreak-at-waikato-school-camp"
+    }
+  ],
+  "issue_number": 3
+}
