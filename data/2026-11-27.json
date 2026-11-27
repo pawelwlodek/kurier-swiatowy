@@ -1,0 +1,493 @@
+{
+  "date": "2026-11-27",
+  "editorial_lead": "Światowy krajobraz dzisiejszych wiadomości zdominował gwałtowna pogoda w Ameryce Północnej, przełomowe odkrycia naukowe oraz napięcia na rynkach technologicznych. Wydanie „Kurier Światowy” przynosi najważniejsze wydarzenia i tematy, które kształtują naszą przyszłość.",
+  "top5": [
+    {
+      "title": "Potężna burza podziękowania w USA powoduje powodzie i przerwy w lotach",
+      "category": "Weather",
+      "region": "USA",
+      "summary": "W weekend podziękowań w Stanach Zjednoczonych gwałtowne burze doprowadziły do masowych przerw w dostawie prądu i opóźnień lotniczych. Setki tysięcy osób zostało dotkniętych powodziami i silnym wiatrem na obu wybrzeżach.",
+      "body": "Burza, która przeszła przez wschodnie i zachodnie wybrzeże, przyniosła podmuchy wiatru przekraczające 100 km/h oraz intensywne opady deszczu, powodując lokalne powodzie i podtopienia dróg. Wiele miast, w tym Nowy Jork i Los Angeles, odnotowało awarie sieci energetycznych, pozostawiając prawie milion klientów bez prądu.\n\nLotniska w całym kraju zmagały się z opóźnieniami i odwołaniami, a pasażerowie zostali skierowani do hoteli i centrów pomocy. Linie lotnicze podkreślały, że bezpieczeństwo pasażerów jest priorytetem, a warunki pogodowe utrudniają operacje naziemne.\n\nEksperci meteorologiczni ostrzegają, że zmiany klimatyczne zwiększają częstotliwość i intensywność takich ekstremalnych zjawisk, co wymaga lepszej infrastruktury i przygotowań na przyszłość.",
+      "image_query": "thunderstorm USA",
+      "sources": [
+        "BBC World"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Joshua_Tree_Park_approaching_thunderstorm_01_2013.jpg/960px-Joshua_Tree_Park_approaching_thunderstorm_01_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-1"
+    },
+    {
+      "title": "Tankowiec z 7 000 toną ropy przewrócił się przy Ibizie, ginie jeden załogant",
+      "category": "Maritime Accident",
+      "region": "Hiszpania",
+      "summary": "Na wodach przy wyspie Ibiza doszło do przewrócenia się tankowca przewożącego do 7 000 ton ropy, w wyniku czego zginął jeden członek załogi. Służby ratunkowe oceniają potencjalne zagrożenie środowiskowe i prowadzą akcję zabezpieczającą.",
+      "body": "Kapitan statku zgłosił utratę kontroli po nagłym manewrze, co doprowadziło do przewrócenia się jednostki i wycieku części ładunku. Jednostka została natychmiast objęta strefą zakazu wjazdu, a ekipom ratunkowym powierzono zadanie ewakuacji 17 członków załogi.\n\nJedna osoba, pomimo szybkiej interwencji medycznej, zmarła w szpitalu, a pozostałych ratowano i przewieziono na ląd. Władze hiszpańskie monitorują sytuację, aby ocenić ryzyko zanieczyszczenia wód Morza Śródziemnego.\n\nEksperci ds. ochrony środowiska podkreślają, że nawet niewielki wyciek ropy może mieć długotrwałe konsekwencje dla lokalnej fauny i flory, dlatego planowane są dodatkowe badania i działania naprawcze.",
+      "image_query": "oil tanker capsized",
+      "sources": [
+        "BBC Europe"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Cyclone_Batsirai_on_course_to_strike_Madagascar_%28Copernicus%29.jpeg/960px-Cyclone_Batsirai_on_course_to_strike_Madagascar_%28Copernicus%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-2"
+    },
+    {
+      "title": "Średnia temperatura Ziemi przekracza 2 °C ponad poziom preindustrialny po raz pierwszy",
+      "category": "Climate",
+      "region": "Global",
+      "summary": "Copernicus Climate Change Service poinformował, że średnia temperatura planety utrzymała się powyżej 2 °C w stosunku do epoki przedindustrialnej przez siedem kolejnych dni. To bezprecedensowe zjawisko podkreśla rosnące ryzyko katastrofalnych skutków zmian klimatycznych.",
+      "body": "Dane satelitarne i pomiary naziemne wykazały, że globalna średnia temperatura utrzymała się na poziomie 2,1 °C powyżej średniej z lat 1850‑1900. Naukowcy wskazują, że najgorętsze regiony, takie jak Bliski Wschód i Ameryka Północna, odnotowały rekordowe wartości.\n\nRaport podkreśla, że utrzymanie się tak wysokiej temperatury zwiększa prawdopodobieństwo ekstremalnych zjawisk pogodowych, podnoszenia się poziomu mórz oraz zakłóceń w ekosystemach. Wzywa to do natychmiastowego przyspieszenia działań na rzecz redukcji emisji gazów cieplarnianych.\n\nOrganizacje międzynarodowe, w tym ONZ, apelują o wprowadzenie bardziej ambitnych celów klimatycznych i przyspieszenie przejścia na odnawialne źródła energii, aby uniknąć dalszego przekraczania krytycznych progów temperatury.",
+      "image_query": "global warming heat",
+      "sources": [
+        "MercoPress"
+      ],
+      "source_url": "https://en.mercopress.com/2026/11/27/earth-exceeds-2c-of-warming-for-seven-consecutive-days-for-the-first-time?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/11_key_indicators_of_global_warming_from_State_of_the_Climate_2009_%28Kennedy_et_al.%2C_2010%29.png/960px-11_key_indicators_of_global_warming_from_State_of_the_Climate_2009_%28Kennedy_et_al.%2C_2010%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-3"
+    },
+    {
+      "title": "Azjatyckie giełdy stawiają na AI po powrocie Jensena Hunga do Nvidii",
+      "category": "Technology",
+      "region": "Azja",
+      "summary": "Po niespodziewanym powrocie Jensena Hunga na stanowisko CEO Nvidii, akcje firm technologicznych w Azji gwałtownie zareagowały. Inwestorzy liczą na dalszy rozwój sztucznej inteligencji i związane z tym innowacje.",
+      "body": "Decyzja Hunga o powrocie wywołała natychmiastowy wzrost notowań Nvidii na rynkach azjatyckich, a także podniosła wycenę firm dostarczających chipy i rozwiązania AI. Analitycy przewidują, że w najbliższych miesiącach nastąpi przyspieszenie inwestycji w centra danych i platformy chmurowe.\n\nW Chinach i Korei Południowej firmy technologiczne ogłosiły plany zwiększenia wydatków na badania i rozwój w dziedzinie uczenia maszynowego, aby nie pozostać w tyle za globalnym wyścigiem AI. Rządy regionu rozważają także wsparcie regulacyjne i finansowe dla start-upów AI.\n\nEksperci ostrzegają jednak, że szybki rozwój sztucznej inteligencji niesie ze sobą wyzwania związane z bezpieczeństwem danych i etyką, co wymaga współpracy międzynarodowej i wypracowania standardów.",
+      "image_query": "AI stock market",
+      "sources": [
+        "BBC Asia"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/2025_AI_Bubble_Speculation_2-ar.png/960px-2025_AI_Bubble_Speculation_2-ar.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-4"
+    },
+    {
+      "title": "Nowa koalicja rządowa w Nowej Zelandii nie uzyskała większości w parlamencie",
+      "category": "Politics",
+      "region": "Nowa Zelandia",
+      "summary": "Po wyborach parlamentarnych w Nowej Zelandii rządząca koalicja nie zdobyła wymaganej większości, co oznacza konieczność negocjacji z mniejszościowymi partiami. Sytuacja polityczna może prowadzić do przedterminowych wyborów lub koalicji mniejszościowej.",
+      "body": "Wyniki wyborów pokazały, że koalicja rządząca zdobyła o jeden mandat mniej niż potrzebne 61 miejsc w 120‑miejscowym parlamentzie. Partie opozycyjne, w tym Zieloni i Partia Pracy, zyskały znaczące poparcie, co utrudnia formowanie stabilnego rządu.\n\nPremier zapowiedział rozmowy z liderami mniejszych ugrupowań w celu stworzenia koalicji mniejszościowej, która mogłaby uzyskać poparcie w kluczowych głosowaniach. Politycy podkreślają, że priorytetem będzie stabilność gospodarcza i polityka klimatyczna.\n\nEksperci przewidują, że brak wyraźnej większości może wydłużyć proces legislacyjny i zwiększyć napięcia w parlamencie, co może wpłynąć na decyzje dotyczące budżetu i reform społecznych.",
+      "image_query": "New Zealand parliament",
+      "sources": [
+        "BBC Asia"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Female_MPs_of_the_52nd_Parliament_of_New_Zealand.jpg/960px-Female_MPs_of_the_52nd_Parliament_of_New_Zealand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-5"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Jaeger‑LeCoultre Reverso Classic Monoface Small Seconds w nowej złotej kopertce",
+      "category": "Watch",
+      "region": "Francja",
+      "summary": "Nowa wersja klasycznego Reverso łączy tradycyjny mechanizm z elegancką, złotą kopertą w średniej wielkości. Model skierowany jest do miłośników luksusowych zegarków z historią i nowoczesnym designem.",
+      "body": "Reverso, zaprojektowany pierwotnie w 1931 roku dla potrzeb armii brytyjskiej w Indiach, zyskał nową odsłonę w postaci małego sekundnika i złotej koperty, podkreślając jednocześnie swoją legendarą wytrzymałość i styl. Zegarek zachowuje charakterystyczny mechanizm obracania tarczy, który chroni szkło przed uszkodzeniami.\n\nNowy model dostępny jest w wersji z automatycznym ruchem oraz opcją ręcznego nakręcania, co przyciąga zarówno tradycjonalistów, jak i nowoczesnych kolekcjonerów. Zastosowane materiały, takie jak 18‑karatowe złoto i szafirowe szkło, podnoszą wartość i ekskluzywność produktu.\n\nJaeger‑LeCoultre podkreśla, że edycja limitowana ma być hołdem dla dziedzictwa marki, jednocześnie wprowadzając subtelne nowoczesne akcenty, które przyciągną nową generację entuzjastów zegarmistrzostwa.",
+      "image_query": "luxury watch Reverso",
+      "sources": [
+        "Monochrome Watches"
+      ],
+      "source_url": "https://monochrome-watches.com/jaeger-lecoultre-reverso-classic-monoface-small-seconds-in-a-new-mid-size-gold-case-q3862520-introducing-price/",
+      "image_url": "",
+      "id": "art-6"
+    },
+    {
+      "title": "Prehistoryczne ssaki z rogami mogły być mniej różnicowane płciowo niż sądzono",
+      "category": "Science",
+      "region": "Global",
+      "summary": "Naukowcy odkryli, że niektóre prehistoryczne ssaki z rogami wykazywały niewielkie różnice płciowe, co zmienia dotychczasowe rozumienie ich zachowań. Badanie oparte jest na analizie skamieniałości i nowoczesnych technik obrazowania.",
+      "body": "Zespół paleontologów przeanalizował setki skamieniałości, wykorzystując tomografię komputerową, aby zbadać struktury kostne i rogowate. Wyniki wskazują, że różnice w rozmiarze i kształcie rogów pomiędzy samcami a samicami były minimalne, co sugeruje bardziej złożone strategie reprodukcyjne.\n\nOdkrycie to podważa wcześniejsze teorie, które zakładały wyraźne dimorfizmy płciowe u tych zwierząt, podobnie jak u współczesnych nosorożców. Naukowcy sugerują, że rogi mogły pełnić funkcje społeczne lub obronne, niezależnie od płci.\n\nBadanie otwiera nowe drogi do zrozumienia ewolucji zachowań społecznych u prehistorycznych ssaków i podkreśla znaczenie nowoczesnych metod badawczych w paleontologii.",
+      "image_query": "prehistoric mammals fossils",
+      "sources": [
+        "ScienceDaily Top Science"
+      ],
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261125045310.htm",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Dinohyus_hollandi_%28fossil_mammal%29Lower_Miocene_of_Nebraska.jpg/960px-Dinohyus_hollandi_%28fossil_mammal%29Lower_Miocene_of_Nebraska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-7"
+    },
+    {
+      "title": "FIFA potwierdza cyberatak wymierzony w dane osobowe i biznesowe",
+      "category": "Cybersecurity",
+      "region": "Global",
+      "summary": "Światowa federacja piłkarska ujawniła, że padła ofiarą cyberataku, w wyniku którego wyciekły ograniczone informacje o osobach i firmach. Atak miał miejsce w krytycznym momencie, gdy organizacja przygotowuje się do kolejnych turniejów.",
+      "body": "FIFA poinformowała, że atak został przeprowadzony przy użyciu złośliwego oprogramowania, które uzyskało dostęp do wybranych baz danych. W wyniku incydentu ujawniono dane kontaktowe i finansowe niektórych partnerów oraz pracowników, ale nie doszło do wycieku wrażliwych informacji medycznych.\n\nOrganizacja podjęła natychmiastowe kroki, aby zabezpieczyć systemy, w tym współpracę z międzynarodowymi ekspertami ds. cyberbezpieczeństwa i przeprowadzenie audytu bezpieczeństwa. FIFA zapowiedziała również wzmocnienie protokołów ochrony danych przed przyszłymi zagrożeniami.\n\nIncydent podkreśla rosnące ryzyko cyberataków w świecie sportu, gdzie organizacje o globalnym zasięgu są atrakcyjnym celem hakerów. Eksperci zalecają zwiększenie inwestycji w zabezpieczenia oraz edukację personelu w zakresie najlepszych praktyk cyberbezpieczeństwa.",
+      "image_query": "FIFA cyber attack",
+      "sources": [
+        "Deutsche Welle Europe"
+      ],
+      "source_url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660?maca=en-rss-en-eu-2092-xml-mrss",
+      "image_url": "",
+      "id": "art-8"
+    },
+    {
+      "title": "Indie planują pierwsze testy pociągów dużych prędkości w maju 2027 roku",
+      "category": "Railway",
+      "region": "Indie",
+      "summary": "Indyjskie władze ogłosiły, że pierwsza sekcja 50 km linii wysokich prędkości między Mumbajem a Ahmedabadem zostanie uruchomiona w maju 2027 roku. Projekt ma na celu wprowadzenie krajowego pociągu B28, opracowanego w pełni w Indiach.",
+      "body": "Linia o prędkości do 350 km/h ma połączyć dwa kluczowe ośrodki gospodarcze, skracając czas podróży z kilku godzin do niecałych 90 minut. Testy będą obejmować zarówno infrastrukturę torową, jak i nowoczesne systemy sygnalizacji oraz kontrolę ruchu.\n\nProjekt jest częścią szerszej strategii modernizacji transportu kolejowego w Indiach, mającej na celu zwiększenie konkurencyjności wobec transportu lotniczego i drogowego. Współpraca z partnerami międzynarodowymi zapewnia dostęp do najnowszych technologii i standardów bezpieczeństwa.\n\nEksperci podkreślają, że sukces testów będzie kluczowy dla dalszych inwestycji w sieć szybkich pociągów w całym kraju, co może przyczynić się do zmniejszenia emisji CO₂ i poprawy mobilności mieszkańców.",
+      "image_query": "high speed train India",
+      "sources": [
+        "International Railway Journal"
+      ],
+      "source_url": "https://www.railjournal.com/passenger/high-speed/india-targets-may-2027-for-first-high-speed-train-trials/",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Specially_Designed_Mini_Vande_Bharat_Express_train.jpg/960px-Specially_Designed_Mini_Vande_Bharat_Express_train.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-9"
+    }
+  ],
+  "continents": {
+    "Europa": [
+      {
+        "title": "Francja: Polityczna mainstreamowa pustka przed wyborami prezydenckimi",
+        "category": "Polityka",
+        "region": "Europa",
+        "summary": "Sondaże przed przyszłorocznymi wyborami prezydenckimi we Francji wskazują na dominację kandydatów z ekstremalnej prawicy i lewicy. Brak wyraźnego kandydata z głównego nurtu politycznego grozi destabilizacją sceny politycznej.",
+        "body": "Francuska scena polityczna stoi w obliczu potencjalnego kryzysu przed nadchodzącymi wyborami prezydenckimi, ponieważ tradycyjne partie z głównego nurtu nie są w stanie przedstawić konkurencyjnego kandydata. Sondaże jednoznacznie wskazują, że to przedstawiciele skrajnych frakcji – zarówno z prawicy, jak i lewicy – dominują w wyścigu o poparcie wyborców, co rodzi obawy o polaryzację społeczeństwa.\n\nEksperci ostrzegają, że taka konfiguracja może prowadzić do „debaklu” w pierwszej turze, gdzie żaden kandydat nie uzyska wystarczającego poparcia do przejścia do finału z silną pozycją. Sytuacja ta wymusza na partii rządzącej poszukiwanie sojuszy, które mogą okazać się niestabilne i krótkotrwałe, co dodatkowo komplikuje planowanie polityki wewnętrznej.\n\nBrak jasnego lidera z centrum politycznego oznacza, że debata publiczna będzie koncentrować się na radykalnych propozycjach programowych, co może pogłębić podziały społeczne. Dla obserwatorów międzynarodowych jest to sygnał ostrzegawczy dotyczący odporności francuskiej demokracji na presję ze strony ruchów antyestablishmentowych.",
+        "image_query": "France political election",
+        "sources": [
+          "BBC Europe"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cq772vedgepro?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/1st_round_of_the_french_legislative_election_in_aisne.png/960px-1st_round_of_the_french_legislative_election_in_aisne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-10"
+      },
+      {
+        "title": "Albania: Młodzi demonstranci w „Rewolucji Flamingo” rezygnują z emigracji",
+        "category": "Społeczeństwo",
+        "region": "Europa",
+        "summary": "Protesty młodzieży w Albanii przeciwko korupcji i sztywnemu systemowi politycznym wstrząsnęły rządem premiera Edi Ramy. Zjawisko to sygnalizuje zmianę postaw młodych Albańczyków, którzy coraz częściej wybierają walkę o zmiany w kraju zamiast wyjazdu.",
+        "body": "W Albanii trwa fala protestów młodzieżowych, znanych jako „Rewolucja Flamingo”, które stanowią bezpośrednie wyzwanie dla autorytetu rządu premiera Edi Ramy. Demonstranci domagają się reform systemu politycznego i walki z korupcją, która od lat obciąża wizerunek kraju w oczach obywateli i inwestorów.\n\nZmiana narracji jest kluczowa: tam, gdzie wcześniej młodzi Albańczycy masowo wyjeżdżali za granicę w poszukiwaniu lepszego życia, teraz widoczna jest rosnąca determinacja, by pozostać i kształtować przyszłość kraju. Ta zmiana postaw społecznych może mieć długofalowe konsekwencje dla stabilności politycznej regionu Bałkanów Zachodnich.\n\nRząd stoi przed dylematem: ulec presji ulicy i wprowadzić reformy, czy też stłumić protesty, ryzykując eskalację konfliktu. Obserwatorzy uważają, że wynik tej konfrontacji zdecyduje o tym, czy Albania utrzyma kurs na integrację europejską, czy też wpadnie w spiralę niestabilności wewnętrznej.",
+        "image_query": "Albania youth protest",
+        "sources": [
+          "Deutsche Welle Europe"
+        ],
+        "source_url": "https://www.dw.com/en/albania-s-youth-are-protesting-in-flamingo-revolution-not-leaving-the-country-anymore/a-80068939?maca=en-rss-en-eu-2092-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Flamingo_Revolution_Tirana_Protest_nr22_June_21_2026_40.jpg/960px-Flamingo_Revolution_Tirana_Protest_nr22_June_21_2026_40.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-11"
+      },
+      {
+        "title": "Hiszpania: Wyjaśnienie mechanizmów nadzwyczajnych wyborów parlamentarnych",
+        "category": "Polityka",
+        "region": "Europa",
+        "summary": "Hiszpanie udadzą się 29 listopada do urn w nadzwyczajnych wyborach ogólnokrajowych. Analiza map i wykresów pokazuje, jak działa system wyborczy, jakie partie walczą o władzę i jakie są kluczowe problemy kampanii.",
+        "body": "Nadchodzące wybory w Hiszpanii stanowią kluczowy moment dla stabilności politycznej kraju, ponieważ obecna koalicja rządząca utraciła większość parlamentarną po przegłosowaniu ustawy mieszkaniowej. System wyborczy w Hiszpanii jest złożony, a wyniki zależą od dystrybucji mandatów w różnych okręgach, co często prowadzi do fragmentacji sceny politycznej.\n\nKampania wyborcza koncentruje się na trzech głównych liderach partii, z których każdy oferuje inną wizję przyszłości kraju. Kluczowe tematy to polityka mieszkaniowa, gospodarka oraz relacje z Unią Europejską, które decydują o poparciu elektoratu w kluczowych regionach, takich jak Katalonia czy Madryt.\n\nEksperci podkreślają, że wynik tych wyborów może otworzyć drogę do nowego rządu lub przedłużyć okres niepewności politycznej. Dla Hiszpanii jest to test odporności demokracji na kryzysy koalicyjne, które stają się coraz częstsze w Europie.",
+        "image_query": "Spain election maps",
+        "sources": [
+          "Al Jazeera"
+        ],
+        "source_url": "https://www.aljazeera.com/news/2026/11/27/spains-2026-election-explained-in-maps-and-charts?traffic_source=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/SpainElectionMapCongress1893.png/960px-SpainElectionMapCongress1893.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-12"
+      }
+    ],
+    "Ameryka Północna": [
+      {
+        "title": "Analiza: Nowe cła Trumpa jako mniejsze zagrożenie dla globalnego handlu",
+        "category": "Gospodarka",
+        "region": "Ameryka Północna",
+        "summary": "Inne kraje przestawiły swoje łańcuchy dostaw w odpowiedzi na pierwszą falę ceł, co zmniejsza skuteczność nowych obostrzeń. Partnerzy handlowi USA szukają sposobów na obejście polityki celnej, niezależnie od kadencji prezydenta.",
+        "body": "Polityka celna Stanów Zjednoczonych pod rządami prezydenta Trumpa napotyka na rosnącą odporność ze strony partnerów handlowych, którzy zdołali zdywersyfikować swoje łańcuchy dostaw. Analizy wskazują, że nowe cła stanowią mniejsze zagrożenie niż początkowo prognozowano, ponieważ kraje takie jak Chiny, Meksyk czy Unia Europejska już wcześniej rozpoczęły restrukturyzację swoich eksportów.\n\nFirmy międzynarodowe uczą się działać w środowisku, w którym polityka handlowa USA jest zmienna i nieprzewidywalna. W efekcie, zamiast reagować na każde nowe obostrzenie, korporacje budują trwałe alternatywne szlaki handlowe, które minimalizują zależność od amerykańskiego rynku.\n\nDługoterminowo może to osłabić pozycję negocjacyjną Waszyngtonu, ponieważ kraje partnerskie stają się bardziej samowystarczalne w kontekście handlowym. Trend ten sugeruje, że era dominacji amerykańskich ciał jako narzędzia presji politycznej może dobiegać końca, ustępując miejsca bardziej zbalansowanemu globalnemu handlowi.",
+        "image_query": "global trade tariffs",
+        "sources": [
+          "BBC US & Canada"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Comprehensive_Economic_and_Trade_Agreement_%28CETA%29_L%E2%80%99Accord_%C3%A9conomique_et_commercial_global_%2836954417940%29.jpg/960px-Comprehensive_Economic_and_Trade_Agreement_%28CETA%29_L%E2%80%99Accord_%C3%A9conomique_et_commercial_global_%2836954417940%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-13"
+      },
+      {
+        "title": "Śmierć Stroba Talbotta, byłego wiceministra stanu USA",
+        "category": "Kultura",
+        "region": "Ameryka Północna",
+        "summary": "Zmarł Strobe Talbott, znany dziennikarz magazynu Time i wiceminister stanu w administracji Billa Clintona. Przez ostatnie lata kierował Instytutem Brookings, będąc wpływowym głosem w debacie publicznej.",
+        "body": "Śmierć Stroba Talbotta w wieku 80 lat to koniec epoki dla amerykańskiej dyplomacji i dziennikarstwa. Jako wiceminister stanu w latach 90. odegrał kluczową rolę w kształtowaniu polityki zagranicznej USA po zakończeniu zimnej wojny, a wcześniej jako redaktor prowadzący magazyn Time wpływał na narrację medialną w kraju.\n\nW ostatnich latach Talbott był szefem Instytutu Brookings, gdzie kontynuował swoją pracę analityczną, komentując bieżące wydarzenia polityczne i geopolityczne. Jego poglądy były często cytowane w mediach, a jego autorytet czynił go jednym z najważniejszych myślicieli w kręgach establishmentu politycznego.\n\nJego odejście zostawia lukę w amerykańskim świecie intelektualnym, który potrzebuje głosów łączących doświadczenie dyplomatyczne z perspektywą medialną. Talbott będzie pamiętany nie tylko za swoje stanowiska, ale także za umiejętność tłumaczenia złożonych kwestii międzynarodowych dla szerokiej publiczności.",
+        "image_query": "Strobe Talbott portrait",
+        "sources": [
+          "NPR News"
+        ],
+        "source_url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit",
+        "image_url": "",
+        "id": "art-14"
+      },
+      {
+        "title": "Korea Północna: Kim Jong Un zapowiada budowę kolejnych broni jądrowych",
+        "category": "Bezpieczeństwo",
+        "region": "Ameryka Północna",
+        "summary": "Lider Korei Północnej zignorował gesty pojednawcze ze strony prezydenta Trumpa, odwiedzając zakłady produkujące składniki nuklearne. Kim zapowiedział zwiększenie arsenału jądrowego w odpowiedzi na zagrożenia ze strony USA i Korei Południowej.",
+        "body": "Napięcie na Półwyspie Koreańskim rośnie, gdy Kim Jong Un oficjalnie zapowiedział dalszą rozbudowę arsenału nuklearnego, ignorując wcześniejsze sygnały otwartości ze strony administracji USA. Wizyta lidera w zakładach produkcyjnych ma na celu demonstrację siły i determinacji w obliczu postrzeganych zagrożeń ze strony Waszyngtonu i Seulu.\n\nDecyzja ta podważa wysiłki dyplomatyczne, które miały na celu deeskalację konfliktu. Zamiast rozmów, Pjongjang wybiera drogę militarnej postawy, co może wymusić na USA i ich sojusznikach w regionie wzmocnienie systemów obronnych i ćwiczeń wojskowych.\n\nEksperci ostrzegają, że taka eskalacja retoryki i działań może prowadzić do błędnego koła zbrojeń w Azji Północno-Wschodniej. Sytuacja ta stanowi poważne wyzwanie dla stabilności regionalnej i wymaga natychmiastowej reakcji społeczności międzynarodowej, aby zapobiec dalszej destabilizacji.",
+        "image_query": "North Korea nuclear facility",
+        "sources": [
+          "NPR News"
+        ],
+        "source_url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/DPRK_%2801610081%29_%288446218823%29.jpg/960px-DPRK_%2801610081%29_%288446218823%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-15"
+      }
+    ],
+    "Ameryka Południowa": [
+      {
+        "title": "Brazylia: Lula powołuje bankowca na ministra finansów w czwartej kadencji",
+        "category": "Gospodarka",
+        "region": "Ameryka Południowa",
+        "summary": "Prezydent Luiz Inácio Lula da Silva wybrał 75-letniego Luisa Carlosa Trabuco, przewodniczącego rady nadzorczej Banco Bradesco, na stanowisko ministra finansów. Nowy minister rozpocznie urzędowanie 5 stycznia, co sygnalizuje kontynuację stabilnej polityki fiskalnej.",
+        "body": "Powołanie Luisa Carlosa Trabuco na ministra finansów to strategiczny ruch prezydenty Luli, mający na celu uspokojenie rynków finansowych przed rozpoczęciem jego czwartej kadencji. Doświadczenie Trabuco w sektorze bankowym, gdzie przez lata kierował jednym z największych banków w Brazylii, jest postrzegane jako gwarancja kompetencji technicznych w zarządzaniu budżetem państwa.\n\nWybór ten może zaskoczyć część elektoratu lewicowego, który oczekuje bardziej progresywnych rozwiązań, jednak Lula stawia na technokratyczną stabilność. Trabuco ma za zadanie zbalansować wydatki socjalne z wymogami dyscypliny fiskalnej, co jest kluczowe dla utrzymania wiarygodności Brazylii na arenie międzynarodowej.\n\nRynki reakcją na tę decyzję będą mogły ocenić, czy nowy minister jest w stanie sprostać wyzwaniom, takim jak inflacja i dług publiczny. Sukces Trabuco będzie zależał od jego zdolności do budowania mostów między sektorem prywatnym a rządem, co jest niezbędne dla dalszego wzrostu gospodarczego Brazylii.",
+        "image_query": "Brazil finance minister",
+        "sources": [
+          "MercoPress"
+        ],
+        "source_url": "https://en.mercopress.com/2026/11/27/lula-picks-banker-luiz-carlos-trabuco-to-run-the-finance-ministry-in-his-fourth-term?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/2026-05-18%2C_Meeting_between_Brazilian_Ambassador_Paulo_Fernando_Dias_Feres_and_Finance_Minister_Amir_Khosru_Mahmud_Chowdhury.jpg/960px-2026-05-18%2C_Meeting_between_Brazilian_Ambassador_Paulo_Fernando_Dias_Feres_and_Finance_Minister_Amir_Khosru_Mahmud_Chowdhury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-16"
+      },
+      {
+        "title": "Paragwaj: Milei staje się pierwszym głową państwa odwiedzającym nowego prezydenta Alliana",
+        "category": "Polityka",
+        "region": "Ameryka Południowa",
+        "summary": "Prezydent Argentyny Javier Milei odwiedził Asunción, by wesprzeć Pedro Alliana, który zastąpił usuniętego z urzędu Santiago Penę. Wizyta ta podkreśla rosnącą rolę Argentyny w kształtowaniu polityki regionalnej.",
+        "body": "Wizyta prezydenta Milei w Paragwaju ma wymiar symboliczny i polityczny, ponieważ jest to pierwsza oficjalna wizyta zagranicznego przywódcy u nowego prezydenta Alliana. Zmiana władzy w Asunción, następująca po usunięciu Peny z urzędu i jego uwięzieniu, stworzyła próżnię dyplomatyczną, którą Argentyna stara się wypełnić.\n\nMilei, znany ze swojej radykalnej polityki gospodarczej, szuka sojuszników w regionie, którzy podzielają jego poglądy na temat deregulacji i wolnego rynku. Współpraca z Paragwajem może otworzyć nowe możliwości handlowe i polityczne dla obu krajów, wzmacniając ich pozycję w Ameryce Łacińskiej.\n\nJednak ta bliska relacja może budzić obawy u innych państw regionu, które obawiają się dominacji Argentyny. Dla Paragwaju jest to szansa na umocnienie swojej pozycji, ale wymaga również ostrożności, aby nie stać się zbyt zależnym od polityki Buenos Aires.",
+        "image_query": "Argentina Paraguay diplomacy",
+        "sources": [
+          "MercoPress"
+        ],
+        "source_url": "https://en.mercopress.com/2026/11/26/milei-becomes-the-first-head-of-state-to-visit-alliana-in-paraguay-after-pena-s-fall?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/British_exploits_in_South_America%3B_a_history_of_British_activities_in_exploration%2C_military_adventure%2C_diplomacy%2C_science%2C_and_trade%2C_in_Latin_American_%281917%29_%2814783127542%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-17"
+      },
+      {
+        "title": "Kolumbia: Bomba samochodowa rani ponad 20 osób w ataku na budynek rządowy",
+        "category": "Bezpieczeństwo",
+        "region": "Ameryka Południowa",
+        "summary": "Eksplozja bomby samochodowej w kolumbijskim mieście raniła ponad 20 osób, będąc kolejnym atakiem na obiekty sił bezpieczeństwa i administracji. Seria tych incydentów wskazuje na nasilenie działań grup zbrojnych.",
+        "body": "Atak bombowy w Kolumbii stanowi kolejny dowód na to, że kraj wciąż zmaga się z problemem przemocy ze strony grup zbrojnych, mimo postępów w procesie pokojowym. Celowanie w budynki rządowe i sił bezpieczeństwa ma na celu podważenie autorytetu państwa i wywołanie chaosu społecznego.\n\nPonad 20 rannych to ludzki koszt tych działań, które niszczą infrastrukturę i budzą strach wśród cywilów. Rząd Kolumbii musi odpowiedzieć na te ataki zjednoczonym frontem, łącząc działania wojskowe z polityką społeczną, aby odbudować zaufanie obywateli.\n\nMiędzynarodowa społeczność obserwuje te wydarzenia z niepokojem, ponieważ destabilizacja Kolumbii może mieć wpływ na cały region. Wsparcie dla rządu kolumbijskiego w walce z przestępczością zorganizowaną jest kluczowe dla utrzymania stabilności w Ameryce Południowej.",
+        "image_query": "Colombia security forces",
+        "sources": [
+          "BBC Latin America"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Continuing_Promise_2024_completed_a_Women%2C_Peace_and_Security_symposium_in_Cartagena%2C_Colombia_%288583031%29.jpg/960px-Continuing_Promise_2024_completed_a_Women%2C_Peace_and_Security_symposium_in_Cartagena%2C_Colombia_%288583031%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-18"
+      }
+    ],
+    "Azja": [
+      {
+        "title": "Wietnam: Autorytarny reżim rozważa zniesienie kary śmierci dla kolejnych przestępstw",
+        "category": "Prawo i Społeczeństwo",
+        "region": "Azja",
+        "summary": "Wietnam zagłosował za zniesieniem kary śmierci dla sześciu dodatkowych przestępstw, kontynuując wieloletni trend ograniczania kary śmierci. Decyzja ta budzi dyskusję o gotowości autorytarnego systemu do reform prawnych.",
+        "body": "Decyzja wietnamskiego parlamentu o dalszym ograniczaniu stosowania kary śmierci jest zaskakująca, biorąc pod uwagę autorytarny charakter reżimu. Zniesienie kary śmierci dla sześciu nowych kategorii przestępstw wpisuje się w wieloletni trend, który ma na celu dostosowanie systemu prawnego do standardów międzynarodowych.\n\nEksperci zastanawiają się, czy jest to rzeczywista zmiana postaw, czy raczej taktyczny ruch mający na celu poprawę wizerunku kraju na arenie międzynarodowej. Niezależnie od motywacji, krok ten otwiera drogę do dalszych reform prawnych, które mogą wpłynąć na sytuację praw człowieka w Wietnamie.\n\nSpołeczeństwo obywatelskie w Wietnamie, choć ograniczone, może wykorzystać ten impet do dalszych żądań reform. Dla obserwatorów jest to sygnał, że nawet w autorytarnych systemach możliwe są zmiany, jeśli są one prowadzone w sposób kontrolowany i stopniowy.",
+        "image_query": "Vietnam legal reform",
+        "sources": [
+          "Deutsche Welle Asia"
+        ],
+        "source_url": "https://www.dw.com/en/is-authoritarian-vietnam-ready-to-phase-out-the-death-penalty/a-80064271?maca=en-rss-en-asia-5133-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/2025_map_of_Viet_Nam.jpg/960px-2025_map_of_Viet_Nam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-19"
+      },
+      {
+        "title": "Indonezja: Umowa handlowa z UE otwiera nowe rynki, ale stawia wyzwania",
+        "category": "Gospodarka",
+        "region": "Azja",
+        "summary": "Umowa handlowa między Unią Europejską a Indonezją oferuje nowe możliwości eksportowe i inwestycyjne. Kluczowym pytaniem jest, czy Indonezja potrafi przekuć zainteresowanie Europy na trwałe korzyści dla lokalnej gospodarki.",
+        "body": "Podpisanie umowy handlowej z Unią Europejską to przełomowy moment dla indonezyjskiej gospodarki, która zyskuje dostęp do jednego z największych rynków świata. Umowa obejmuje nie tylko towary, ale także usługi i inwestycje, co może przyciągnąć kapitał europejski do Indonezji.\n\nJednak wyzwania pozostają: Indonezja musi upewnić się, że korzyści z handlu nie będą koncentrować się w rękach nielicznych, ale będą się rozpowszechniać w całym społeczeństwie. Wymaga to inwestycji w infrastrukturę, edukację i ochronę środowiska, aby rozwój był zrównoważony.\n\nEuropa, z kolei, zyskuje dostęp do kluczowych minerałów, które są niezbędne dla transformacji energetycznej. Współpraca ta może stać się modelem dla innych partnerstw handlowych w Azji, łącząc interesy gospodarcze z celami klimatycznymi.",
+        "image_query": "Indonesia EU trade",
+        "sources": [
+          "Deutsche Welle Asia"
+        ],
+        "source_url": "https://www.dw.com/en/eu-indonesia-trade-deal-opens-new-markets-but-challenges-remain/a-80059568?maca=en-rss-en-asia-5133-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/EU-Indonesia_Trade_Relations_Infographic.png/960px-EU-Indonesia_Trade_Relations_Infographic.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-20"
+      },
+      {
+        "title": "Bangladesz: Planowany powrót Sheikh Hasiny budzi napięcia z Indiami",
+        "category": "Polityka",
+        "region": "Azja",
+        "summary": "Plany powrotu usuniętej premier Sheikh Hasiny do Bangladeszu w grudniu pogłębiają napięcia między Dhaką a Delhi. Sytuacja ta grozi nowymi niepokojami społecznymi w kraju.",
+        "body": "Polityczna sytuacja w Bangladeszu staje się coraz bardziej napięta w związku z planowanym powrotem Sheikh Hasiny, która została usunięta z urzędu po masowych protestach. Jej powrót jest postrzegany jako prowokacja przez część społeczeństwa, co może prowadzić do eskalacji przemocy.\n\nIndie, które mają silne wpływy w Bangladeszu, znajdują się w trudnej pozycji. Muszą balansować między wsparciem dla stabilności w regionie a unikaniem bezpośredniego konfliktu z nowymi władzami w Dhace. Napięcia te mogą wpłynąć na współpracę regionalną w Azji Południowej.\n\nSpołeczeństwo bangladeskie jest podzielone, a ryzyko nowych niepokojów jest wysokie. Międzynarodowa społeczność apeluje o dialog i powstrzymanie się od działań, które mogą pogłębić kryzys. Stabilność w Bangladeszu jest kluczowa dla bezpieczeństwa całego regionu.",
+        "image_query": "Bangladesh political tension",
+        "sources": [
+          "BBC Asia"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Hussain_Shahs_of_Bengal.png/960px-Hussain_Shahs_of_Bengal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-21"
+      }
+    ],
+    "Afryka": [
+      {
+        "title": "Afryka: Tańsza szczepionka przeciw HIV zmienia zasady gry w prewencji",
+        "category": "Zdrowie",
+        "region": "Afryka",
+        "summary": "Lenacapavir, szczepionka podawana dwukrotnie w roku, osiąga blisko 100% skuteczności w zapobieganiu zakażeniu HIV. Jej dostępność w Afryce daje nadzieję milionom ludzi na skuteczną prewencję.",
+        "body": "Wprowadzenie lenacapaviru do afrykańskich systemów opieki zdrowotnej to przełom w walce z epidemią HIV. W przeciwieństwie do codziennych leków antyretrowirusowych, ta szczepionka wymaga jedynie dwóch iniekcji rocznie, co znacząco ułatwia przestrzeganie reżimu terapeutycznego.\n\nBlisko 100% skuteczności sprawia, że jest to narzędzie o ogromnym potencjale, szczególnie w populacjach o wysokim ryzyku zakażenia. Dostępność tańszej wersji leku pozwala na masowe programy prewencyjne, które mogą znacząco ograniczyć nowe zakażenia.\n\nWyzwaniem pozostaje logistyka dostaw i edukacja społeczna, ale sukces tego projektu może stać się wzorem dla innych regionów. Dla Afryki to szansa na odwrócenie trendu epidemiologicznego i poprawę jakości życia milionów ludzi.",
+        "image_query": "HIV prevention Africa",
+        "sources": [
+          "BBC Africa"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Workshop_on_HIV-AIDS_and_tuberculosis_in_South_Africa.jpg/960px-Workshop_on_HIV-AIDS_and_tuberculosis_in_South_Africa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-22"
+      },
+      {
+        "title": "Somalia: Wycofanie obcych wojsk rodzi obawy o przejęcie władzy przez al-Shabab",
+        "category": "Bezpieczeństwo",
+        "region": "Afryka",
+        "summary": "Wycofanie się sił zagranicznych z Somalii stawia kraj w obliczu zagrożenia ze strony radykalnej grupy al-Shabab. Somalia jest silnie zależna od zagranicznego finansowania i wsparcia wojskowego dla swojego przetrwania.",
+        "body": "Wycofanie się obcych wojsk z Somalii to moment prawdy dla tego kraju, który od dekad zmaga się z niestabilnością i terroryzmem. Grupa al-Shabab, która od lat prowadzi kampanię zbrojną, widzi w tym szansę na przejęcie większego terytorium i wpływ na politykę kraju.\n\nRząd somalijski, słaby i zależny od pomocy zagranicznej, musi szybko wzmocnić swoje siły bezpieczeństwa, aby zapobiec eskalacji konfliktu. Bez wsparcia międzynarodowego, perspektywy na stabilizację są mizerne.\n\nSpołeczność międzynarodowa stoi przed dylematem: czy kontynuować wsparcie, czy też pozwolić Somalii na samodzielne rozwiązywanie problemów. Decyzja ta będzie miała wpływ na bezpieczeństwo w całym regionie Rogu Afryki.",
+        "image_query": "Somalia security crisis",
+        "sources": [
+          "BBC Africa"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/ck62y23z58yeo?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/CJTF-HOA_Strengthens_Crisis_Response_During_Integrated_Exercise_%289899750%29.jpg/960px-CJTF-HOA_Strengthens_Crisis_Response_During_Integrated_Exercise_%289899750%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-23"
+      },
+      {
+        "title": "Mali i Wybrzeże Kości Słoniowej awansują do fazy pucharowej Mistrzostw Świata U-17",
+        "category": "Sport",
+        "region": "Afryka",
+        "summary": "Reprezentacja Mali zakończyła fazę grupową Mistrzostw Świata U-17 na pierwszym miejscu, pokonując Wietnam 2:0. Wybrzeże Kości Słoniowej również awansowało do fazy pucharowej, co jest sukcesem dla afrykańskiego futbolu młodzieżowego.",
+        "body": "Afrykańskie drużyny młodzieżowe radzą sobie znakomicie na Mistrzostwach Świata U-17, co świadczy o rosnącym poziomie futbolu na kontynencie. Mali, zdominując swoją grupę, pokazało, że ma potencjał, by sięgnąć po tytuł, a ich gra oparta na dynamice i technice zachwyciła kibiców.\n\nAwans Wybrzeża Kości Słoniowej do fazy pucharowej to kolejny dowód na to, że afrykańskie akademie piłkarskie są w stanie produkować talenty światowej klasy. Sukcesy te budują mosty między kulturą sportową a społeczną, dając młodym ludziom poczucie dumy narodowej.\n\nDla całego kontynentu to sygnał, że inwestycje w sport młodzieżowy przynoszą owoce. Międzynarodowa federacja FIFA powinna rozważyć zwiększenie wsparcia dla programów rozwojowych w Afryce, aby wykorzystać ten potencjał.",
+        "image_query": "Africa U17 football",
+        "sources": [
+          "Africanews"
+        ],
+        "source_url": "http://www.africanews.com/2026/11/26/mali-top-group-g-as-cote-divoire-join-them-in-u-17-world-cup-knockouts/",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/2025_Africa_Cup_of_Nations_qualification_map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "id": "art-24"
+      }
+    ],
+    "Australia i Oceania": [
+      {
+        "title": "Australia: Sankcje dla dwóch mężczyzn za podpalenia wspierane przez Iran",
+        "category": "Bezpieczeństwo",
+        "region": "Australia i Oceania",
+        "summary": "Dwóch mężczyzn oskarżonych o organizację antysemickich podpalen w Sydney i Melbourne w 2024 roku zostało objętych sankcjami. Akcje te były koordynowane z zagranicy przy wsparciu irańskich interesów.",
+        "body": "Wprowadzenie sankcji wobec dwóch mężczyzn odpowiedzialnych za podpalenia w Australii to silny sygnał rządu, że nie będzie tolerował aktów przemocy motywowanych nienawiścią. Podpalenia w Sydney i Melbourne były częścią szerszej kampanii, która miała na celu destabilizację społeczeństwa i podważenie zaufania do instytucji.\n\nFakt, że akcje te były koordynowane z zagranicy, wskazuje na istnienie sieci przestępczych, które wykorzystują napięcia społeczne do swoich celów. Australia musi wzmocnić swoją wywiad i współpracę międzynarodową, aby zidentyfikować i zneutralizować takie zagrożenia.\n\nSankcje te są początkiem, a nie końcem walki z ekstremizmem. Rząd musi również inwestować w programy integracyjne i edukacyjne, które będą budować spójność społeczną i odporność na manipulacje z zewnątrz.",
+        "image_query": "Australia security sanctions",
+        "sources": [
+          "ABC News Australia"
+        ],
+        "source_url": "https://www.abc.net.au/news/2026-11-27/two-men-sanctioned-over-iran-backed-antisemitic-arson-attacks/107435226",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Anthony_Albanese_and_Volodymyr_Zelenskyy_in_September_2026_%2864470452327%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "id": "art-25"
+      },
+      {
+        "title": "Nowa Zelandia: Koło zamachowe w Auckland otworzy się tego lata",
+        "category": "Infrastruktura",
+        "region": "Australia i Oceania",
+        "summary": "Zatwierdzono budowę 32-metrowego koła zamachowego na nabrzeżu Auckland, które ma otworzyć się tego lata. Atrakcja pomieści 24 gondole i do 144 osób, stając się nową wizytówką miasta.",
+        "body": "Budowa koła zamachowego w Auckland to kolejny krok w rozwoju turystycznym Nowej Zelandii, która stara się przyciągnąć więcej odwiedzających do swoich miast. Atrakcja ta ma stać się symbolem nowoczesności i otwartości Auckland, oferując mieszkańcom i turystom nowe doświadczenia.\n\nInwestycja ta jest częścią szerszej strategii rozwoju infrastruktury miejskiej, która ma na celu poprawę jakości życia i promocję miasta na arenie międzynarodowej. Oczekuje się, że koło zamachowe przyciągnie tysiące turystów, co przełoży się na wzrost przychodów dla lokalnych biznesów.\n\nProjekt ten pokazuje, że Nowa Zelandia jest gotowa na inwestycje w rozrywkę i infrastrukturę, co jest kluczowe dla zrównoważonego rozwoju gospodarczego. Sukces tej atrakcji może otworzyć drogę dla podobnych projektów w innych miastach kraju.",
+        "image_query": "Auckland ferris wheel",
+        "sources": [
+          "Radio New Zealand"
+        ],
+        "source_url": "https://www.rnz.co.nz/news/business/2828841/ferris-wheel-approved-for-auckland-city-waterfront-will-open-this-summer",
+        "image_url": "",
+        "id": "art-26"
+      }
+    ]
+  },
+  "grounding_links": [
+    {
+      "title": "BBC World: Potężna burza podziękowania w USA powoduje powodzie i przerwy w l",
+      "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC Europe: Tankowiec z 7 000 toną ropy przewrócił się przy Ibizie, ginie jed",
+      "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "MercoPress: Średnia temperatura Ziemi przekracza 2 °C ponad poziom preindustr",
+      "url": "https://en.mercopress.com/2026/11/27/earth-exceeds-2c-of-warming-for-seven-consecutive-days-for-the-first-time?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+    },
+    {
+      "title": "BBC Asia: Azjatyckie giełdy stawiają na AI po powrocie Jensena Hunga do Nvi",
+      "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC Asia: Nowa koalicja rządowa w Nowej Zelandii nie uzyskała większości w ",
+      "url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Monochrome Watches: Jaeger‑LeCoultre Reverso Classic Monoface Small Seconds w nowej z",
+      "url": "https://monochrome-watches.com/jaeger-lecoultre-reverso-classic-monoface-small-seconds-in-a-new-mid-size-gold-case-q3862520-introducing-price/"
+    },
+    {
+      "title": "ScienceDaily Top Science: Prehistoryczne ssaki z rogami mogły być mniej różnicowane płciowo",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261125045310.htm"
+    },
+    {
+      "title": "Deutsche Welle Europe: FIFA potwierdza cyberatak wymierzony w dane osobowe i biznesowe",
+      "url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660?maca=en-rss-en-eu-2092-xml-mrss"
+    },
+    {
+      "title": "International Railway Journal: Indie planują pierwsze testy pociągów dużych prędkości w maju 202",
+      "url": "https://www.railjournal.com/passenger/high-speed/india-targets-may-2027-for-first-high-speed-train-trials/"
+    },
+    {
+      "title": "BBC Europe: Francja: Polityczna mainstreamowa pustka przed wyborami prezydenc",
+      "url": "https://www.bbc.co.uk/news/articles/cq772vedgepro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Deutsche Welle Europe: Albania: Młodzi demonstranci w „Rewolucji Flamingo” rezygnują z e",
+      "url": "https://www.dw.com/en/albania-s-youth-are-protesting-in-flamingo-revolution-not-leaving-the-country-anymore/a-80068939?maca=en-rss-en-eu-2092-xml-mrss"
+    },
+    {
+      "title": "Al Jazeera: Hiszpania: Wyjaśnienie mechanizmów nadzwyczajnych wyborów parlame",
+      "url": "https://www.aljazeera.com/news/2026/11/27/spains-2026-election-explained-in-maps-and-charts?traffic_source=rss"
+    },
+    {
+      "title": "BBC US & Canada: Analiza: Nowe cła Trumpa jako mniejsze zagrożenie dla globalnego ",
+      "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "NPR News: Śmierć Stroba Talbotta, byłego wiceministra stanu USA",
+      "url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit"
+    },
+    {
+      "title": "NPR News: Korea Północna: Kim Jong Un zapowiada budowę kolejnych broni jądr",
+      "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump"
+    },
+    {
+      "title": "MercoPress: Brazylia: Lula powołuje bankowca na ministra finansów w czwartej ",
+      "url": "https://en.mercopress.com/2026/11/27/lula-picks-banker-luiz-carlos-trabuco-to-run-the-finance-ministry-in-his-fourth-term?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+    },
+    {
+      "title": "MercoPress: Paragwaj: Milei staje się pierwszym głową państwa odwiedzającym n",
+      "url": "https://en.mercopress.com/2026/11/26/milei-becomes-the-first-head-of-state-to-visit-alliana-in-paraguay-after-pena-s-fall?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+    },
+    {
+      "title": "BBC Latin America: Kolumbia: Bomba samochodowa rani ponad 20 osób w ataku na budynek",
+      "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Deutsche Welle Asia: Wietnam: Autorytarny reżim rozważa zniesienie kary śmierci dla ko",
+      "url": "https://www.dw.com/en/is-authoritarian-vietnam-ready-to-phase-out-the-death-penalty/a-80064271?maca=en-rss-en-asia-5133-xml-mrss"
+    },
+    {
+      "title": "Deutsche Welle Asia: Indonezja: Umowa handlowa z UE otwiera nowe rynki, ale stawia wyz",
+      "url": "https://www.dw.com/en/eu-indonesia-trade-deal-opens-new-markets-but-challenges-remain/a-80059568?maca=en-rss-en-asia-5133-xml-mrss"
+    },
+    {
+      "title": "BBC Asia: Bangladesz: Planowany powrót Sheikh Hasiny budzi napięcia z India",
+      "url": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC Africa: Afryka: Tańsza szczepionka przeciw HIV zmienia zasady gry w prewe",
+      "url": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC Africa: Somalia: Wycofanie obcych wojsk rodzi obawy o przejęcie władzy pr",
+      "url": "https://www.bbc.co.uk/news/articles/ck62y23z58yeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Africanews: Mali i Wybrzeże Kości Słoniowej awansują do fazy pucharowej Mistr",
+      "url": "http://www.africanews.com/2026/11/26/mali-top-group-g-as-cote-divoire-join-them-in-u-17-world-cup-knockouts/"
+    },
+    {
+      "title": "ABC News Australia: Australia: Sankcje dla dwóch mężczyzn za podpalenia wspierane prz",
+      "url": "https://www.abc.net.au/news/2026-11-27/two-men-sanctioned-over-iran-backed-antisemitic-arson-attacks/107435226"
+    },
+    {
+      "title": "Radio New Zealand: Nowa Zelandia: Koło zamachowe w Auckland otworzy się tego lata",
+      "url": "https://www.rnz.co.nz/news/business/2828841/ferris-wheel-approved-for-auckland-city-waterfront-will-open-this-summer"
+    }
+  ],
+  "issue_number": 4
+}
