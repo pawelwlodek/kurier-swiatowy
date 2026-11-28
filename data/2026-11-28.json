@@ -1,0 +1,455 @@
+{
+  "date": "2026-11-28",
+  "editorial_lead": "Dzisiejszy numer „Kurier Światowy” ukazuje dramatyczne wydarzenia od katastrofy lotniczej w Peru po intensywne powodzie wywołane El Niño, a także najnowsze innowacje w zegarmistrzostwie i transporcie wysokich prędkości. Świat stoi w obliczu wyzwań środowiskowych, technologicznych i kulturowych, które kształtują naszą przyszłość.",
+  "top5": [
+    {
+      "title": "Tragiczny wypadek helikoptera wojskowego w Peru",
+      "category": "Wypadek",
+      "region": "Ameryka Południowa",
+      "summary": "W drodze ratunkowej helikopter wojskowy rozbił się w odległym rejonie Peru, zabijając osiem osób. Jedynym ocalałym był pilot, który przeżył katastrofę.",
+      "body": "Helikopter wystartował z bazą w pobliżu strefy znanej z przemytu narkotyków, aby przetransportować rannych z odległej wioski. Warunki pogodowe były niekorzystne, a teren górzysty utrudniał nawigację. Po kilku minutach lotu maszyna nagle straciła wysokość i rozbiła się na skalistym zboczu.\n\nNa miejscu zdarzenia natychmiast pojawiły się służby ratunkowe, które zabezpieczyły szczątki maszyny i rozpoczęły akcję poszukiwawczą. Pilota udało się ewakuować przy życiu, jednak jego obrażenia wymagały natychmiastowej pomocy medycznej. Ciała ofiar zostały zabezpieczone i przekazane rodzinom.\n\nWładze peruwiańskie zapowiedziały dochodzenie w sprawie przyczyn katastrofy oraz przegląd procedur lotniczych w regionie. Społeczność międzynarodowa wyraziła współczucie dla ofiar i ich bliskich, podkreślając ryzyko, jakie niesie praca w tak trudnych warunkach.",
+      "image_query": "helicopter crash Peru",
+      "sources": [
+        "BBC Latin America"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+      "image_url": "",
+      "id": "art-1"
+    },
+    {
+      "title": "Powodzie wywołane El Niño w Peru i Ekwadorze",
+      "category": "Środowisko",
+      "region": "Ameryka Południowa",
+      "summary": "Silne opady deszczu spowodowane zjawiskiem El Niño dotknęły miasta w Peru i Ekwadorze, niszcząc domy i infrastrukturę. W sumie zgłoszono 34 ofiary śmiertelne, a tysiące rodzin zostało ewakuowanych.",
+      "body": "W prowincji Piura w Peru ponad 2 000 rodzin zostało zmuszonych do opuszczenia swoich domów po zalaniu ulic i szkół. W Ekwadorze, w regionie objętym najcięższymi opadami, liczba poszkodowanych wzrosła do 47 000 osób, a władze wprowadziły stan wyjątkowy.\n\nSłużby ratunkowe prowadziły akcje ewakuacyjne, rozstawiając tymczasowe schroniska i dostarczając pomoc humanitarną. Lokalne organizacje pozarządowe współpracowały z międzynarodowymi agencjami, aby zapewnić dostęp do wody pitnej i żywności.\n\nEksperci klimatyczni ostrzegają, że zjawisko El Niño może nasilać się w kolejnych latach, zwiększając ryzyko powodzi w regionie. W odpowiedzi rządy obu krajów planują inwestycje w infrastrukturę przeciwpowodziową oraz programy edukacyjne dla mieszkańców zagrożonych obszarów.",
+      "image_query": "El Nino floods Peru Ecuador",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_url": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Bolivia_entrega_segundo_env%C3%ADo_de_donaciones_para_damnificados_peruanos_%2833361145960%29.jpg/960px-Bolivia_entrega_segundo_env%C3%ADo_de_donaciones_para_damnificados_peruanos_%2833361145960%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-2"
+    },
+    {
+      "title": "Tureckie władze zniszczyły siedzibę pro-opozycyjnego kanału Halk TV",
+      "category": "Wolność mediów",
+      "region": "Europa",
+      "summary": "Policja w Turcji przeszukała i zniszczyła siedzibę telewizji Halk TV, uznanej za krytyczną wobec rządu. Właściciel kanału twierdzi, że jest to kolejny atak na niezależne media w kraju.",
+      "body": "Operacja przeprowadzona w stolicy Turcji zakończyła się rozbiórką studia nagraniowego oraz zniszczeniem sprzętu nadawczego. Pracownicy kanału zostali zatrzymani i przesłuchani, a ich materiały archiwalne zostały skonfiskowane.\n\nWłaściciel Halk TV, w wywiadzie dla BBC, podkreślił, że działania te mają na celu uciszenie krytycznych głosów i ograniczenie pluralizmu medialnego. Organizacje praw człowieka potępiają incydent jako naruszenie wolności słowa.\n\nMiędzynarodowe organizacje monitorujące wolność mediów wzywają Turcję do przywrócenia praw dziennikarzy i zapewnienia niezależności mediów, ostrzegając przed dalszym pogorszeniem sytuacji w regionie.",
+      "image_query": "Turkish TV channel raid",
+      "sources": [
+        "BBC World"
+      ],
+      "source_url": "https://www.bbc.co.uk/news/articles/cq36gk151xkdo?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/TARIK_TOROS_.jpg/960px-TARIK_TOROS_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-3"
+    },
+    {
+      "title": "Holenderskie służby zabezpieczyły 26 krytycznie zagrożonych żółwi w bagażu pasażera",
+      "category": "Ochrona przyrody",
+      "region": "Europa",
+      "summary": "W Holandii funkcjonariusze odkryli 26 żółwi Vallarta w bagażu podróżnego zmierzającego do Hongkongu. Zwierzęta były owinięte taśmą i stanowiły poważne zagrożenie dla ich przetrwania.",
+      "body": "Inspekcja celna w porcie lotniczym w Amsterdamie przeprowadziła rutynową kontrolę bagażu, podczas której odkryto małe terraria z żółwiami. Okazało się, że podróżny próbował nielegalnie przemycić gatunek zagrożony wyginięciem, co jest surowo zabronione.\n\nŻółwie zostały natychmiast przekazane do specjalistycznego ośrodka ochrony przyrody, gdzie zostaną poddane rehabilitacji i przygotowane do ewentualnego wypuszczenia na wolność. Władze podkreśliły, że tego typu przestępstwa będą surowo karane.\n\nOrganizacje ekologiczne apelują o zwiększenie kontroli granicznych oraz edukację podróżnych na temat ochrony zagrożonych gatunków, aby zapobiec podobnym incydentom w przyszłości.",
+      "image_query": "endangered turtles luggage",
+      "sources": [
+        "Deutsche Welle Europe"
+      ],
+      "source_url": "https://www.dw.com/en/dutch-authorities-seize-26-critically-endangered-turtles-from-luggage-of-passenger-bound-for-hong-kong/a-80077824?maca=en-rss-en-eu-2092-xml-mrss",
+      "image_url": "",
+      "id": "art-4"
+    },
+    {
+      "title": "Norse Atlantic Airlines ogłosiła upadłość z powodu rosnących kosztów paliwa",
+      "category": "Biznes lotniczy",
+      "region": "Europa",
+      "summary": "Norweska tania linia lotnicza Norse Atlantic złożyła wniosek o upadłość po tym, jak ceny paliwa lotniczego gwałtownie wzrosły w wyniku konfliktu w Iranie. Firma nie była w stanie utrzymać rentowności operacji.",
+      "body": "Norse Atlantic, założona kilka lat temu, od początku borykała się z trudnościami finansowymi, ale dopiero podwyżki cen paliwa doprowadziły do kryzysu płynności. Zarząd poinformował, że wszystkie loty zostaną odwołane, a pasażerowie otrzymają zwroty kosztów.\n\nEksperci branżowi wskazują, że rosnące koszty energii oraz zmniejszona liczba podróżnych po pandemii przyspieszyły upadek linii niskokosztowych. W Europie obserwuje się podobne problemy wśród innych przewoźników.\n\nWładze norweskie zapowiadają wsparcie dla pracowników linii, oferując programy przekwalifikowania i pomoc w znalezieniu nowej pracy. Upadłość Norse Atlantic podkreśla potrzebę stabilizacji cen paliw w sektorze lotniczym.",
+      "image_query": "airline bankruptcy fuel",
+      "sources": [
+        "Deutsche Welle Europe"
+      ],
+      "source_url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-eu-2092-xml-mrss",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/United_Airlines_-_N171UA_-_Flickr_-_skinnylawyer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "id": "art-5"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Nowe limitowane edycje Citizen Series 8 – połączenie precyzji i designu",
+      "category": "Zegarmistrzostwo",
+      "region": "Azja",
+      "summary": "Citizen wprowadziło cztery limitowane modele z serii Sharp 8 831 Automatic, łącząc tradycyjną mechanikę z nowoczesnym designem. Zegarki dostępne są w ograniczonych nakładach, co czyni je pożądanymi przez kolekcjonerów.",
+      "body": "Modele zostały wyprodukowane w Japonii i skierowane głównie do rynku azjatyckiego, choć szybko zyskały popularność na całym świecie. Każdy egzemplarz posiada unikalny numer seryjny oraz specjalną tarczę inspirowaną kulturą streetwear.\n\nZegarki wyposażone są w automatyczny mechanizm z rezerwą chodu wynoszącą 42 godziny, a ich koperty wykonane są z wysokiej jakości stali nierdzewnej. Dodatkowo, limitowane edycje oferują podświetlenie LED oraz specjalne bransolety w kolorach czerni i złota.\n\nKolekcjonerzy podkreślają, że połączenie tradycyjnej japońskiej precyzji z nowoczesnym stylem czyni te modele wyjątkowymi na rynku. Citizen zapowiada dalsze limitowane serie w kolejnych latach, aby utrzymać zainteresowanie entuzjastów zegarmistrzostwa.",
+      "image_query": "Citizen limited edition watch",
+      "sources": [
+        "Monochrome Watches"
+      ],
+      "source_url": "https://monochrome-watches.com/citizen-series-8-831-automatic-limited-editions-2026-nb6050-nb6059-nb6052-introducing-price/",
+      "image_url": "",
+      "id": "art-6"
+    },
+    {
+      "title": "Tajemniczy „jednorożczy róg” narwala – odkrycie inżynieryjne",
+      "category": "Nauka",
+      "region": "Globalny",
+      "summary": "Naukowcy odkryli, że spiralny kieł narwala posiada niezwykłe właściwości strukturalne, które mogą inspirować nowoczesne materiały. Badania wykorzystały zaawansowaną tomografię rentgenowską, aby zbadać wewnętrzną budowę rzędu.",
+      "body": "Zespół międzynarodowy przeanalizował kilka egzemplarzy narwala, wykazując, że ich struktura składa się z warstw o zmiennej gęstości, co zapewnia wyjątkową wytrzymałość przy minimalnej masie. Tego typu architektura może znaleźć zastosowanie w projektowaniu lekkich, wytrzymałych komponentów lotniczych.\n\nBadacze podkreślają, że naturalne rozwiązania, takie jak kieł narwala, oferują inspirację dla inżynierów poszukujących nowych rozwiązań w dziedzinie materiałoznawstwa. Wyniki publikacji otwierają drogę do tworzenia syntetycznych materiałów o podobnych właściwościach.\n\nW przyszłości planowane są dalsze eksperymenty, które mają na celu odtworzenie struktury rzędu w laboratoriach, aby przetestować ich zastosowanie w przemyśle motoryzacyjnym i kosmicznym.",
+      "image_query": "narwhal horn engineering",
+      "sources": [
+        "ScienceDaily Top Science"
+      ],
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261126063316.htm",
+      "image_url": "",
+      "id": "art-7"
+    },
+    {
+      "title": "Intel pod presją – decyzja o udziale w akcjach rządu USA",
+      "category": "Technologia",
+      "region": "Ameryka Północna",
+      "summary": "Intel stanął przed wyborem: oddać 10 % udziałów w firmie w zamian za dostęp do rządowych grantów lub odmówić i ryzykować sankcje. Decyzja ta wywołała szeroką debatę na temat wpływu polityki na sektor technologiczny.",
+      "body": "Firma została wezwana przez administrację amerykańską do podjęcia decyzji, która ma zapewnić jej dostęp do miliardowych funduszy na rozwój sztucznej inteligencji i półprzewodników. Przedstawiciele Intela argumentują, że oddanie części udziałów mogłoby naruszyć niezależność korporacji.\n\nEksperci ds. cyberbezpieczeństwa podkreślają, że tego typu presja może prowadzić do zwiększonej ingerencji państwa w prywatne innowacje, co z kolei wpływa na globalną konkurencyjność. Również organizacje broniące wolnego rynku wyrażają obawy o precedens, jaki może powstać.\n\nW odpowiedzi Intel zapowiedział, że rozważy wszystkie opcje, w tym alternatywne formy współpracy z rządem, które nie wymagałyby oddania udziałów. Decyzja ma zostać podjęta w najbliższych tygodniach, a jej konsekwencje będą obserwowane przez cały sektor technologiczny.",
+      "image_query": "Intel government stake",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_url": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
+      "image_url": "",
+      "id": "art-8"
+    },
+    {
+      "title": "Wznowienie połączeń kolejowych Chiny‑Rosja po sześciu latach przerwy",
+      "category": "Transport",
+      "region": "Azja",
+      "summary": "Międzynarodowe pociągi pasażerskie między Chinami a Rosją wznowiły regularne kursy, przejeżdżając przez Mongolię po sześciu latach przerwy spowodowanej pandemią. Usługa ma zwiększyć wymianę turystyczną i handlową między kontynentami.",
+      "body": "Nowy rozkład obejmuje dwa tygodniowe połączenia, które zatrzymują się w kluczowych miastach mongolskich, umożliwiając pasażerom podziwianie rozległych stepów i górskich krajobrazów. Pociągi są wyposażone w nowoczesne wagony klasy premium oraz ekonomiczne, zapewniając komfort podróży na długich dystansach.\n\nWznowienie usług kolejowych jest częścią szerszej strategii „Jedwabnego Szlaku”, mającej na celu wzmocnienie infrastruktury transportowej w Azji i Europie. Władze obu krajów podkreślają, że projekt przyczyni się do zwiększenia przepływu towarów i turystów, a także wzmocni współpracę gospodarczą.\n\nEksperci logistyczni prognozują, że połączenia kolejowe będą konkurować z transportem lotniczym pod względem kosztów i wpływu na środowisko, oferując bardziej zrównoważoną alternatywę dla długodystansowych podróży.",
+      "image_query": "China Russia passenger train",
+      "sources": [
+        "International Railway Journal"
+      ],
+      "source_url": "https://www.railjournal.com/regions/asia/china-russia-passenger-services-resume/",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Beijing_UlaanBaatar_Moscow_Train.jpg/960px-Beijing_UlaanBaatar_Moscow_Train.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "id": "art-9"
+    }
+  ],
+  "continents": {
+    "Europa": [
+      {
+        "title": "Kijów przygotowuje się na surową zimę w cieniu trwającego konfliktu",
+        "category": "Społeczeństwo",
+        "region": "Europa",
+        "summary": "Ukraina wchodzi w kolejny trudny sezon zimowy, stawiając czoła wyzwaniom infrastrukturalnym i humanitarnym. Mieszkańcy zmagają się z niepewnością dotyczącą zakończenia wojny oraz koniecznością przetrwania w ekstremalnych warunkach.",
+        "body": "Zima w Ukrainie staje się coraz bardziej wymagająca, a społeczeństwo, choć zmęczone wieloletnim konfliktem, nie wykazuje oznak ustępliwości. Infrastruktura energetyczna i mieszkaniowa jest pod stałą presją, co wymusza na władzach ciągłe dostosowywanie strategii obronnych i logistycznych. Eksperci wskazują, że odporność cywilna staje się kluczowym elementem długofalowej wytrzymałości państwa.\n\nPytanie o to, jak i kiedy zakończy się ten konflikt, pozostaje otwarte, co wpływa na nastroje społeczne. Mimo to, Ukraińcy koncentrują się na bieżących potrzebach, takich jak zapewnienie ciepła i bezpieczeństwa w domach. Społeczna solidarność i lokalne inicjatywy wsparcia odgrywają w tym okresie kluczową rolę w utrzymaniu stabilności.\n\nMiędzynarodowe wsparcie pozostaje istotne, ale to wewnętrzna determinacja społeczeństwa decyduje o zdolności do przetrwania kolejnych miesięcy. Analizy wskazują, że doświadczenia z poprzednich zim pozwalają na lepsze przygotowanie, choć wyzwania związane z zużyciem zasobów i ciągłymi zagrożeniami pozostają ogromne. Przetrwanie tej zimy będzie kolejnym testem dla ukraińskiej tożsamości narodowej.",
+        "image_query": "Kyiv winter snow",
+        "sources": [
+          "BBC World"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/20260304_Remnants_of_Winter_from_Above%2C_Kyiv%2C_Ukraine.jpg/960px-20260304_Remnants_of_Winter_from_Above%2C_Kyiv%2C_Ukraine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-10"
+      },
+      {
+        "title": "Ukraina przedstawia propozycję rozejmu na Morzu Czarnym",
+        "category": "Polityka",
+        "region": "Europa",
+        "summary": "Kijów złożył formalną propozycję zawieszenia broni na Morzu Czarnym, mającą na celu umożliwienie eksportu żywności. Ukraińskie władze czekają teraz na odpowiedź ze strony Moskwy, licząc na deeskalację w tym strategicznym regionie.",
+        "body": "Ukraina oficjalnie przedstawiła plan rozejmu na Morzu Czarnym, który ma umożliwić bezpieczny transport towarów, w tym kluczowych dla globalnej bezpieczeństwa żywnościowego eksportów rolnych. Propozycja została przekazana międzynarodowym sojusznikom, co sygnalizuje chęć Kijowa do dyplomacji w obszarze, gdzie dotychczas dominowały działania militarne. Celem jest stworzenie korytarzy humanitarnych i handlowych, które mogą przyczynić się do stabilizacji sytuacji gospodarczej.\n\nReakcja Rosji na tę inicjatywę pozostaje nieznana, co budzi napięcia wśród obserwatorów sceny międzynarodowej. Eksperci uważają, że akceptacja takiego rozejmu mogłaby stać się pierwszym krokiem ku szerszym negocjacjom pokojowym. Brak odpowiedzi ze strony Moskwy może jednak wskazywać na brak woli do deeskalacji w najbliższym czasie.\n\nInicjatywa ta ma również wymiar symboliczny, pokazując determinację Ukrainy w obronie swoich interesów gospodarczych. Wsparcie ze strony partnerów zachodnich jest kluczowe dla wdrożenia ewentualnych ustaleń. Przyszłość tej propozycji będzie miała istotny wpływ na globalne rynki surowców i postrzeganie skuteczności dyplomacji w rozwiązywaniu konfliktów zbrojnych.",
+        "image_query": "Black Sea port ships",
+        "sources": [
+          "France 24 Europe"
+        ],
+        "source_url": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Black_Sea%2C_Port_of_Batumi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "id": "art-11"
+      },
+      {
+        "title": "Podziały w UE pogłębiają się po napiętym szczycie budżetowym",
+        "category": "Gospodarka",
+        "region": "Europa",
+        "summary": "Szczyt przywódców Unii Europejskiej dotyczący siedmioletniego budżetu zakończył się bez porozumienia ze względu na spory o finansowanie Ukrainy. Propozycja budżetowa zawiera również kontrowersyjny podatek od amerykańskich firm technologicznych, co zwiększa napięcia transatlantyckie.",
+        "body": "Unia Europejska stoi w obliczu poważnego kryzysu politycznego, gdy szczyt poświęcony wieloletniemu budżetowi rozpadł się w atmosferze wzajemnych oskarżeń. Głównym punktem zapalnym okazały się kwestie związane z finansowaniem wsparcia dla Ukrainy, gdzie państwa członkowskie wykazują znaczące rozbieżności w podejściu do skali i formy pomocy. Brak konsensusu grozi paraliżem instytucjonalnym i opóźnieniem kluczowych reform.\n\nWarto wspomnieć, że projekt budżetowy zakłada wprowadzenie 3-procentowego podatku od przychodów amerykańskich gigantów technologicznych. Ma to na celu wygenerowanie dodatkowych środków dla wspólnoty, ale jednocześnie ryzykuje eskalację konfliktu handlowego z Waszyngtonem. Taki ruch może zostać odebrany jako protekcjonistyczny, co skomplikuje przyszłe negocjacje handlowe między Brukselą a Waszyngtonem.\n\nPodziały te odbijają się na postrzeganiu spójności europejskiej przez partnerów międzynarodowych. Państwa członkowskie muszą znaleźć kompromis, który uwzględni zarówno solidarność wobec Ukrainy, jak i zrównoważony rozwój gospodarczy UE. Przyszłe szczyty będą musiały skupić się na budowie zaufania, aby uniknąć dalszej fragmentacji politycznej wewnątrz bloku.",
+        "image_query": "EU summit Brussels",
+        "sources": [
+          "Deutsche Welle Europe"
+        ],
+        "source_url": "https://www.dw.com/en/divisions-deepen-between-eu-member-states-after-tense-budget-summit/a-80078599?maca=en-rss-en-eu-2092-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/EPP_Summit%2C_19_December%2C_Brussels_%2854214116676%29.jpg/960px-EPP_Summit%2C_19_December%2C_Brussels_%2854214116676%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-12"
+      }
+    ],
+    "Ameryka Północna": [
+      {
+        "title": "Burze po Święcie Dziękczynienia paraliżują wschodnie wybrzeże USA",
+        "category": "Infrastruktura",
+        "region": "Ameryka Północna",
+        "summary": "Potężna burza uderzyła w wschodnie wybrzeże Stanów Zjednoczonych, odłączając od prądu setki tysięcy odbiorców. Stany takie jak Pensylwania i sąsiednie regiony borykają się z poważnymi zakłóceniami w dostawach energii i transporcie.",
+        "body": "Wschodnie wybrzeże USA doświadczyło jednego z najsilniejszych zjawisk pogodowych w tym sezonie, które uderzyło w infrastrukturę energetyczną i transportową. Setki tysięcy mieszkańców pozostały bez dostępu do prądu, co wymusiło na służbach ratunkowych mobilizację na pełną skalę. Szczególnie dotknięta została Pensylwania, gdzie wiatr i deszcz zniszczyły linie energetyczne i utrudniły ruch drogowy.\n\nZakłócenia w dostawach energii mają bezpośredni wpływ na codzienne życie mieszkańców, w tym na ogrzewanie domów i funkcjonowanie szpitali. Władze stanowe apelują o cierpliwość, obiecując przywrócenie zasilania w kolejnych dniach. Sytuacja ta podkreśla wrażliwość infrastruktury krytycznej na ekstremalne zjawiska pogodowe, które stają się coraz częstsze.\n\nEksperci przewidują, że naprawa uszkodzeń potrwa dłużej niż początkowo zakładano, co może wpłynąć na lokalne gospodarki. Mieszkańcy radzą sobie z sytuacją, korzystając z generatorów i alternatywnych źródeł ciepła. Incydent ten stanowi przypomnienie o konieczności modernizacji sieci energetycznych, aby były bardziej odporne na przyszłe zagrożenia klimatyczne.",
+        "image_query": "US storm power lines",
+        "sources": [
+          "BBC US & Canada"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Cheyenne_River_Power_Lines_%285882155120%29.jpg/960px-Cheyenne_River_Power_Lines_%285882155120%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-13"
+      },
+      {
+        "title": "Kanadyjski Sąd Najwyższy podtrzymuje zakaz symboli religijnych w Quebecu",
+        "category": "Społeczeństwo",
+        "region": "Ameryka Północna",
+        "summary": "Sąd Najwyższy Kanady w większości podtrzymał decyzję o zakazie noszenia symboli religijnych przez urzędników publicznych w prowincji Quebec. Wyrok ten wywołał kontrowersje wśród grup religijnych, które twierdzą, że narusza on ich fundamentalne prawa.",
+        "body": "Wyrok Sądu Najwyższego Kanady w sprawie zakazu symboli religijnych w Quebecu stanowi istotny precedens w debacie o świeckości państwa. Sąd w większości podtrzymał przepisy, które zabraniają urzędnikom publicznym noszenia widocznych oznak przynależności religijnej. Decyzja ta jest odbierana jako wzmocnienie laickich wartości w prowincji, choć budzi obawy o dyskryminację mniejszości.\n\nGrupy reprezentujące muzułmańskie, sikhowskie i katolickie nauczycielki oraz inne osoby publiczne argumentowały, że zakaz narusza ich prawo do wolności wyznania. Ich sprzeciw podkreśla napięcia między indywidualnymi prawami a zbiorową tożsamością kulturową regionu. Wyrok ten może mieć daleko idące konsekwencje dla polityki zatrudnienia w sektorze publicznym w całej Kanadzie.\n\nDebatę tę obserwuje się z uwagą na całym świecie, jako przykład wyzwań stojących przed wielokulturowymi społeczeństwami. Quebec staje się areną, na której rozgrywa się walka o definicję tożsamości narodowej i granice tolerancji. Przyszłe spory prawne mogą skupić się na interpretacji tego wyroku i jego wpływie na inne prowincje kanadyjskie.",
+        "image_query": "Quebec legal court",
+        "sources": [
+          "BBC US & Canada"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Jeunes_gens_derri%C3%A8re_leurs_raquettes_sur_un_court_de_tennis%2C_%C3%A0_Chicoutimi_%2838573000190%29.jpg/960px-Jeunes_gens_derri%C3%A8re_leurs_raquettes_sur_un_court_de_tennis%2C_%C3%A0_Chicoutimi_%2838573000190%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-14"
+      },
+      {
+        "title": "Czarny Piątek mimo inflacji: rekordowe wydatki Amerykanów",
+        "category": "Gospodarka",
+        "region": "Ameryka Północna",
+        "summary": "Mimo obaw o inflację, eksperci przewidują, że wydatki Amerykanów podczas Czarnego Piątku osiągną rekordowe poziomy. Silna konsumpcja świąteczna pozostaje głównym motorem napędowym amerykańskiej gospodarki w tym okresie.",
+        "body": "Amerykański rynek detaliczny wchodzi w sezon świąteczny z optymizmem, pomimo utrzymującej się presji inflacyjnej. Analitycy przewidują, że Czarny Piątek przyniesie rekordowe obroty, co świadczy o sile nabywczej konsumentów. Firmy handlowe przygotowują się na tłumy, oferując agresywne promocje, aby przyciągnąć klientów.\n\nMimo że ceny wielu produktów wzrosły, Amerykanie wykazują dużą elastyczność w zarządzaniu budżetami domowymi. Wiele rodzin planuje zakupy z wyprzedzeniem, korzystając z porównywarek cenowych i kuponów. Taka strategia pozwala im maksymalizować wartość wydatków, co wspiera ogólną dynamikę gospodarczą.\n\nSektor handlu detalicznego odgrywa kluczową rolę w utrzymaniu wzrostu PKB w czwartym kwartale. Sukces Czarnego Piątku będzie wskaźnikiem nastrojów konsumenckich na kolejne miesiące. Jeśli prognozy się sprawdzą, będzie to sygnałem, że amerykańska gospodarka jest odporna na szoki cenowe i zewnętrzne zagrożenia.",
+        "image_query": "Black Friday shopping crowd",
+        "sources": [
+          "NPR News"
+        ],
+        "source_url": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Black_Friday_at_the_Apple_Store_on_Fifth_Avenue%2C_New_York_City%2C_2011.jpg/960px-Black_Friday_at_the_Apple_Store_on_Fifth_Avenue%2C_New_York_City%2C_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-15"
+      }
+    ],
+    "Ameryka Południowa": [
+      {
+        "title": "Brazylia ostro odpowiada Francji na zarzuty dotyczące mięsa",
+        "category": "Gospodarka",
+        "region": "Ameryka Południowa",
+        "summary": "Brazylijskie władze stanowczo zaprotestowały przeciwko komentarzom prezydenta Francji, który nazwał brazylijskie mięso 'dopowanym'. Kontrowersje te nasiliły się po zakazie importu brazylijskiej wołowiny i drobiu przez Unię Europejską.",
+        "body": "Relacje handlowe między Brazylią a Europą wchodzą w nowy, napięty etap, gdy prezydent Francji Emmanuel Macron użył kontrowersyjnego języka, nazywając brazylijskie mięso 'dopowanym'. Brazylijski rząd zareagował z oburzeniem, twierdząc, że takie stwierdzenia są bezpodstawne i szkodliwe dla wizerunku kraju. Incydent ten nastąpił w kontekście wcześniejszego zakazu importu produktów brazylijskich przez UE, co pogłębiło dyplomatyczny kryzys.\n\nBrazylia, będąc jednym z największych eksporterów mięsa na świecie, traktuje takie oskarżenia jako atak na jej standardy produkcyjne. Władze podkreślają, że ich sektor rolny spełnia rygorystyczne normy międzynarodowe. Spór ten ma wymiar nie tylko polityczny, ale i ekonomiczny, zagrażając miliardowym kontraktom eksportowym.\n\nEksperci ostrzegają, że eskalacja retoryki może prowadzić do dalszych barier handlowych, co uderzy w globalne łańcuchy dostaw żywności. Brazylijskie stowarzyszenia rolnicze apelują o dialog oparty na faktach, a nie politycznych sloganach. Rozwiązanie tego sporu będzie kluczowe dla stabilizacji rynków mięsnych w obu regionach.",
+        "image_query": "Brazil cattle farm",
+        "sources": [
+          "BBC Latin America"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Brazil%2C_the_Amazons_and_the_coast_%281879%29_%2814760357136%29.jpg/960px-Brazil%2C_the_Amazons_and_the_coast_%281879%29_%2814760357136%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-16"
+      },
+      {
+        "title": "Kolumbijska policja uwolniła 76 zakładników z supermarketu",
+        "category": "Społeczeństwo",
+        "region": "Ameryka Południowa",
+        "summary": "Kolumbijskie siły bezpieczeństwa przeprowadziły operację uwolnienia 76 osób, które były przetrzymywane przez 17 godzin w supermarketie. Jeden z napastników został zabity podczas akcji, która była odpowiedzią na nieudany napad na samochód pancerny.",
+        "body": "Kolumbia doświadczyła dramatycznego incydentu, gdy grupa uzbrojonych napastników przejęła kontrolę nad supermarketem, przetrzymując dziesiątki klientów i pracowników jako zakładników. Po 17 godzinach negocjacji i przygotowań, policja przeprowadziła skuteczną operację, uwalniając wszystkich zakładników bez strat po ich stronie. Jeden z przestępców został neutralizowany podczas szturmu.\n\nPrezydent Kolumbii opisał zdarzenie jako wynik nieudanego napadu na samochód pancerny przewożący gotówkę, który poszedł nie tak dla sprawców. Incydent ten rzuca światło na trwające problemy z przestępczością zorganizowaną i przemocą w kraju. Władze zapowiedziały wzmocnienie zabezpieczeń w obiektach handlowych i transportie wartości.\n\nOperacja ta została uznana za sukces taktyczny, pokazujący profesjonalizm kolumbijskich służb. Społeczeństwo odetchnęło z ulgą, choć trauma po wydarzeniu pozostanie na długo. Eksperci wskazują, że takie incydenty wymagają dalszych inwestycji w prewencję i walkę z korzeniami przestępczości, aby zapobiec podobnym sytuacjom w przyszłości.",
+        "image_query": "Colombia police operation",
+        "sources": [
+          "BBC Latin America"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/COPES.png/960px-COPES.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-17"
+      },
+      {
+        "title": "Argentyna zawiesza wybory wstępne przed wyborami prezydenckimi 2027",
+        "category": "Polityka",
+        "region": "Ameryka Południowa",
+        "summary": "Senat Argentyny zatwierdził reformę polityczną, która zawiesza obowiązkowe otwarte wybory wstępne (PASO) przed wyborami prezydenckimi w 2027 roku. Debaty kandydatów będą obowiązkowe tylko w przypadku drugiej tury wyborów.",
+        "body": "Argentyna wprowadza znaczące zmiany w swoim systemie wyborczym, gdy Senat zatwierdził ustawę zawieszającą obowiązkowe otwarte wybory wstępne (PASO). Reforma, promowana przez rząd prezydenta Javiera Milei, ma na celu uproszczenie procesu wyborczego i obniżenie kosztów kampanii. Decyzja ta wywołała burzliwe debaty o demokracji i przejrzystości w kraju.\n\nKrytycy reformy argumentują, że eliminacja PASO ogranicza partycypację obywatelską i daje przewagę partiom rządzącym. Z drugiej strony, zwolennicy twierdzą, że zmiana ta zwiększy stabilność polityczną i pozwoli kandydatom skupić się na programach, a nie na wewnętrznych rywalizacjach partyjnych. Obowiązkowe debaty tylko w drugiej turze mają zapewnić transparentność na kluczowym etapie wyborów.\n\nTa zmiana ma być testem dla argentyńskiej demokracji w nadchodzących latach. Obserwatorzy międzynarodowi uważnie śledzą rozwój sytuacji, oceniając wpływ reformy na przyszłe wybory. Sukces lub porażka tej inicjatywy może wpłynąć na postrzeganie Argentyny jako stabilnego partnera politycznego w regionie.",
+        "image_query": "Argentina senate building",
+        "sources": [
+          "MercoPress"
+        ],
+        "source_url": "https://en.mercopress.com/2026/11/27/milei-wins-senate-approval-to-suspend-primaries-with-debates-mandatory-only-in-a-run-off?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Argentine_National_Congress_building_%284729523294%29.jpg/960px-Argentine_National_Congress_building_%284729523294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-18"
+      }
+    ],
+    "Azja": [
+      {
+        "title": "Głosy krytyków Chin zagłuszane przez rosnącą siłę miękką",
+        "category": "Społeczeństwo",
+        "region": "Azja",
+        "summary": "Rosnąca pozycja Chin na arenie międzynarodowej i ich siła miękka sprawiają, że głosy krytyków i dysydentów są coraz trudniej słyszalne. Zjawisko to budzi obawy o wolność słowa i pluralizm w globalnym dyskursie.",
+        "body": "Chiny, dzięki swojej ogromnej potędze ekonomicznej i kulturowej, zyskują coraz większy wpływ na globalną narrację. Ta 'siła miękka' obejmuje media, edukację i kulturę, które promują chińską wizję świata. W rezultacie, krytycy polityki Pekinu i dysydenci wewnętrzni mają trudności z dotarciem do międzynarodowej publiczności, ich głosy są często ignorowane lub marginalizowane.\n\nEksperci wskazują, że mechanizmy cenzury i kontrola mediów w Chinach skutecznie tłumią opozycję, a globalny zasięg chińskich platform informacyjnych wzmacnia ten efekt. Dla wielu obserwatorów, jest to niepokojący sygnał, że demokratyczne wartości mogą być wypierane przez autorytarną narrację. Sytuacja ta wymaga od społeczności międzynarodowej aktywnego wspierania niezależnych mediów i obrońców praw człowieka.\n\nWalka o wolność słowa w erze chińskiego hegemonizmu staje się kluczowym wyzwaniem dla demokracji. Kraje zachodnie muszą znaleźć sposoby na kontrbalansowanie chińskiego wpływu, promując otwartość i transparentność. Przyszłość globalnego dyskursu zależy od tego, czy uda się zachować przestrzeń dla różnorodności poglądów mimo rosnącej dominacji jednego głosu.",
+        "image_query": "China city skyline",
+        "sources": [
+          "BBC Asia"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cme3d4y094x7o?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Badaling_China_Great-Wall-of-China-01.jpg/960px-Badaling_China_Great-Wall-of-China-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-19"
+      },
+      {
+        "title": "Indyjskie kobiety pracujące w Niemczech mierzą się z wyzwaniami",
+        "category": "Gospodarka",
+        "region": "Azja",
+        "summary": "Rosnąca liczba indyjskich pracowników w Niemczech pomaga zapełniać luki na rynku pracy, ale wielu z nich boryka się z barierami i ryzykiem wyzysku. Problemem stają się również oszustwa rekrutacyjne, które narażają migrantów na niekorzystne warunki.",
+        "body": "Niemiecki rynek pracy coraz bardziej zależy od imigrantów z Indii, którzy wypełniają luki w sektorach takich jak opieka zdrowotna, IT i logistyka. Jednak za tym wzrostem kryją się poważne problemy z integracją i ochroną praw pracowniczych. Wielu indyjskich pracowników zgłasza trudności w znalezieniu odpowiedniego zatrudnienia zgodnego z ich kwalifikacjami, co prowadzi do frustracji i wypalenia zawodowego.\n\nSzczególnie niepokojące jest zjawisko oszustw rekrutacyjnych, w których agencje pobierają wysokie opłaty za obietnice pracy, która nigdy się nie materializuje lub jest oferowana w gorszych warunkach niż zapowiadano. Ofiary takich praktyk często nie mają dostępu do pomocy prawnej, co czyni ich bezbronnymi wobec wyzysku. Władze niemieckie i indyjskie muszą wspólnie działać, aby zwalczać te nielegalne praktyki.\n\nSytuacja ta rzuca cień na współpracę gospodarczą między Indiami a Niemcami. Aby przyciągnąć i zatrzymać wykwalifikowanych specjalistów, Niemcy muszą poprawić systemy wsparcia dla migrantów i egzekwować prawa pracownicze. Tylko tak można zbudować zrównoważony model migracji, który będzie korzystny dla obu stron.",
+        "image_query": "Indian workers Germany",
+        "sources": [
+          "Deutsche Welle Asia"
+        ],
+        "source_url": "https://www.dw.com/en/indian-workers-fill-germany-s-labor-gaps-but-face-hurdles-and-risks/a-80072882?maca=en-rss-en-asia-5133-xml-mrss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/An_elephant_as_a_worker_for_the_German_troops_%281915%29.png/960px-An_elephant_as_a_worker_for_the_German_troops_%281915%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-20"
+      },
+      {
+        "title": "Wybory lokalne na Tajwanie: Pekin ingeruje w kampanię",
+        "category": "Polityka",
+        "region": "Azja",
+        "summary": "Na Tajwanie otwarto urny wyborcze w lokalnych wyborach, gdzie kandydaci skupiają się na tematach takich jak transport i opieka nad dziećmi. Mimo to, Pekin wielokrotnie ingerował w kampanię, co podnosi temperaturę napięć politycznych.",
+        "body": "Tajwan przeprowadza lokalne wybory, które są uważane za barometr nastrojów społecznych przed przyszłymi wyborami ogólnokrajowymi. Kandydaci starają się unikać bezpośrednich odniesień do polityki wobec Chin, koncentrując się na problemach lokalnych, takich jak infrastruktura transportowa i usługi opiekuńcze. Taka strategia ma na celu przyciągnięcie wyborców, którzy są zmęczeni napięciami geopolitycznymi.\n\nMimo starań kandydatów, Pekin nie pozostaje bierny, wielokrotnie wypowiadając się w mediach i przez dyplomatyczne kanały, co jest odbierane jako ingerencja w suwerenne sprawy Tajwanu. Taka postawa wzmacnia poczucie zagrożenia wśród mieszkańców wyspy i może wpłynąć na wynik wyborów. Społeczeństwo tajwańskie staje przed wyzwaniem obrony swojej tożsamości i autonomii.\n\nWybory te mają znaczenie symboliczne i praktyczne, kształtując przyszły kierunek polityki lokalnej. Obserwatorzy międzynarodowi uważnie śledzą przebieg głosowania, oceniając wpływ chińskiej presji na demokratyczny proces. Wyniki te będą miały wpływ na dynamikę relacji między Tajwanem a Chinami w nadchodzących miesiącach.",
+        "image_query": "Taiwan election voting",
+        "sources": [
+          "Deutsche Welle Asia"
+        ],
+        "source_url": "https://www.dw.com/en/polls-open-in-taiwan-s-closely-watched-local-elections/a-80083086?maca=en-rss-en-asia-5133-xml-mrss",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ng%C3%B4_%C4%90%C3%ACnh_Di%E1%BB%87m_voting_in_1959_South_Vietnamese_parliamentary_election%2C_August_30th_1959.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "id": "art-21"
+      }
+    ],
+    "Afryka": [
+      {
+        "title": "Nowe dane satelitarne pokazują przyspieszające opadanie afrykańskich miast",
+        "category": "Nauka",
+        "region": "Afryka",
+        "summary": "Badanie oparte na danych satelitarnych ujawnia, że miasta takie jak Lagos i Aleksandria opadają szybciej, niż wcześniej sądzono. Zjawisko to stanowi poważne zagrożenie dla infrastruktury i bezpieczeństwa mieszkańców.",
+        "body": "Nowe badania naukowe wykorzystujące zaawansowane technologie satelitarne rzucają nowe światło na problem subsydencji gruntów w Afryce. Miasta takie jak Lagos w Nigerii i Aleksandria w Egipcie zanurzają się w ziemię w tempie szybszym niż prognozowano, co zagraża stabilności budynków i infrastruktury. Przyczynami są m.in. nadmierne pompowanie wód gruntowych i zmiany klimatyczne.\n\nEksperci ostrzegają, że bez pilnych działań adaptacyjnych, skutki tego zjawiska będą katastrofalne. Podtopienia, uszkodzenia sieci wodociągowej i kanalizacyjnej oraz ryzyko zawalenia się budynków to tylko niektóre z potencjalnych zagrożeń. Władze miejskie muszą zainwestować w monitoring geologiczny i modernizację infrastruktury, aby zminimalizować ryzyko.\n\nZjawisko to jest częścią szerszego problemu zmian klimatycznych, które dotykają Afrykę w sposób nieproporcjonalny do jej wkładu w emisję gazów cieplarnianych. Międzynarodowa pomoc i transfer technologii będą kluczowe dla adaptacji tych miast. Przyszłość afrykańskich metropolii zależy od zdolności do wdrażania innowacyjnych rozwiązań inżynieryjnych i ekologicznych.",
+        "image_query": "Lagos city sinking",
+        "sources": [
+          "BBC Africa"
+        ],
+        "source_url": "https://www.bbc.co.uk/news/articles/cq074p95z4llo?at_medium=RSS&at_campaign=rss",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Italy_from_the_Alps_to_Mount_Etna_%281877%29_%2814753961916%29.jpg/960px-Italy_from_the_Alps_to_Mount_Etna_%281877%29_%2814753961916%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-22"
+      },
+      {
+        "title": "Tunezja pod presją praw człowieka w sprawie śmierci więźniów",
+        "category": "Społeczeństwo",
+        "region": "Afryka",
+        "summary": "Tunezyjskie organizacje praw człowieka alarmują o niehumanitarnych warunkach w więzieniach, gdzie od początku rekordowo gorącego lata zmarło 30 osadzonych. Władze stają pod presją, aby wyjaśnić przyczyny tych śmierci.",
+        "body": "Tunezja mierzy się z kryzysem humanitarnym w systemie penitencjarnym, gdy organizacje praw człowieka zgłaszają śmierć 30 więźniów od początku najgorętszego lata w historii kraju. Warunki w więzieniach są opisywane jako niehumanitarne, z brakiem dostępu do wody, leków i odpowiedniej wentylacji. Sytuacja ta budzi oburzenie w społeczeństwie i na arenie międzynarodowej.\n\nWładze tunezyjskie stają pod presją, aby przeprowadzić niezależne śledztwo i ujawnić przyczyny śmierci osadzonych. Brak transparentności w tej sprawie pogłębia nieufność wobec rządu i podważa jego wiarygodność w obszarze praw człowieka. Organizacje pozarządowe apelują o natychmiastowe reformy systemu więziennego, aby zapobiec dalszym tragediom.\n\nKryzys ten jest częścią szerszych problemów z zarządzaniem kryzysem klimatycznym i społecznym w Tunezji. Wysokie temperatury i ograniczone zasoby wodne pogarszają warunki życia w zakładach karnych. Rozwiązanie tego problemu wymaga nie tylko inwestycji infrastrukturalnych, ale also zmiany podejścia do praw osadzonych i ich godności.",
+        "image_query": "Tunisia prison conditions",
+        "sources": [
+          "Africanews"
+        ],
+        "source_url": "http://www.africanews.com/2026/11/27/tunisia-faces-scrutiny-over-prison-deaths-as-rights-groups-demand-answers-on-inhumane-cond/",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/A_trip_through_Italy%2C_Sicily%2C_Tunisia%2C_Algeria_and_southern_France_%281918%29_%2814579396588%29.jpg/960px-A_trip_through_Italy%2C_Sicily%2C_Tunisia%2C_Algeria_and_southern_France_%281918%29_%2814579396588%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-23"
+      },
+      {
+        "title": "Kair żegna ofiary pożaru cysterny z paliwem",
+        "category": "Społeczeństwo",
+        "region": "Afryka",
+        "summary": "Mieszkańcy Kairu oddają hołd 31 ofiarom śmiertelnym pożaru cysterny z paliwem, który wybuchł w dzielnicy Waraq. Wstrząs i żałoba ogarnęły lokalną społeczność, która domaga się wyjaśnień i poprawy bezpieczeństwa.",
+        "body": "Kair pogrążył się w żałobie po tragicznym pożarze cysterny z paliwem, który zabił 31 osób w dzielnicy Waraq. Wydarzenie to wstrząsnęło społecznością, która zgromadziła się, aby oddać hołd ofiarom i wesprzeć rodziny poszkodowanych. Pożar, który wybuchł w środę, stał się symbolem problemów z bezpieczeństwem transportu niebezpiecznych materiałów w Egipcie.\n\nŚledztwo w sprawie przyczyn pożaru jest w toku, ale już teraz pojawiają się pytania o stan techniczny pojazdów i przestrzeganie przepisów bezpieczeństwa. Mieszkańcy domagają się od władz skutecznych działań, aby zapobiec podobnym tragediom w przyszłości. Incydent ten rzuca światło na konieczność modernizacji infrastruktury transportowej i egzekwowania norm bezpieczeństwa.\n\nTragedia ta ma również wymiar społeczny, podkreślając wrażliwość społeczności miejskich na błędy systemowe. Wsparcie psychologiczne i materialne dla rodzin ofiar jest kluczowe w procesie gojenia ran. Egipt musi wyciągnąć wnioski z tego incydentu, aby odbudować zaufanie obywateli do instytucji państwowych.",
+        "image_query": "Cairo fire tragedy",
+        "sources": [
+          "Africanews"
+        ],
+        "source_url": "http://www.africanews.com/2026/11/27/cairo-mourns-31-victims-of-deadly-fuel-tanker-inferno-as-families-bid-farewell/",
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Tear_gas_sunset_at_Egypt%27s_Ministry_of_Interior_%287635008822%29.jpg/960px-Tear_gas_sunset_at_Egypt%27s_Ministry_of_Interior_%287635008822%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "id": "art-24"
+      }
+    ]
+  },
+  "grounding_links": [
+    {
+      "title": "BBC Latin America: Tragiczny wypadek helikoptera wojskowego w Peru",
+      "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Al Jazeera: Powodzie wywołane El Niño w Peru i Ekwadorze",
+      "url": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss"
+    },
+    {
+      "title": "BBC World: Tureckie władze zniszczyły siedzibę pro-opozycyjnego kanału Halk ",
+      "url": "https://www.bbc.co.uk/news/articles/cq36gk151xkdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Deutsche Welle Europe: Holenderskie służby zabezpieczyły 26 krytycznie zagrożonych żółwi",
+      "url": "https://www.dw.com/en/dutch-authorities-seize-26-critically-endangered-turtles-from-luggage-of-passenger-bound-for-hong-kong/a-80077824?maca=en-rss-en-eu-2092-xml-mrss"
+    },
+    {
+      "title": "Deutsche Welle Europe: Norse Atlantic Airlines ogłosiła upadłość z powodu rosnących kosz",
+      "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-eu-2092-xml-mrss"
+    },
+    {
+      "title": "Monochrome Watches: Nowe limitowane edycje Citizen Series 8 – połączenie precyzji i d",
+      "url": "https://monochrome-watches.com/citizen-series-8-831-automatic-limited-editions-2026-nb6050-nb6059-nb6052-introducing-price/"
+    },
+    {
+      "title": "ScienceDaily Top Science: Tajemniczy „jednorożczy róg” narwala – odkrycie inżynieryjne",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261126063316.htm"
+    },
+    {
+      "title": "Ars Technica: Intel pod presją – decyzja o udziale w akcjach rządu USA",
+      "url": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/"
+    },
+    {
+      "title": "International Railway Journal: Wznowienie połączeń kolejowych Chiny‑Rosja po sześciu latach prze",
+      "url": "https://www.railjournal.com/regions/asia/china-russia-passenger-services-resume/"
+    },
+    {
+      "title": "BBC World: Kijów przygotowuje się na surową zimę w cieniu trwającego konflik",
+      "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "France 24 Europe: Ukraina przedstawia propozycję rozejmu na Morzu Czarnym",
+      "url": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response"
+    },
+    {
+      "title": "Deutsche Welle Europe: Podziały w UE pogłębiają się po napiętym szczycie budżetowym",
+      "url": "https://www.dw.com/en/divisions-deepen-between-eu-member-states-after-tense-budget-summit/a-80078599?maca=en-rss-en-eu-2092-xml-mrss"
+    },
+    {
+      "title": "BBC US & Canada: Burze po Święcie Dziękczynienia paraliżują wschodnie wybrzeże USA",
+      "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC US & Canada: Kanadyjski Sąd Najwyższy podtrzymuje zakaz symboli religijnych w ",
+      "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "NPR News: Czarny Piątek mimo inflacji: rekordowe wydatki Amerykanów",
+      "url": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court"
+    },
+    {
+      "title": "BBC Latin America: Brazylia ostro odpowiada Francji na zarzuty dotyczące mięsa",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "BBC Latin America: Kolumbijska policja uwolniła 76 zakładników z supermarketu",
+      "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "MercoPress: Argentyna zawiesza wybory wstępne przed wyborami prezydenckimi 20",
+      "url": "https://en.mercopress.com/2026/11/27/milei-wins-senate-approval-to-suspend-primaries-with-debates-mandatory-only-in-a-run-off?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+    },
+    {
+      "title": "BBC Asia: Głosy krytyków Chin zagłuszane przez rosnącą siłę miękką",
+      "url": "https://www.bbc.co.uk/news/articles/cme3d4y094x7o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Deutsche Welle Asia: Indyjskie kobiety pracujące w Niemczech mierzą się z wyzwaniami",
+      "url": "https://www.dw.com/en/indian-workers-fill-germany-s-labor-gaps-but-face-hurdles-and-risks/a-80072882?maca=en-rss-en-asia-5133-xml-mrss"
+    },
+    {
+      "title": "Deutsche Welle Asia: Wybory lokalne na Tajwanie: Pekin ingeruje w kampanię",
+      "url": "https://www.dw.com/en/polls-open-in-taiwan-s-closely-watched-local-elections/a-80083086?maca=en-rss-en-asia-5133-xml-mrss"
+    },
+    {
+      "title": "BBC Africa: Nowe dane satelitarne pokazują przyspieszające opadanie afrykańsk",
+      "url": "https://www.bbc.co.uk/news/articles/cq074p95z4llo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Africanews: Tunezja pod presją praw człowieka w sprawie śmierci więźniów",
+      "url": "http://www.africanews.com/2026/11/27/tunisia-faces-scrutiny-over-prison-deaths-as-rights-groups-demand-answers-on-inhumane-cond/"
+    },
+    {
+      "title": "Africanews: Kair żegna ofiary pożaru cysterny z paliwem",
+      "url": "http://www.africanews.com/2026/11/27/cairo-mourns-31-victims-of-deadly-fuel-tanker-inferno-as-families-bid-farewell/"
+    }
+  ],
+  "issue_number": 5
+}
